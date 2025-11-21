@@ -1,0 +1,533 @@
+{
+  "config": {
+    "trackHighestDivision": false
+  },
+  "appVersion": 2,
+  "credit": [],
+  "game": "Bolt Action",
+  "usePrimarySecondaryAllianceLevels": true,
+  "allianceTerms": {
+    "primary": "Historical",
+    "secondary": "Convenient",
+    "none": "Impossible"
+  },
+  "stats": [
+    {
+      "name": "Strength",
+      "abbreviation": "S"
+    }
+  ],
+  "limits": [],
+  "counts": [],
+  "calculations": [],
+  "additionalPrint": [],
+  "elements": [
+    {
+      "propertyName": "factions",
+      "label": "Factions",
+      "type": "faction",
+      "dataSource": "factions",
+      "children": [
+        {
+          "propertyName": "platoons",
+          "label": "Platoon",
+          "type": "main",
+          "dataSource": "platoons",
+          "children": [
+            {
+              "propertyName": "units",
+              "dataSource": "units",
+              "label": "Units",
+              "type": "list",
+              "children": [
+                {
+                  "propertyName": "equipment",
+                  "label": "Equipment",
+                  "type": "static",
+                  "dataSource": "equipment"
+                },
+                {
+                  "propertyName": "keywords",
+                  "label": "Keywords",
+                  "type": "static",
+                  "dataSource": "keywords"
+                },
+                {
+                  "propertyName": "options",
+                  "selectedProperty": "chosenOptions",
+                  "type": "checkbox",
+                  "dataSource": "equipment",
+                  "children": [
+                    {
+                      "label": "Special Rules",
+                      "propertyName": "specialRules",
+                      "type": "static",
+                      "dataSource": "keywords"
+                    }
+                  ]
+                },
+                {
+                  "propertyName": "specialRules",
+                  "label": "Special Rules",
+                  "type": "static",
+                  "dataSource": "keywords",
+                  "children": [
+                    {
+                      "label": "Special Rules",
+                      "propertyName": "specialRules",
+                      "type": "static",
+                      "dataSource": "keywords"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {
+    "factions": [
+      {
+        "name": "Sweden"
+      }
+    ],
+    "equipment": [],
+    "platoons": [
+      {
+        "name": "HQ Platoon",
+        "unlimited": false,
+        "factions": [
+          {
+            "name": "Sweden"
+          }
+        ],
+        "points": 0,
+        "models": 0
+      },
+      {
+        "name": "Rifle Platoon",
+        "unlimited": true,
+        "factions": [
+          {
+            "name": "Sweden"
+          }
+        ],
+        "points": 0,
+        "models": 0
+      },
+      {
+        "name": "Recce Platoon",
+        "unlimited": true,
+        "factions": [
+          {
+            "name": "Sweden"
+          }
+        ],
+        "points": 0,
+        "models": 0
+      },
+      {
+        "name": "Engineer Platoon",
+        "unlimited": true,
+        "factions": [
+          {
+            "name": "Sweden"
+          }
+        ],
+        "points": 0,
+        "models": 0
+      },
+      {
+        "name": "Heavy Weapons Platoon",
+        "unlimited": true,
+        "factions": [
+          {
+            "name": "Sweden"
+          }
+        ],
+        "points": 0,
+        "models": 0
+      },
+      {
+        "name": "Artillery Platoon",
+        "unlimited": true,
+        "factions": [
+          {
+            "name": "Sweden"
+          }
+        ],
+        "points": 0,
+        "models": 0
+      },
+      {
+        "name": "Armored Platoon",
+        "unlimited": true,
+        "factions": [
+          {
+            "name": "Sweden"
+          }
+        ],
+        "points": 0,
+        "models": 0
+      }
+    ],
+    "units": [
+      {
+        "name": "Commander - Inexperienced",
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]
+          }
+        ],
+        "points": 21,
+        "models": 1,
+        "options": [
+          {
+            "name": "Additional Men",
+            "points": 7,
+            "increment": true,
+            "max": 2,
+            "addsModels": 1
+          },
+          {
+            "name": "SMGs for Additional Men",
+            "points": 4,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Intelligence",
+            "points": 50			
+          }
+        ],
+        "equipment": ["Pistol, SMG, or Rifles; Skis"]
+      },
+	  {
+        "name": "Chaplain - Inexperienced",
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]
+          }
+        ],
+        "points": 17,
+        "models": 1,
+        "options": [],
+        "equipment": ["Skis"],
+		"keywords": ["Inspiring Presence, Self-defence"]
+      },
+	  {
+        "name": "Commander - Regular",
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]
+          }
+        ],
+        "points": 30,
+        "models": 1,
+        "options": [
+          {
+            "name": "Additional Men",
+            "points": 10,
+            "increment": true,
+            "max": 2,
+            "addsModels": 1
+          },
+          {
+            "name": "SMGs for Additional Men",
+            "points": 4,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Intelligence",
+            "points": 50			
+          },
+		  {
+			"name": "Det Fria Kriget",
+			"points": 2,
+			"perModel": true
+		  }			
+        ],
+        "equipment": ["Pistol, SMG, or Rifles; Skis"]
+      },
+	  {
+        "name": "Chaplain - Regular",
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]
+          }
+        ],
+        "points": 25,
+        "models": 1,
+        "options": [],
+        "equipment": ["Skis"],
+		"keywords": ["Inspiring Presence, Self-defence"]
+      },
+	  {
+        "name": "Commander - Veteran",
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]
+          }
+        ],
+        "points": 39,
+        "models": 1,
+        "options": [
+          {
+            "name": "Additional Men",
+            "points": 13,
+            "increment": true,
+            "max": 2,
+            "addsModels": 1
+          },
+          {
+            "name": "SMGs for Additional Men",
+            "points": 4,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Intelligence",
+            "points": 50			
+          },
+		  {
+			"name": "Det Fria Kriget",
+			"points": 2,
+			"perModel": true
+		  }
+			
+        ],
+        "equipment": ["Pistol, SMG, or Rifles; Skis"]
+      },
+	  {
+        "name": "Chaplain - Veteran",
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]
+          }
+        ],
+        "points": 33,
+        "models": 1,
+        "options": [],
+        "equipment": ["Skis"],
+		"keywords": ["Inspiring Presence, Self-defence"]
+      },
+	  {
+        "name": "Platoon Commander - Inexperienced",
+        "factions": [],
+        "availableIn": [
+			{
+				"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
+			}
+        ],
+        "points": 21,
+        "models": 1,
+        "options": [
+          {
+            "name": "Additional Men",
+            "points": 7,
+            "increment": true,
+            "max": 2,
+            "addsModels": 1
+          },
+          {
+            "name": "SMGs for Additional Men",
+            "points": 4,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Intelligence",
+            "points": 50			
+          }
+			
+        ],
+        "equipment": ["Pistol, SMG, or Rifles; Skis"]
+      },
+	  {
+        "name": "Platoon Commander - Regular",
+        "factions": [],
+        "availableIn": [
+			{
+				"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
+			}
+        ],
+        "points": 30,
+        "models": 1,
+        "options": [
+          {
+            "name": "Additional Men",
+            "points": 10,
+            "increment": true,
+            "max": 2,
+            "addsModels": 1
+          },
+          {
+            "name": "SMGs for Additional Men",
+            "points": 4,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Intelligence",
+            "points": 50			
+          },
+		  {
+			"name": "Det Fria Kriget",
+			"points": 2,
+			"perModel": true
+		  }
+			
+        ],
+        "equipment": ["Pistol, SMG, or Rifles; Skis"]
+      },
+	  {
+        "name": "Platoon Commander - Veteran",
+        "factions": [],
+        "availableIn": [
+			{
+				"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+			},
+			{
+			  "all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
+			}
+        ],
+        "points": 39,
+        "models": 1,
+        "options": [
+			{
+				"name": "Additional Men",
+				"points": 13,
+				"increment": true,
+				"max": 2,
+				"addsModels": 1
+			},
+			{
+				"name": "SMGs for Additional Men",
+				"points": 4,
+				"increment": true,
+				"max": 2
+			},
+			{
+				"name": "Intelligence",
+				"points": 50			
+			},
+			{
+				"name": "Det Fria Kriget",
+				"points": 2,
+				"perModel": true
+			}			
+        ],
+        "equipment": ["Pistol, SMG, or Rifles; Skis"]
+	},
+	{
+        "name": "Medic - Inexperienced",
+        "factions": [],
+        "availableIn": [
+			{
+				"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+			}
+        ],
+        "points": 20,
+        "models": 1,
+        "options": [
+          {
+            "name": "Additional Men",
+            "points": 5,
+            "increment": true,
+            "max": 2,
+            "addsModels": 1
+          }
+        ],
+		"keywords": ["Medic"],
+        "equipment": ["Skis"]
+      },
+	{
+        "name": "Medic - Regular",
+        "factions": [],
+        "availableIn": [
+			{
+				"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+			}
+        ],
+        "points": 25,
+        "models": 1,
+        "options": [
+          {
+            "name": "Additional Men",
+            "points": 8,
+            "increment": true,
+            "max": 2,
+            "addsModels": 1
+          }
+        ],
+		"keywords": ["Medic"],
+        "equipment": ["Skis"]
+	},
+	{
+		"name": "Medic - Veteran",
+		"factions": [],
+		"availableIn": [
+			{
+				"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+			}
+		],
+		"points": 30,
+		"models": 1,
+		"options": [
+		{
+			"name": "Additional Men",
+			"points": 11,
+			"increment": true,
+			"max": 2,
+			"addsModels": 1
+		}
+		],
+		"keywords": ["Medic"],
+        "equipment": ["Skis"]
+      }
+    ],
+    "keywords": []
+  }
+}
