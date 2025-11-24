@@ -722,11 +722,6 @@
 						"availableIn": ["Soviet Union"]
 					},
 					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
-					},
-					{
 						"name": "Additional Men",
 						"points": 7,
 						"increment": true,
@@ -934,12 +929,6 @@
 						"availableIn": ["Japan"]
 					},
 					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Finland"],
-						"availableIn": ["Sweden (Unofficial)"]
-					},
-					{
 						"name": "Additional Men",
 						"points": 10,
 						"increment": true,
@@ -964,6 +953,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
+						"availableIn": ["Finland"],
 						"availableIn": ["Norway"],
 						"availableIn": ["Sweden (Unofficial)"]
 					},
@@ -1228,6 +1218,7 @@
 						"name": "Skis",
 						"points": 0,
 						"availableIn": ["Finland"],
+						"availableIn": ["Norway"],
 						"availableIn": ["Sweden (Unofficial)"]
 					},
 					{
@@ -1250,12 +1241,6 @@
 						"points": -1,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Sweden (Unofficial)"]
-					},
-					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Norway"],
 						"availableIn": ["Sweden (Unofficial)"]
 					},
 					{
@@ -2156,19 +2141,289 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "United States of America" }]			
 					}
 				],
 				"points": 30,
@@ -2179,44 +2434,471 @@
 						"points": 10,
 						"increment": true,
 						"max": 2,
-						"addsModels": 1
+						"addsModels": 1,
+						"availableIn": ["Belgium"],
+						"availableIn": ["Bulgaria"],
+						"availableIn": ["Finland"],
+						"availableIn": ["France"],
+						"availableIn": ["Greece"],
+						"availableIn": ["Hungary"],
+						"availableIn": ["Italy"],
+						"availableIn": ["Japan"],
+						"availableIn": ["Netherlands"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Partisans"],
+						"availableIn": ["Poland"],
+						"availableIn": ["Polish Peoples Army (LWP)"],
+						"availableIn": ["Romania"]
 					},
 					{
-						"name": "SMGs for Additional Men",
+						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": 3,
+						"availableIn": ["Belgium"],
+						"availableIn": ["Bulgaria"],
+						"availableIn": ["Finland"],
+						"availableIn": ["France"],
+						"availableIn": ["Greece"],
+						"availableIn": ["Hungary"],
+						"availableIn": ["Italy"],
+						"availableIn": ["Japan"],
+						"availableIn": ["Netherlands"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Partisans"],
+						"availableIn": ["Poland"],
+						"availableIn": ["Polish Peoples Army (LWP)"],
+						"availableIn": ["Romania"]
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": ["Belgium"],
+						"availableIn": ["Bulgaria"],
+						"availableIn": ["Finland"],
+						"availableIn": ["France"],
+						"availableIn": ["Greece"],
+						"availableIn": ["Hungary"],
+						"availableIn": ["Italy"],
+						"availableIn": ["Japan"],
+						"availableIn": ["Netherlands"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Partisans"],
+						"availableIn": ["Poland"],
+						"availableIn": ["Polish Peoples Army (LWP)"],
+						"availableIn": ["Romania"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"availableIn": ["Germany"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 5,
+						"availableIn": ["Germany"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 5,
+						"availableIn": ["Germany"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! Waffen-SS Only - Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Sword",
+						"points": 0,
+						"availableIn": ["Japan"]
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Hammer and Sickle (NKVD)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"],
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 6,
+						"availableIn": ["Great Britain"],
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 6,
+						"availableIn": ["Great Britain"],
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 2,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Finland"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "Anti-Tank Grenades",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					},
 					{
 						"name": "Intelligence",
 						"points": 50			
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true
-					}
+					}			
 				],
-				"equipment": ["Pistol, SMG, or Rifles; Skis"]
+				"keywords": ["Period: E|M|L"],
+				"equipment": []
 			},
 			{
 				"name": "Platoon Commander - Veteran",
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "United States of America" }]			
 					}
 				],
 				"points": 39,
@@ -2227,25 +2909,287 @@
 						"points": 13,
 						"increment": true,
 						"max": 2,
-						"addsModels": 1
+						"addsModels": 1,
+						"availableIn": ["Belgium"],
+						"availableIn": ["Bulgaria"],
+						"availableIn": ["Finland"],
+						"availableIn": ["France"],
+						"availableIn": ["Greece"],
+						"availableIn": ["Hungary"],
+						"availableIn": ["Italy"],
+						"availableIn": ["Japan"],
+						"availableIn": ["Netherlands"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Poland"],
+						"availableIn": ["Polish Peoples Army (LWP)"],
+						"availableIn": ["Romania"]
 					},
 					{
-						"name": "SMGs for Additional Men",
+						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": 3,
+						"availableIn": ["Belgium"],
+						"availableIn": ["Bulgaria"],
+						"availableIn": ["Finland"],
+						"availableIn": ["France"],
+						"availableIn": ["Greece"],
+						"availableIn": ["Hungary"],
+						"availableIn": ["Italy"],
+						"availableIn": ["Japan"],
+						"availableIn": ["Netherlands"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Poland"],
+						"availableIn": ["Polish Peoples Army (LWP)"],
+						"availableIn": ["Romania"]
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": ["Belgium"],
+						"availableIn": ["Bulgaria"],
+						"availableIn": ["Finland"],
+						"availableIn": ["France"],
+						"availableIn": ["Greece"],
+						"availableIn": ["Hungary"],
+						"availableIn": ["Italy"],
+						"availableIn": ["Japan"],
+						"availableIn": ["Netherlands"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Poland"],
+						"availableIn": ["Polish Peoples Army (LWP)"],
+						"availableIn": ["Romania"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"availableIn": ["Germany"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 5,
+						"availableIn": ["Germany"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 5,
+						"availableIn": ["Germany"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! Fallschirmjäger Only - Additional Men",
+						"points": 13,
+						"addsModels": 1,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Sword",
+						"points": 0,
+						"availableIn": ["Japan"]
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Hammer and Sickle (NKVD)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"],
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 6,
+						"availableIn": ["Great Britain"],
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 6,
+						"availableIn": ["Great Britain"],
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Anti-Tank",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
+						"points": 4,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ Anti-Tank",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
+						"points": 7,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! Commandos Only - Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 2,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Finland"],
+						"availableIn": ["Norway"],
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+					
+						"name": "Anti-Tank Grenades",
+						"points": -1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					},
 					{
 						"name": "Intelligence",
 						"points": 50			
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true
 					}			
 				],
-				"equipment": ["Pistol, SMG, or Rifles; Skis"]
+				"keywords": ["Period: E|M|L"],
+				"equipment": []
 			},
 			{
 				"name": "Kempeitai Political Officer - Inexperienced",
