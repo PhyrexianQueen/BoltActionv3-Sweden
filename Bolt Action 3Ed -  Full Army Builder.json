@@ -1328,7 +1328,7 @@
 						"points": 50
 					}
 				],
-				"keywords": ["Period: E|M|L;"],
+				"keywords": ["Period: E|M|L"],
 				"equipment": []
 			},
 			{
@@ -2021,7 +2021,7 @@
 						"points": 50			
 					}		
 				],
-				"keywords": ["Non-Polish Officers", "Stubborn"],
+				"keywords": ["Period: M|L","Non-Polish Officers", "Stubborn"],
 				"equipment": []
 			},
 			{
@@ -2069,7 +2069,7 @@
 						"points": 50			
 					}		
 				],
-				"keywords": ["Non-Polish Officers", "Stubborn"],
+				"keywords": ["Period: M|L","Non-Polish Officers", "Stubborn"],
 				"equipment": []
 			},
 			{
@@ -2117,7 +2117,7 @@
 						"points": 50			
 					}		
 				],
-				"keywords": ["Non-Polish Officers","Stubborn"],
+				"keywords": ["Period: M|L","Non-Polish Officers","Stubborn"],
 				"equipment": []
 			},
 			{
@@ -2156,7 +2156,7 @@
 					}
 				],
 				"equipment": [],
-				"keywords": ["Inspiring Presence", "Self-Defence"]
+				"keywords": ["Period: E|M|L","Inspiring Presence", "Self-Defence"]
 			},
 			{
 				"name": "Chaplain - Regular",
@@ -2212,7 +2212,7 @@
 					}
 				],
 				"equipment": [],
-				"keywords": ["Inspiring Presence, Self-defence"]
+				"keywords": ["Period: E|M|L","Inspiring Presence","Self-defence"]
 			},
 			{
 				"name": "Chaplain - Veteran",
@@ -2310,7 +2310,7 @@
 					}
 				],
 				"equipment": [],
-				"keywords": ["Inspiring Presence, Self-defence"]
+				"keywords": ["Period: E|M|L","Inspiring Presence","Self-defence"]
 			},
 			{
 				"name": "Platoon Commander - Inexperienced",
@@ -3925,7 +3925,7 @@
 						"points": 2
 					}
 				],
-				"keywords": ["Fanatics, Not One Step Back"],
+				"keywords": ["Fanatics","Not One Step Back"],
 				"equipment": []
 			},
 			{
@@ -4032,7 +4032,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: E|M|L; Medic"],
+				"keywords": ["Period: E|M|L","Medic","Self-Defence"],
 				"equipment": []
 			},
 			{
@@ -4226,7 +4226,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: E|M|L; Medic"],
+				"keywords": ["Period: E|M|L","Medic","Self-Defence"],
 				"equipment": []
 			},
 			{
@@ -4361,8 +4361,8 @@
 						"availableIn": ["Sweden (Unofficial)"]
 					}
 				],
-				"keywords": ["Infiltrator; Observer"],
-				"equipment": ["Pistol, Rifle, SMGs; Skis"]
+				"keywords": ["Infiltrator","Observer"],
+				"equipment": []
 			},
 			{
 				"name": "Forward Air Observer - Veteran",
@@ -4403,8 +4403,8 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Infiltrator; Observer"],
-				"equipment": ["Pistol, Rifle, SMGs; Skis"]
+				"keywords": ["Infiltrator","Observer"],
+				"equipment": []
 			},
 			{
 				"name": "Forward Artillery Observer - Regular",
@@ -4579,8 +4579,8 @@
 						"availableIn": ["Sweden (Unofficial)"]
 					}
 				],
-				"keywords": ["Infiltrator; Observer"],
-				"equipment": ["Pistol, Rifle, SMGs; Skis"]
+				"keywords": ["Infiltrator","Observer"],
+				"equipment": []
 			},
 			{
 				"name": "Forward Artillery Observer - Veteran",
@@ -4621,8 +4621,8 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Infiltrator; Observer"],
-				"equipment": ["Pistol, Rifle, SMGs; Skis"]
+				"keywords": ["Infiltrator","Observer"],
+				"equipment": []
 			},
 			{
 				"name": "Sniper - Regular",
