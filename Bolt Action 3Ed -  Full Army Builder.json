@@ -261,26 +261,70 @@
 			},
 			{
 				"name": "Period: E|M|L",
-				"specialRules": ["All War"]
+				"specialRules": ["Period: E|M|L"]
 			},
 			{
 				"name": "Period: M|L",
-				"specialRules": ["Mid War On"]
+				"specialRules": ["Period: M|L"]
 			},
 			{
 				"name": "Period: L",
-				"specialRules": ["Late War"]
+				"specialRules": ["Period: L"]
 			},
 			{
 				"name": "SMGs",
 				"specialRules": ["Assault","Tough Fighters"]
 			},
 			{
+				"name": "Skis",
+				"specialRules": ["Skis"]
+			},
+			{
 				"name": "Sword",
 				"specialRules": ["Tough Fighters"]
+			},
+			{
+				"name": "Liason Officer",
+				"specialRules": ["Liason Officer"]
+			},
+			{
+				"name": "Nose Mounted Heavy Autocannon",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Wing Mounted Light Autocannon",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Wing Mounted MMGs",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Wing Mounted HMGs",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Bombs",
+				"specialRules": ["---"]
+			},
+			{
+				"name": "Rockets",
+				"specialRules": ["---"]
+			},
+			{
+				"name": "Interceptor",
+				"specialRules": ["---"]
 			}
 		],
 		"keywords": [
+			{
+				"name": "---",
+				"definition": "PHY, DON'T FORGET TO ADD THESE"
+			},
+			{
+				"name": "Liason Officer",
+				"definition": "Counts as an Forward Air Observer; Bolt Action, 3rd Edition: Pg. ---"
+			},
 			{
 				"name": "Ambush Tactics",
 				"definition": "May start game in Ambush. When in Ambush, +1 to Base Morale Value; Bolt Action, 3rd Edition: Pg. ---"
@@ -399,6 +443,10 @@
 				"definition": "Pins count double and must always take an order test, even without pins; Bolt Action, 3rd Edition: Pg. 121"
 			},
 			{
+				"name": "Skis",
+				"definition": "Troops ignore movement penalties for Snow or Winter Conditions; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
 				"name": "Sniper",
 				"definition": "Can use Scope at 36in to 12in for a sniper shot. +1 to hit, +1 to damage, no cover save, can pick the NCO of a squad as the wound target; Bolt Action, 3rd Edition: Pg. 122"
 			},
@@ -509,6 +557,14 @@
 			{
 				"name": "Period: L",
 				"definition": "Unit is Available only in Late War scenarios; Bolt Action, 3rd Edition : Pg. ---"
+			},
+			{
+				"name": "Flying Tank",
+				"definition": "Ground Attack Aircraft comes in on a 4, 5, or 6. If a Ground Attack Aircraft performs the airstrike, 5 Hits are required to bring it down; Bolt Action, 3rd Edition : Pg. ---"
+			},
+			{
+				"name": "Massed Batteries",
+				"definition": "When resolving Fire For Effect!, resolve the D6+6in by rolling 2D6 and picking the highest to use for the D6+6in; Bolt Action, 3rd Edition : Pg. ---"
 			}
 		],
 		"platoons": [
@@ -4270,10 +4326,28 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 75,
@@ -4346,7 +4420,7 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Germany"]
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -4359,20 +4433,86 @@
 						"points": 2,
 						"perModel": true,
 						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Infiltrator","Observer"],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer"],
 				"equipment": []
 			},
-			{
+						{
 				"name": "Forward Air Observer - Veteran",
 				"factions": [],
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 90,
@@ -4380,7 +4520,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 11,
+						"points": 14,
 						"increment": true,
 						"max": 2,
 						"addsModels": 1
@@ -4389,21 +4529,151 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"France",
+							"Japan",
+							"Netherlands"
+						]
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"France",
+							"Japan",
+							"Netherlands"
+						]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! Fallschirmjäger Only - Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! Commandos Only - Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Infiltrator","Observer"],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer"],
 				"equipment": []
 			},
 			{
@@ -4477,10 +4747,34 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 75,
@@ -4557,6 +4851,7 @@
 						"points": 0,
 						"availableIn": [
 							"Finland",
+							"Norway",
 							"Sweden (Unofficial)"
 						]
 					},
@@ -4577,9 +4872,21 @@
 						"points": 2,
 						"perModel": true,
 						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Infiltrator","Observer"],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer"],
 				"equipment": []
 			},
 			{
@@ -4587,13 +4894,398 @@
 				"factions": [],
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 90,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Japan"
+						]
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Japan"
+						]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": [
+							"Finland",
+							"Norway",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! Fallschirmjäger Only - Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! Commandos Only - Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer"],
+				"equipment": []
+			},
+			{
+				"name": "Forward Artillery Observer - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Stubborn"],
+				"equipment": []
+			},
+			{
+				"name": "Forward Artillery Observer - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Stubborn"],
+				"equipment": []
+			},
+			{
+				"name": "Forward Air Observer - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Stubborn"],
+				"equipment": []
+			},
+			{
+				"name": "Forward Artillery Observer - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 75,
 				"models": 1,
 				"options": [
 					{
@@ -4616,12 +5308,242 @@
 						"max": 3
 					},
 					{
-						"name": "Det Fria Kriget",
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true
 					}
 				],
-				"keywords": ["Infiltrator","Observer"],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Massed Batteries"],
+				"equipment": []
+			},
+			{
+				"name": "Forward Artillery Observer - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Hammer and Sickle (NKVD)",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Massed Batteries"],
+				"equipment": []
+			},
+			{
+				"name": "Forward Air Observer - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Hammer and Sickle (NKVD)",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Flying Tank"],
+				"equipment": []
+			},
+			{
+				"name": "Forward Air Observer - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Hammer and Sickle (NKVD)",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Flying Tank"],
+				"equipment": []
+			},
+			{
+				"name": "Liason Officer - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Partisans" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				"keywords": ["Infiltrator","Observer","Liason Officer"],
+				"equipment": []
+			},
+			{
+				"name": "Liason Officer - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Partisans" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				"keywords": ["Infiltrator","Observer","Liason Officer"],
 				"equipment": []
 			},
 			{
@@ -4630,6 +5552,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 52,
@@ -4637,18 +5562,31 @@
 				"options": [
 					{
 						"name": "SMGs",
-						"points": 3,
+						"points": 5,
 						"increment": true,
 						"max": 2
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Infiltrator, Sniper, Team Weapon"],
-				"equipment": ["Pistol, Rifle, SMGs; Skis"]
+				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon"],
+				"equipment": []
 			},
 			{
 				"name": "Sniper - Veteran",
@@ -4656,6 +5594,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 67,
@@ -4670,7 +5611,32 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
 				"keywords": ["Infiltrator, Sniper, Team Weapon"],
@@ -7980,6 +8946,348 @@
 				"options": [],
 				"keywords": ["Damage Value: 3+, Tow Any"],
 				"equipment": []
+			},
+			{
+				"name": "Hawker Hurricane Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Hawker Hurricane Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Hawker Hurricane Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Supermarine Spitfire Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 176,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x2","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Supermarine Spitfire Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 220,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x2","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Supermarine Spitfire Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 264,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x2","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Hawker Typhoon Fighter-bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 176,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": [],
+				"equipment": ["Wing Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Hawker Typhoon Fighter-bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 220,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": [],
+				"equipment": ["Wing Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Hawker Typhoon Fighter-bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 264,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": [],
+				"equipment": ["Wing Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "P-51 'Mustang' Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x6"]
+			},
+			{
+				"name": "P-51 'Mustang' Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x6"]
+			},
+			{
+				"name": "P-51 'Mustang' Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x6"]
+			},
+			{
+				"name": "P-39 'Airacobra' Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Heavy Autocannon","Wing Mounted HMGs","x2","Wing Mounted MMGs","x4"]
+			},
+			{
+				"name": "P-39 'Airacobra' Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Heavy Autocannon","Wing Mounted HMGs","x2","Wing Mounted MMGs","x4"]
+			},
+			{
+				"name": "P-39 'Airacobra' Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Heavy Autocannon","Wing Mounted HMGs","x2","Wing Mounted MMGs","x4"]
+			},
+			{
+				"name": "P-47 'Thunderbolt' Fighter-bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 208,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x8"]
+			},
+			{
+				"name": "P-47 'Thunderbolt' Fighter-bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 260,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x8"]
+			},
+			{
+				"name": "P-47 'Thunderbolt' Fighter-bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 312,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x8"]
 			}
 		]
 	}
