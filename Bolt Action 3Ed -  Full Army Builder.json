@@ -1,17 +1,14 @@
 {
-	"config": {
-    "trackHighestDivision": false
-},
+  "config": 
+	{
+		"trackHighestDivision": false
+	},
+"disallowMultipleFactions": true,
 "appVersion": 2,
-"credit": ["Phy; phyrexian.queen@gmail.com for any questions, thoughts, concerns, or comments!"],
+"credit": [
+	"Phy; phyrexian.queen@gmail.com for any questions, thoughts, concerns, or comments!"
+],
 "game": "Bolt Action",
-"usePrimarySecondaryAllianceLevels": true,
-"allianceTerms": 
-{
-	"primary": "Historical",
-	"secondary": "Convenient",
-	"none": "Impossible"
-},
 "stats": [
 	{
 		"name": "Strength",
@@ -45,7 +42,15 @@
 								"propertyName": "equipment",
 								"label": "Equipment",
 								"type": "static",
-								"dataSource": "equipment"
+								"dataSource": "equipment",
+								"children": [
+									{
+										"propertyName": "specialRules",
+										"label": "Special Rules",
+										"type": "static",
+										"dataSource": "keywords"
+									}
+								]
 							},
 							{
 								"propertyName": "keywords",
@@ -149,11 +154,368 @@
 				"name": "United States of America"
 			}
 		],
-		"equipment": [],
+		"equipment": [
+			{
+				"name": "Anti-Tank Grenades",
+				"specialRules": ["Tank Hunters"]
+			},
+			{
+				"name": "Assault Rifle",
+				"specialRules": ["Assault","Tough Fighters"]
+			},
+			{
+				"name": "By Air, Land, and Sea (Airborne)",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "By Air, Land, and Sea (Rangers)",
+				"specialRules": ["Rangers Lead the Way!"]
+			},
+			{
+				"name": "Defend the Fatherland! (Gebirgsjäger)",
+				"specialRules": ["Fieldcraft"]
+			},
+			{
+				"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+				"specialRules": ["Fieldcraft","Winter Equipment"]
+			},
+			{
+				"name": "Defend the Fatherland! (Fallschirmjäger)",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "Defend the Fatherland! (Waffen-SS)",
+				"specialRules": ["Fanatics"]
+			},
+			{
+				"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
+				"specialRules": ["Assault","Tough Fighters","Fanatics"]
+			},
+			{
+				"name": "Defend the Fatherland! (Waffen-SS InEx)",
+				"specialRules": ["Fanatics","Mixed Quality"]
+			},
+			{
+				"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
+				"specialRules": ["Assault","Tough Fighters","Fanatics", "Mixed Quality"]
+			},
+			{
+				"name": "Det Fria Kriget",
+				"specialRules": ["Engineers","Fieldcraft"]
+			},
+			{
+				"name": "For King and Country! (Airborne)",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "For King and Country! (Airborne) w/ Anti-Tank",
+				"specialRules": ["Stubborn","Tank Hunters"]
+			},
+			{
+				"name": "For King and Country! (Airborne) w/ Welbikes",
+				"specialRules": ["Stubborn","Bicycles"]
+			},
+			{
+				"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
+				"specialRules": ["Stubborn","Tank Hunters","Bicycles"]
+			},
+			{
+				"name": "For King and Country! (Chindits)",
+				"specialRules": ["Behind Enemy Lines", "Fieldcraft", "Ambush Tactics"]
+			},
+			{
+				"name": "For King and Country! (Commandos)",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent"]
+			},
+			{
+				"name": "For King and Country! (Commandos) w/ Anti-Tank",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent","Tank Hunters"]
+			},
+			{
+				"name": "For King and Country! (Commandos) w/ SAS",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent", "Who Dares Wins!"]
+			},
+			{
+				"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent", "Who Dares Wins!","Tank Hunters"]
+			},
+			{
+				"name": "For King and Country! (Guards)",
+				"specialRules": ["Iron Discipline"]
+			},
+			{
+				"name": "Hammer and Sickle (Naval Brigade)",
+				"specialRules": ["Tough Fighters"]
+			},
+			{
+				"name": "Hammer and Sickle (NKVD)",
+				"specialRules": ["Fanatics"]
+			},
+			{
+				"name": "Mount the Officer on a Horse",
+				"specialRules": ["Cavalry"]
+			},
+			{
+				"name": "Period: E|M|L",
+				"specialRules": ["All War"]
+			},
+			{
+				"name": "Period: M|L",
+				"specialRules": ["Mid War On"]
+			},
+			{
+				"name": "Period: L",
+				"specialRules": ["Late War"]
+			},
+			{
+				"name": "SMGs",
+				"specialRules": ["Assault","Tough Fighters"]
+			},
+			{
+				"name": "Sword",
+				"specialRules": ["Tough Fighters"]
+			}
+		],
+		"keywords": [
+			{
+				"name": "Ambush Tactics",
+				"definition": "May start game in Ambush. When in Ambush, +1 to Base Morale Value; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Anti-Tank Gun",
+				"definition": "AT Guns when using a Fire Order (incl. Ambush) have +1 to Hit when targetting Vehicles; Bolt Action, 3rd Edition: Pg. 96"
+			},
+			{
+				"name": "Assault",
+				"definition": "Negate Movement Penalty when Shooting. Grants Tough Fighters to Models equipped with a weapon that has the Assault Special Rule; Bolt Action, 3rd Edition: Pg. 96"
+			},
+			{
+				"name": "Behind Enemy Lines",
+				"definition": "When Outflanking, ignores -1 to Order Test when coming onto the board; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Fixed",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 96"
+			},
+			{
+				"name": "Flack",
+				"definition": "Can attack aircraft during an Airstrike; Bolt Action, 3rd Edition: Pg. 117"
+			},
+			{
+				"name": "Flamethrower",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "High Explosive",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "Howitzer",
+				"definition": "Can shoot Direct or Indirect; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "Indirect Fire",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "Multiple Launcher",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 102"
+			},
+			{
+				"name": "One Shot",
+				"definition": "Can be fired once per game. One shot Weapons can Split Fire; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "Shaped Charge",
+				"definition": "No -1 Pen for Long Range. No +1 Pen for Point-Blank; Bolt Action, 3rd Edition: Pg. 103"
+			},
+			{
+				"name": "Smoke Shells",
+				"definition": "Can fire Smoke Screen. See Full Rules; Bolt Action, 3rd Edition: Pg. 128"
+			},
+			{
+				"name": "Team weapon",
+				"definition": "Suffers -1 to Hit when reduced to a single model; Bolt Action, 3rd Edition: Pg. 103"
+			},
+			{
+				"name": "Bicycles",
+				"definition": "When moving entirely on a road, on Run Orders, may move 24in; Bolt Action, 3rd Edition: Pg. 119"
+			},
+			{
+			
+				"name": "Cavalry",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 119"
+			},
+			{
+				"name": "Engineers",
+				"definition": "Negates Defenders Bonus when assulting into fortifications/defences; Bolt Action, 3rd Edition: Pg. 120"
+			},
+			{
+				"name": "Fanatics",
+				"definition": "Ignore Pin Modifiers on Morale Checks. Loses in Close Combat count as Draws; Bolt Action, 3rd Edition: Pg. 120"
+			},
+			{
+				"name": "Fieldcraft",
+				"definition": "Treats rough ground as Open; Bolt Action, 3rd Edition: Pg. 120"
+			},
+			{
+				"name": "Green",
+				"definition": "When a unit with Green suffer their first wound in a match, must make a test; Bolt Action, 3rd Edition: Pg. 120"
+			},
+			{
+				"name": "Independent",
+				"definition": "----; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Infiltrator",
+				"definition": "Cover rolls while the unit does not have an Advance or Run order are +1. Special Deployment Rules; Bolt Action, 3rd Edition: Pg. 120"
+			},
+			{
+				"name": "Inspiring Presence",
+				"definition": "----; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Medic",
+				"definition": "When a friendly inf. or arty unit within 6in suffer damage from Small Arms, roll a D6 for each Damage. On a 6, ignore that damage; Bolt Action, 3rd Edition: Pg. 113"
+			},
+			{
+				"name": "Motorcycles",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 121"
+			},
+			{
+				"name": "Observer",
+				"definition": "Can be used as a spotter for Mortars or Howitzers; Bolt Action, 3rd Edition: Pg. 113"
+			},
+			{
+				"name": "Self-Defence",
+				"definition": "Cannot fire weapons. Cannot initiate close quarters combat. Do not count towards victory conditions or KPs; Bolt Action, 3rd Edition: Pg. 113"
+			},
+			{
+				"name": "Shirkers",
+				"definition": "Pins count double and must always take an order test, even without pins; Bolt Action, 3rd Edition: Pg. 121"
+			},
+			{
+				"name": "Sniper",
+				"definition": "Can use Scope at 36in to 12in for a sniper shot. +1 to hit, +1 to damage, no cover save, can pick the NCO of a squad as the wound target; Bolt Action, 3rd Edition: Pg. 122"
+			},
+			{
+				"name": "Spotters",
+				"definition": "Can be used to draw Line of Site from for Indirect Firing Howitzers or Mortars; Bolt Action, 3rd Edition: Pg. 102"
+			},
+			{
+				"name": "Stubborn",
+				"definition": "Ignores Pins on Morale Tests; Bolt Action, 3rd Edition: Pg. 122"
+			},
+			{
+				"name": "Tank Hunters",
+				"definition": "As a Winner in Close combat with an Armored Vehicle, resolve results on Damage Table. Squad does not suffer from Tanke Fear; Bolt Action, 3rd Edition: Pg. 121"
+			},
+			{
+				"name": "Tough Fighters",
+				"definition": "Model rerolls 1st Failed to Damage in Closed Combat; Bolt Action, 3rd Edition: Pg. 122"
+			},
+			{
+				"name": "Winter equipment",
+				"definition": "----; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Amphibious",
+				"definition": "Can move over impassable water at half speed; Bolt Action, 3rd Edition: Pg. 149"
+			},
+			{
+				"name": "Armored All Round",
+				"definition": "No Pen modifiers when being shot at in the side, rear, or from above; Bolt Action, 3rd Edition: Pg. 149"
+			},
+			{
+				"name": "Command Vehicle",
+				"definition": "Adds moreal bonus of +1 to itself and friendly vehicles within 12in and may use Snap To; Bolt Action, 3rd Edition: Pg. 113"
+			},
+			{
+				"name": "Fast",
+				"definition": "Tracked Vehicles with Fast Advance at 12in and Run at 24in; Bolt Action, 3rd Edition: Pg. 149"
+			},
+			{
+				"name": "Medical Vehicle",
+				"definition": "When a friendly inf. or arty unit within 6in suffer damage from Small Arms, roll a D6 for each Damage. On a 6, ignore that damage; Bolt Action, 3rd Edition: Pg. 149"
+			},
+			{
+				"name": "One-Man Turret",
+				"definition": "Pinned by hits from Small Arms. During an assault, destroyed automatically if damaged. Hits on top armor add additional +1 Pen and +1 to Damage Result; Bolt Action, 3rd Edition: Pg. 149"
+			},
+			{
+				"name": "Recce",
+				"definition": "Can Reverse at Full Advance Speed. Has access to 'Escape' Reaction; Bolt Action, 3rd Edition: Pg. 150"
+			},
+			{
+				"name": "Reinforced Front Armor",
+				"definition": "Frontal Armor Value is +1; Bolt Action, 3rd Edition: Pg. 150"
+			},
+			{
+				"name": "Slow",
+				"definition": "Advanced at 6in, Run at 12in; Bolt Action, 3rd Edition: Pg. 150"
+			},
+			{
+				"name": "Slow Load",
+				"definition": "Cannot be given an order until another friendly unit has been given an order; Bolt Action, 3rd Edition: Pg. 151"
+			},
+			{
+				"name": "Turn on the Spot",
+				"definition": "Can use Run Speed in Reverse; Bolt Action, 3rd Edition: Pg. 151"
+			},
+			{
+				"name": "Turret Rear-Mounted Machine Gun",
+				"definition": "Fires opposite arc of the Main Gun or Coax after the Main or Coax is fired; Bolt Action, 3rd Edition: Pg. 151"
+			},
+			{
+				"name": "Unreliable",
+				"definition": "When vehicle suffers at least 1 pin, it suffers 1 additional pin; Bolt Action, 3rd Edition: Pg. 151"
+			},
+			{
+				"name": "Weak Sides",
+				"definition": "Shots against side armor count as rear armor instead (i.e. +2 to pen); Bolt Action, 3rd Edition: Pg. 151"
+			},
+			{
+				"name": "Iron Discipline",
+				"definition": "This unit may remove 2 pin markers rather than the usual one if an Order Test is passed; Bolt Action, 3rd Edition German Army Book: Pg. ---"
+			},
+			{
+				"name": "Mixed Quality",
+				"definition": "InEx Only; Roll a D6 on a Failed Order Test, See Full Rules; Bolt Action, 3rd Edition German Army Book: Pg. ---"
+			},
+			{
+				"name": "Non-Polish Officers",
+				"definition": "Cannot grant Morale Bonus to LWP Units; Bolt Action, 3rd Edition German Army Book: Pg. ---"
+			},
+			{
+				"name": "Rangers Lead the Way!",
+				"definition": "After setup, but before the first turn of the game as a part of beginning of game actions, this unit may make a Run Move; Bolt Action, 3rd Edition German Army Book: Pg. ---"
+			},
+			{
+				"name": "Who Dares Wins!",
+				"definition": "InEx Only; Roll a D6 on a Failed Order Test, See Full Rules; Bolt Action, 3rd Edition German Army Book: Pg. ---"
+			},
+			{
+				"name": "Period: E|M|L",
+				"definition": "Unit is Available in Early, Middle, or Late War scenarios; Bolt Action, 3rd Edition : Pg. ---"
+			},
+			{
+				"name": "Period: M|L",
+				"definition": "Unit is Available only in Middle or Late War scenarios; Bolt Action, 3rd Edition : Pg. ---"
+			},
+			{
+				"name": "Period: L",
+				"definition": "Unit is Available only in Late War scenarios; Bolt Action, 3rd Edition : Pg. ---"
+			}
+		],
 		"platoons": [
 			{
 				"name": "HQ Platoon",
 				"unlimited": false,
+				"decreaseModelCount": 1,
 				"factions": [
 					{
 						"name": "Belgium"
@@ -215,6 +577,7 @@
 			},
 			{
 				"name": "Rifle Platoon",
+				"decreaseModelCount": 1,
 				"unlimited": true,
 				"factions": [
 					{
@@ -281,6 +644,7 @@
 			{
 				"name": "Recce Platoon",
 				"unlimited": true,
+				"decreaseModelCount": 1,
 				"factions": [
 					{
 						"name": "Belgium"
@@ -346,6 +710,7 @@
 			{
 				"name": "Engineer Platoon",
 				"unlimited": true,
+				"decreaseModelCount": 1,
 				"factions": [
 					{
 						"name": "Belgium"
@@ -411,6 +776,7 @@
 			{
 				"name": "Heavy Weapons Platoon",
 				"unlimited": true,
+				"decreaseModelCount": 1,
 				"factions": [
 					{
 						"name": "Belgium"
@@ -476,6 +842,7 @@
 			{
 				"name": "Artillery Platoon",
 				"unlimited": true,
+				"decreaseModelCount": 1,
 				"factions": [
 					{
 						"name": "Belgium"
@@ -541,6 +908,139 @@
 			{
 				"name": "Armored Platoon",
 				"unlimited": true,
+				"decreaseModelCount": 1,
+				"factions": [
+					{
+						"name": "Belgium"
+					},
+					{
+						"name": "Bulgaria"
+					},
+					{
+						"name": "Finland"
+					},
+					{
+						"name": "France"
+					},
+					{
+						"name": "Germany"
+					},
+					{
+						"name": "Great Britain"
+					},
+					{
+						"name": "Greece"
+					},
+					{
+						"name": "Hungary"
+					},
+					{
+						"name": "Italy"
+					},
+					{
+						"name": "Japan"
+					},
+					{
+						"name": "Netherlands"
+					},
+					{
+						"name": "Norway"
+					},
+					{
+						"name": "Partisans"
+					},
+					{
+						"name": "Poland"
+					},
+					{
+						"name": "Polish Peoples Army (LWP)"
+					},
+					{
+						"name": "Romania"
+					},
+					{
+						"name": "Soviet Union"
+					},
+					{
+						"name": "Sweden (Unofficial)"
+					},
+					{
+						"name": "United States of America"
+					}
+				],
+				"points": 0,
+				"models": 0
+			},
+			{
+				"name": "Fortifications and Defenses",
+				"unlimited": false,
+				"decreaseModelCount": 1,
+				"factions": [
+					{
+						"name": "Belgium"
+					},
+					{
+						"name": "Bulgaria"
+					},
+					{
+						"name": "Finland"
+					},
+					{
+						"name": "France"
+					},
+					{
+						"name": "Germany"
+					},
+					{
+						"name": "Great Britain"
+					},
+					{
+						"name": "Greece"
+					},
+					{
+						"name": "Hungary"
+					},
+					{
+						"name": "Italy"
+					},
+					{
+						"name": "Japan"
+					},
+					{
+						"name": "Netherlands"
+					},
+					{
+						"name": "Norway"
+					},
+					{
+						"name": "Partisans"
+					},
+					{
+						"name": "Poland"
+					},
+					{
+						"name": "Polish Peoples Army (LWP)"
+					},
+					{
+						"name": "Romania"
+					},
+					{
+						"name": "Soviet Union"
+					},
+					{
+						"name": "Sweden (Unofficial)"
+					},
+					{
+						"name": "United States of America"
+					}
+				],
+				"points": 0,
+				"models": 0
+			},
+			{
+				"name": "Air Support",
+				"unlimited": false,
+				"decreaseModelCount": 1,
 				"factions": [
 					{
 						"name": "Belgium"
@@ -618,48 +1118,56 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"maxKey": "gun",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"maxKey": "gun",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -667,47 +1175,63 @@
 						"increment": true,
 						"max": 4,
 						"addsModels": 1,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany", 
+							"Hungary", 
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"maxKey": "gun",
+						"availableIn": [
+							"Germany",
+							"Hungary",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Assault Rifle",
 						"points": 6,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"]
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"availableIn": [
+							"Germany",
+							"Hungary",
+							"Romania"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"maxKey": "gun",
+						"availableIn": [
+							"Germany",
+							"Hungary",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
 						"availableIn": ["Germany"]
 					},
 					{
-						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
+						"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
 						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
 						"availableIn": ["Germany"]
 					},
 					{
@@ -715,7 +1239,8 @@
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Soviet Union"]
-					},{
+					},
+					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
@@ -734,6 +1259,7 @@
 						"points": 4,
 						"increment": true,
 						"max": 3,
+						"maxKey": "gun",
 						"availableIn": ["Sweden (Unofficial)"]
 					},
 					{
@@ -741,13 +1267,16 @@
 						"points": -1,
 						"increment": true,
 						"max": 3,
+						"maxKey": "gun",
 						"availableIn": ["Sweden (Unofficial)"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Norway"],
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": [
+							"Norway",
+							"Sweden (Unofficial)"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -755,28 +1284,36 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"maxKey": "gun",
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"maxKey": "gun",
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Anti-Tank Grenades",
-						"points": -1,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["United States of America"]
 					},
@@ -787,6 +1324,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50
 					}
 				],
@@ -806,52 +1344,58 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Finland"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Finland",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Finland"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Finland",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -859,43 +1403,52 @@
 						"increment": true,
 						"max": 4,
 						"addsModels": 1,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Hungary",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Hungary",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Assault Rifle",
 						"points": 6,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Germany",
+							"Hungary",
+							"Romania"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Hungary",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"specialRules": ["Fanatics"]
 					},
 					{
 						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
@@ -907,7 +1460,8 @@
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Soviet Union"]
-					},{
+					},
+					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
@@ -953,9 +1507,12 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Finland"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": [
+						"Finland"],
+						"availableIn": [
+							"Norway",
+							"Sweden (Unofficial)"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -963,24 +1520,30 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -990,7 +1553,7 @@
 					},
 					{
 						"name": "Anti-Tank Grenades",
-						"points": -1,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["United States of America"]
 					},
@@ -1006,7 +1569,14 @@
 						"availableIn": ["United States of America"]
 					},
 					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50
 					}
 				],
@@ -1075,49 +1645,57 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Finland"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Finland"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -1125,33 +1703,41 @@
 						"increment": true,
 						"max": 4,
 						"addsModels": 1,
-						"availableIn": ["Germany"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Assault Rifle",
 						"points": 6,
-						"availableIn": ["Germany"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Germany",
+							"Romania"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Romania"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Romania",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -1193,7 +1779,8 @@
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Soviet Union"]
-					},{
+					},
+					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
@@ -1217,9 +1804,11 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Finland"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": [
+							"Finland",
+							"Norway",
+							"Sweden (Unofficial)"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -1249,24 +1838,30 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "For King and Country! (Airborne)",
@@ -1289,6 +1884,12 @@
 					{
 						"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
 						"points": 4,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
 						"perModel": true,
 						"availableIn": ["Great Britain"]
 					},
@@ -1328,11 +1929,12 @@
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"specialRules": ["Iron Discipline"]
 					},
 					{
 						"name": "Anti-Tank Grenades",
-						"points": -1,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["United States of America"]
 					},
@@ -1360,7 +1962,14 @@
 						"availableIn": ["United States of America"]
 					},
 					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50
 					}
 				],
@@ -1401,17 +2010,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "SMGs for Additional Men",
+						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 2
 					},
 					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50			
 					}		
 				],
-				"keywords": ["Non-Polish Officers, Stubborn"],
+				"keywords": ["Non-Polish Officers", "Stubborn"],
 				"equipment": []
 			},
 			{
@@ -1448,17 +2058,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "SMGs for Additional Men",
+						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 2
 					},
 					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50			
 					}		
 				],
-				"keywords": ["Non-Polish Officers, Stubborn"],
+				"keywords": ["Non-Polish Officers", "Stubborn"],
 				"equipment": []
 			},
 			{
@@ -1495,17 +2106,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "SMGs for Additional Men",
+						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 2
 					},
 					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50			
 					}		
 				],
-				"keywords": ["Non-Polish Officers, Stubborn"],
+				"keywords": ["Non-Polish Officers","Stubborn"],
 				"equipment": []
 			},
 			{
@@ -1544,7 +2156,7 @@
 					}
 				],
 				"equipment": [],
-				"keywords": ["Inspiring Presence, Self-defence"]
+				"keywords": ["Inspiring Presence", "Self-Defence"]
 			},
 			{
 				"name": "Chaplain - Regular",
@@ -1699,7 +2311,7 @@
 				],
 				"equipment": [],
 				"keywords": ["Inspiring Presence, Self-defence"]
-			},			
+			},
 			{
 				"name": "Platoon Commander - Inexperienced",
 				"factions": [],
@@ -1969,17 +2581,19 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Partisans"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Partisans",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						],
 						"availableIn": ["Romania"]
 					},
 					{
@@ -1987,36 +2601,38 @@
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Partisans"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Partisans",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Partisans"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Partisans",
+							"Poland",
+							"Polish Peoples Army (LWP)"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -2024,16 +2640,20 @@
 						"increment": true,
 						"max": 4,
 						"addsModels": 1,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Assault Rifle",
@@ -2045,8 +2665,10 @@
 						"points": -1,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -2077,24 +2699,30 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -2114,8 +2742,10 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Norway"],
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": [
+							"Norway",
+							"Sweden (Unofficial)"
+						]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -2130,6 +2760,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50			
 					}			
 				],
@@ -2435,60 +3066,66 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Partisans"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Partisans",
+							"Poland",
+							"Polish Peoples Army (LWP)",
+							"Romania"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Partisans"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Partisans",
+							"Poland",
+							"Polish Peoples Army (LWP)",
+							"Romania"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Partisans"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Partisans",
+							"Poland",
+							"Polish Peoples Army (LWP)",
+							"Romania"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -2496,16 +3133,20 @@
 						"increment": true,
 						"max": 4,
 						"addsModels": 1,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Assault Rifle",
@@ -2517,8 +3158,10 @@
 						"points": -1,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -2554,24 +3197,30 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -2597,9 +3246,11 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Finland"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": [
+							"Finland",
+							"Norway",
+							"Sweden (Unofficial)"
+						]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -2620,6 +3271,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50			
 					}			
 				],
@@ -2910,57 +3562,63 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)",
+							"Romania"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)",
+							"Romania"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Belgium"],
-						"availableIn": ["Bulgaria"],
-						"availableIn": ["Finland"],
-						"availableIn": ["France"],
-						"availableIn": ["Greece"],
-						"availableIn": ["Hungary"],
-						"availableIn": ["Italy"],
-						"availableIn": ["Japan"],
-						"availableIn": ["Netherlands"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Poland"],
-						"availableIn": ["Polish Peoples Army (LWP)"],
-						"availableIn": ["Romania"]
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Polish Peoples Army (LWP)",
+							"Romania"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -2968,16 +3626,20 @@
 						"increment": true,
 						"max": 4,
 						"addsModels": 1,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Assault Rifle",
@@ -2989,8 +3651,10 @@
 						"points": -1,
 						"increment": true,
 						"max": 5,
-						"availableIn": ["Germany"],
-						"availableIn": ["Soviet Union"]
+						"availableIn": [
+							"Germany",
+							"Soviet Union"
+						]
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -3050,24 +3714,30 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 6,
-						"availableIn": ["Great Britain"],
-						"availableIn": ["United States of America"]
+						"availableIn": [
+							"Great Britain",
+							"United States of America"
+						]
 					},
 					{
 						"name": "For King and Country! (Airborne)",
@@ -3092,6 +3762,12 @@
 						"points": 4,
 						"perModel": true,
 						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country (Chindits)",
+						"points": 3,
+						"availableIn": ["Great Britain"],
+						"perModel": true
 					},
 					{
 						"name": "For King and Country! (Commandos)",
@@ -3149,14 +3825,16 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Finland"],
-						"availableIn": ["Norway"],
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": [
+							"Finland",
+							"Norway",
+							"Sweden (Unofficial)"
+						]
 					},
 					{
 					
 						"name": "Anti-Tank Grenades",
-						"points": -1,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["United States of America"]
 					},
@@ -3185,13 +3863,14 @@
 					},
 					{
 						"name": "Intelligence",
+						"limit": 1,
 						"points": 50			
 					}			
 				],
 				"keywords": ["Period: E|M|L"],
 				"equipment": []
 			},
-			{
+						{
 				"name": "Kempeitai Political Officer - Inexperienced",
 				"factions": [],
 				"availableIn": [
@@ -3250,36 +3929,47 @@
 				"equipment": []
 			},
 			{
-				"name": "Medic - Inexperienced",
-				"factions": [],
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					}
-				],
-				"points": 20,
-				"models": 1,
-				"options": [
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"max": 2,
-						"addsModels": 1
-					}
-				],
-				"keywords": ["Medic"],
-				"equipment": ["Skis"]
-			},
-			{
 				"name": "Medic - Regular",
 				"factions": [],
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Norway" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 25,
+				"points": 23,
 				"models": 1,
 				"options": [
 					{
@@ -3288,17 +3978,114 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"perModel": true,
+						"availableIn": [
+							"Finland",
+							"Norway",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Remove Pistol",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["Polish Peoples Army (LWP)"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Medic"],
-				"equipment": ["Skis"]
+				"keywords": ["Period: E|M|L; Medic"],
+				"equipment": []
 			},
 			{
 				"name": "Medic - Veteran",
 				"factions": [],
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Poland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 30,
@@ -3310,15 +4097,178 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"perModel": true,
+						"availableIn": [
+							"Finland",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Remove Pistol",
+						"points": 0,
+						"perModel": true,
+						"availableIn": [
+							"Polish Peoples Army (LWP)",
+							"Japan"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! Fallschirmjäger Only - Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "For King and Country (Airborne)",
+						"points": 1,
+						"availableIn": ["Great Britain"],
+						"perModel": true
+					},
+					{
+						"name": "For King and Country Airborne Only - Welbikes",
+						"points": 1,
+						"availableIn": ["Great Britain"],
+						"perModel": true
+					},
+					{
+						"name": "For King and Country (Chindits)",
+						"points": 3,
+						"availableIn": ["Great Britain"],
+						"perModel": true
+					},
+					{
+						"name": "For King and Country (Commandos)",
+						"points": 3,
+						"availableIn": ["Great Britain"],
+						"perModel": true
+					},
+					{
+						"name": "For King and Country Commandos Only - SAS",
+						"points": 5,
+						"availableIn": ["Great Britain"],
+						"perModel": true
+					},
+					{
+						"name": "For King and Country Commandos Only - SAS",
+						"points": 11,
+						"availableIn": ["Great Britain"],
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Medic"],
-				"equipment": ["Skis"]
+				"keywords": ["Period: E|M|L; Medic"],
+				"equipment": []
 			},
 			{
 				"name": "Forward Air Observer - Regular",
 				"factions": [],
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
@@ -3340,18 +4290,75 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"France",
+							"Japan",
+							"Netherlands"
+						]
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"France",
+							"Japan",
+							"Netherlands"
+						]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
 					}
 				],
 				"keywords": ["Infiltrator; Observer"],
@@ -3404,6 +4411,72 @@
 				"factions": [],
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italy" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
@@ -3424,18 +4497,86 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Japan"
+						]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Italy",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3,
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Greece",
+							"Hungary",
+							"Japan"
+						]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": [
+							"Finland",
+							"Sweden (Unofficial)"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
 					}
 				],
 				"keywords": ["Infiltrator; Observer"],
@@ -6840,7 +7981,6 @@
 				"keywords": ["Damage Value: 3+, Tow Any"],
 				"equipment": []
 			}
-		],
-		"keywords": []
+		]
 	}
 }
