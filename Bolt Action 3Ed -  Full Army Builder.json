@@ -344,10 +344,304 @@
 				"specialRules": ["Anti-Tank Ditches"]
 			}
 		],
+		"equipment": [
+			{
+				"name": "Anti-Tank Grenades",
+				"specialRules": ["Tank Hunters"]
+			},
+			{
+				"name": "Light Mortar",
+				"specialRules": ["Indirect Fire","Team Weapon","HE 1in"]
+			},
+			{
+				"name": "Medium Mortar",
+				"specialRules": ["Indirect Fire","Team Weapon","HE 2in","Fixed"]
+			},
+			{
+				"name": "Heavy Mortar",
+				"specialRules": ["Indirect Fire","Team Weapon","HE 3in","Fixed"]
+			},
+			{
+				"name": "Assault Rifle",
+				"specialRules": ["Assault","Tough Fighters"]
+			},
+			{
+				"name": "By Air, Land, and Sea (Airborne)",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "By Air, Land, and Sea (Rangers)",
+				"specialRules": ["Rangers Lead the Way!"]
+			},
+			{
+				"name": "Defend the Fatherland! (Gebirgsjäger)",
+				"specialRules": ["Fieldcraft"]
+			},
+			{
+				"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+				"specialRules": ["Fieldcraft","Winter Equipment"]
+			},
+			{
+				"name": "Defend the Fatherland! (Fallschirmjäger)",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "Defend the Fatherland! (Waffen-SS)",
+				"specialRules": ["Fanatics"]
+			},
+			{
+				"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
+				"specialRules": ["Assault","Tough Fighters","Fanatics"]
+			},
+			{
+				"name": "Defend the Fatherland! (Waffen-SS InEx)",
+				"specialRules": ["Fanatics","Mixed Quality"]
+			},
+			{
+				"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
+				"specialRules": ["Assault","Tough Fighters","Fanatics", "Mixed Quality"]
+			},
+			{
+				"name": "Det Fria Kriget",
+				"specialRules": ["Engineers","Fieldcraft"]
+			},
+			{
+				"name": "For King and Country! (Airborne)",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "For King and Country! (Airborne) w/ Anti-Tank",
+				"specialRules": ["Stubborn","Tank Hunters"]
+			},
+			{
+				"name": "For King and Country! (Airborne) w/ Welbikes",
+				"specialRules": ["Stubborn","Bicycles"]
+			},
+			{
+				"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
+				"specialRules": ["Stubborn","Tank Hunters","Bicycles"]
+			},
+			{
+				"name": "For King and Country! (Chindits)",
+				"specialRules": ["Behind Enemy Lines", "Fieldcraft", "Ambush Tactics"]
+			},
+			{
+				"name": "For King and Country! (Commandos)",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent"]
+			},
+			{
+				"name": "For King and Country! (Commandos) w/ Anti-Tank",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent","Tank Hunters"]
+			},
+			{
+				"name": "For King and Country! (Commandos) w/ SAS",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent", "Who Dares Wins!"]
+			},
+			{
+				"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
+				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent", "Who Dares Wins!","Tank Hunters"]
+			},
+			{
+				"name": "For King and Country! (Guards)",
+				"specialRules": ["Iron Discipline"]
+			},
+			{
+				"name": "Hammer and Sickle (Naval Brigade)",
+				"specialRules": ["Tough Fighters"]
+			},
+			{
+				"name": "Hammer and Sickle (NKVD)",
+				"specialRules": ["Fanatics"]
+			},
+			{
+				"name": "Mount the Officer on a Horse",
+				"specialRules": ["Cavalry"]
+			},
+			{
+				"name": "Period: E|M|L",
+				"specialRules": ["Period: E|M|L"]
+			},
+			{
+				"name": "Period: M|L",
+				"specialRules": ["Period: M|L"]
+			},
+			{
+				"name": "Period: L",
+				"specialRules": ["Period: L"]
+			},
+			{
+				"name": "SMGs",
+				"specialRules": ["Assault","Tough Fighters"]
+			},
+			{
+				"name": "Skis",
+				"specialRules": ["Skis"]
+			},
+			{
+				"name": "Sword",
+				"specialRules": ["Tough Fighters"]
+			},
+			{
+				"name": "Liason Officer",
+				"specialRules": ["Liason Officer"]
+			},
+			{
+				"name": "Nose Mounted Heavy Autocannon",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Nose Mounted Light Autocannon",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Nose Mounted MMGs",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Wing Mounted Light Autocannon",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Wing Mounted MMGs",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Wing Mounted HMGs",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Rear Mounted Light Autocannon",
+				"specialRules": ["Fixed Rear"]
+			},
+			{
+				"name": "Rear Mounted MMGs",
+				"specialRules": ["Fixed Rear"]
+			},
+			{
+				"name": "Bombs",
+				"specialRules": ["---"]
+			},
+			{
+				"name": "Rockets",
+				"specialRules": ["---"]
+			},
+			{
+				"name": "Multiple Rocket Launcher",
+				"specialRules": ["Multiple Launcher"]
+			},
+			{
+				"name": "Interceptor",
+				"specialRules": ["Interceptor"]
+			},
+			{
+				"name": "Light AT Gun Team",
+				"specialRules": ["Fixed","HE 1in","Team Weapon"]
+			},
+			{
+				"name": "Medium AT Gun Team",
+				"specialRules": ["Fixed","HE 1in","Team Weapon"]
+			},
+			{
+				"name": "Heavy AT Gun Team",
+				"specialRules": ["Fixed","HE 2in","Team Weapon"]
+			},
+			{
+				"name": "Light Howitzer Team",
+				"specialRules": ["Fixed","HE 2in","Team Weapon"]
+			},
+			{
+				"name": "Medium Howitzer Team",
+				"specialRules": ["Fixed","HE 3in","Team Weapon"]
+			},
+			{
+				"name": "Heavy Howitzer Team",
+				"specialRules": ["Fixed","HE 4in","Team Weapon"]
+			},
+			{
+				"name": "Gun Shield",
+				"specialRules": ["Gun Shield"]
+			},
+			{
+				"name": "Airborne Carriage",
+				"specialRules": ["Airborne Carriage"]
+			},
+			{
+				"name": "Barbed Wire",
+				"specialRules": ["Barbed Wire"]
+			},
+			{
+				"name": "Anti-Tank Ditches",
+				"specialRules": ["Anti-Tank Ditches"]
+			},
+			{
+				"name": "Dug In",
+				"specialRules": ["Anti-Tank Ditches"]
+			},
+			{
+				"name": "MMG",
+				"specialRules": ["Team Weapon","Fixed"]
+			},
+			{
+				"name": "HMG",
+				"specialRules": ["Team Weapon","Fixed"]
+			},
+			{
+				"name": "Intelligence",
+				"specialRules": ["Intelligence Training"]
+			},
+			{
+				"name": "Flamethrower - Team Weapon",
+				"specialRules": ["Team Weapon","Flamethrower"]
+			}
+		],
 		"keywords": [
 			{
 				"name": "---",
 				"definition": "PHY, DON'T FORGET TO ADD THESE"
+			},
+			{
+				"name": "Airborne Carriage",
+				"definition": "When the Unit is taken as Airborne, this weapon counts as Light for Towing Purposes; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Multiple Launcher",
+				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Cumbersome",
+				"definition": "This weapon counts as Heavy for Movement. Counts as a vehicle for number of shots; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Intelligence Training",
+				"definition": "Once Per Game, may attempt to go first in a turn; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Selection - Heavy Weapons Team",
+				"definition": "May be taken instead of a Mortar or Machine Gun Team in a Heavy Weapons Platoon; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Gun Shield",
+				"definition": "Grants Soft Cover to the Crew from Small Arms fire that comes from the Front Arc; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "HE 1in",
+				"definition": "Use 1in Template to determine hits. Pen +1 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "HE 2in",
+				"definition": "Use 2in Template to determine hits. Pen +2 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "HE 3in",
+				"definition": "Use 3in Template to determine hits. Pen +3 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
+			},
+			{
+				"name": "HE 4in",
+				"definition": "Use 4in Template to determine hits. Pen +4 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
 			},
 			{
 				"name": "Interceptor",
@@ -5702,13 +5996,33 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 42,
 				"models": 2,
-				"options": [],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
 				"keywords": ["Shaped Charge, Team Weapon"],
-				"equipment": ["Bazooka; Skis"]
+				"equipment": ["Period: M|L","Bazooka"]
 			},
 			{
 				"name": "Bazooka - Regular",
@@ -5722,6 +6036,15 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 60,
@@ -5730,11 +6053,28 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
 					}
 				],
 				"keywords": ["Shaped Charge, Team Weapon"],
-				"equipment": ["Bazooka; Skis"]
+				"equipment": ["Period: M|L","Bazooka"]
 			},
 			{
 				"name": "Bazooka - Veteran",
@@ -5748,6 +6088,15 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 78,
@@ -5756,11 +6105,40 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
 				"keywords": ["Shaped Charge, Team Weapon"],
-				"equipment": ["Bazooka; Skis"]
+				"equipment": ["Period: M|L","Bazooka"]
 			},
 			{
 				"name": "Recoilless Anti-Tank Rifle - Inexperienced",
@@ -5840,6 +6218,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 50,
@@ -5848,11 +6229,22 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Flamethrower, Team Weapon"],
-				"equipment": ["Flamethrower; Skis"]
+				"keywords": [],
+				"equipment": ["Flamethrower - Team Weapon"]
 			},
 			{
 				"name": "Flamethrower Team - Veteran",
@@ -5860,6 +6252,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 65,
@@ -5868,12 +6263,24 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Flamethrower, Team Weapon"],
-				"equipment": ["Flamethrower; Skis"]
+				"keywords": [],
+				"equipment": ["Flamethrower - Team Weapon"]
 			},
+			
 			{
 				"name": "Light Mortar Team - Inexperienced",
 				"factions": [],
@@ -5883,13 +6290,30 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 24,
-				"models": 2,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 1in"],
-				"equipment": ["Light Mortar; Skis"]
+				"models": 3,
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
 			},
 			{
 				"name": "Light Mortar Team - Regular",
@@ -5900,13 +6324,48 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 35,
-				"models": 2,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 1in"],
-				"equipment": ["Light Mortar; Skis"]
+				"models": 3,
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"points": -5,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
 			},
 			{
 				"name": "Light Mortar Team - Veteran",
@@ -5917,13 +6376,60 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 46,
-				"models": 2,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 1in"],
-				"equipment": ["Light Mortar; Skis"]
+				"models": 3,
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"points": -7,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers) - Reduced Manning",
+						"points": -7,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
 			},
 			{
 				"name": "Medium Mortar Team - Inexperienced",
@@ -5931,13 +6437,32 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 34,
+				"points": 32,
 				"models": 3,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 2in"],
-				"equipment": ["Medium Mortar; Skis"]
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Mortar"]
 			},
 			{
 				"name": "Medium Mortar Team - Regular",
@@ -5945,13 +6470,44 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 45,
 				"models": 3,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 2in"],
-				"equipment": ["Medium Mortar; Skis"]
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Mortar"]
 			},
 			{
 				"name": "Medium Mortar Team - Veteran",
@@ -5959,13 +6515,56 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 56,
+				"points": 59,
 				"models": 3,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 2in"],
-				"equipment": ["Medium Mortar; Skis"]
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Mortar"]
 			},
 			{
 				"name": "Heavy Mortar Team - Inexperienced",
@@ -5973,13 +6572,27 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 49,
+				"points": 42,
 				"models": 4,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 3in"],
-				"equipment": ["Heavy Mortar; Skis"]
+				"options": [
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy Mortar"]
 			},
 			{
 				"name": "Heavy Mortar Team - Regular",
@@ -5987,13 +6600,27 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 60,
 				"models": 4,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 3in"],
-				"equipment": ["Heavy Mortar; Skis"]
+				"options": [
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy Mortar"]
 			},
 			{
 				"name": "Heavy Mortar Team - Veteran",
@@ -6001,13 +6628,27 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 71,
+				"points": 78,
 				"models": 4,
-				"options": [],
-				"keywords": ["Indirect Fire, Team Weapon, HE 3in"],
-				"equipment": ["Heavy Mortar; Skis"]
+				"options": [
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy Mortar"]
 			},
 			{
 				"name": "Medium Machine Gun - Inexperienced",
@@ -6015,13 +6656,27 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 35,
 				"models": 3,
-				"options": [],
-				"keywords": ["Fixed, Team Weapon"],
-				"equipment": ["Medium Machine Gun; Skis"]
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","MMG"]
 			},
 			{
 				"name": "Medium Machine Gun - Regular",
@@ -6029,6 +6684,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 50,
@@ -6037,11 +6695,28 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Fixed, Team Weapon"],
-				"equipment": ["Medium Machine Gun; Skis"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","MMG"]
 			},
 			{
 				"name": "Medium Machine Gun - Veteran",
@@ -6049,6 +6724,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 65,
@@ -6057,11 +6735,40 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Fixed, Team Weapon"],
-				"equipment": ["Medium Machine Gun; Skis"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","MMG"]
 			},
 			{
 				"name": "Heavy Machine Gun - Inexperienced",
@@ -6069,13 +6776,22 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 55,
+				"points": 49,
 				"models": 4,
-				"options": [],
-				"keywords": ["Fixed, Team Weapon"],
-				"equipment": ["Heavy Machine Gun; Skis"]
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","HMG"]
 			},
 			{
 				"name": "Heavy Machine Gun - Regular",
@@ -6083,6 +6799,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 70,
@@ -6091,11 +6810,23 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Fixed, Team Weapon"],
-				"equipment": ["Heavy Machine Gun; Skis"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","HMG"]
 			},
 			{
 				"name": "Heavy Machine Gun - Veteran",
@@ -6103,19 +6834,153 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 85,
+				"points": 91,
 				"models": 4,
 				"options": [
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","HMG"]
+			},
+			{
+				"name": "Heavy Weapons Rifle Team - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 21,
+				"models": 3,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
 						"perModel": true
 					}
 				],
-				"keywords": ["Fixed, Team Weapon"],
-				"equipment": ["Heavy Machine Gun; Skis"]
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+			{
+				"name": "Heavy Weapons Rifle Team - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 30,
+				"models": 3,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+			{
+				"name": "Heavy Weapons Rifle Team - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
 			},
 			{
 				"name": "Swedish Infantry Squad - Inexperienced",
@@ -6491,6 +7356,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 55,
@@ -6498,22 +7366,24 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 10,
+						"points": 11,
 						"increment": true,
 						"max": 3,
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
-						"name": "SMG",
-						"points": 4
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -6522,7 +7392,8 @@
 					},
 					{
 						"name": "Flamethrower",
-						"points": 30
+						"points": 30,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Demolition Charges",
@@ -6533,16 +7404,24 @@
 					{
 						"name": "Skis",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Engineer"],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades, Flamethrower; Skis"]
+				"keywords": ["Engineers"],
+				"equipment": ["Period: E|M|L"]
 			},
 			{
 				"name": "Engineer Squad - Veteran",
@@ -6550,6 +7429,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 70,
@@ -6557,22 +7439,24 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 10,
+						"points": 14,
 						"increment": true,
 						"max": 3,
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
-						"name": "SMG",
-						"points": 4
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -6581,7 +7465,8 @@
 					},
 					{
 						"name": "Flamethrower",
-						"points": 30
+						"points": 30,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Demolition Charges",
@@ -6592,16 +7477,803 @@
 					{
 						"name": "Skis",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Engineers"],
+				"equipment": ["Period: E|M|L"]
+			},
+			{
+				"name": "37mm Anti-Tank Gun M3 - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "37mm Anti-Tank Gun M3 - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 50,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "37mm Anti-Tank Gun M3 - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "57mm Anti-Tank Gun M1 - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 49,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Medium AT Gun Team","Gun Shield","Airborne Carriage"]
+			},
+			{
+				"name": "57mm Anti-Tank Gun M1 - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 70,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Medium AT Gun Team","Gun Shield","Airborne Carriage"]
+			},
+			{
+				"name": "57mm Anti-Tank Gun M1 - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 91,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Medium AT Gun Team","Gun Shield","Airborne Carriage"]
+			},
+			{
+				"name": "3-Inch Anti-Tank Gun M5 - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 70,
+				"models": 4,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "3-Inch Anti-Tank Gun M5 - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 100,
+				"models": 4,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "3-Inch Anti-Tank Gun M5 - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 130,
+				"models": 4,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "90mm M2 Dual-Purpose AA/AT Gun - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 102,
+				"models": 5,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": ["Flak"],
+				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "90mm M2 Dual-Purpose AA/AT Gun - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 145,
+				"models": 5,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": ["Flak"],
+				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "90mm M2 Dual-Purpose AA/AT Gun - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 189,
+				"models": 5,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
 						"perModel": true
 					}
 				],
-				"keywords": ["Engineer"],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades, Flamethrower; Skis"]
+				"keywords": ["Flak"],
+				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "37mm M1A2 Medium Anti-Aircraft Gun - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 35,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": ["Flak"],
+				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
+			},
+			{
+				"name": "37mm M1A2 Medium Anti-Aircraft Gun - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 50,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					}
+				],
+				"keywords": ["Flak"],
+				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
+			},
+			{
+				"name": "37mm M1A2 Medium Anti-Aircraft Gun - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 65,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 0
+					}
+				],
+				"keywords": ["Flak"],
+				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
+			},
+			{
+				"name": "M51 Multiple Machine Gun Carriage - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 77,
+				"models": 4,
+				"options": [],
+				"keywords": ["Flak","Cumbersome"],
+				"equipment": ["Period: M|L","HMG","x4"]
+			},
+			{
+				"name": "M51 Multiple Machine Gun Carriage - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 110,
+				"models": 4,
+				"options": [],
+				"keywords": ["Flak","Cumbersome"],
+				"equipment": ["Period: M|L","HMG","x4"]
+			},
+			{
+				"name": "M51 Multiple Machine Gun Carriage - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 143,
+				"models": 4,
+				"options": [],
+				"keywords": ["Flak","Cumbersome"],
+				"equipment": ["Period: M|L","HMG","x4"]
+			},
+			{
+				"name": "57mm M18 / 75mm M20 Recoilless Artillery - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 45,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: L","Light Howitzer Team"]
+			},
+			{
+				"name": "57mm M18 / 75mm M20 Recoilless Artillery - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 54,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: L","Light Howitzer Team"]
+			},
+			{
+				"name": "20mm Twin AA Gun Mk 4 - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Autocannon Team","x2"]
+			},
+			{
+				"name": "20mm Twin AA Gun Mk 4 - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Autocannon Team","x2"]
+			},
+			{
+				"name": "20mm Twin AA Gun Mk 4 - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 85,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Autocannon Team","x2"]
+			},
+			{
+				"name": "Rocket Launcher - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: L","Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Rocket Launcher - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: L","Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Rocket Launcher - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 85,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: L","Multiple Rocket Launcher"]
+			},
+			{
+				"name": "75mm M1A1 Light Artillery - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 36,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Howitzer Team"]
+			},
+			{
+				"name": "75mm M1A1 Light Artillery - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 45,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Howitzer Team"]
+			},
+			{
+				"name": "75mm M1A1 Light Artillery - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 54,
+				"models": 3,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Howitzer Team"]
+			},
+			{
+				"name": "105mm M2A1 Medium Artillery - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 60,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
+			},
+			{
+				"name": "105mm M2A1 Medium Artillery - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 85,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
+			},
+			{
+				"name": "105mm M2A1 Medium Artillery - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 111,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
+			},
+			{
+				"name": "155mm 'Long Tom' Heavy Artillery - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 95,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "Spotter",
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
+			},
+			{
+				"name": "155mm 'Long Tom' Heavy Artillery - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 135,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "Spotter",
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
+			},
+			{
+				"name": "155mm 'Long Tom' Heavy Artillery - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 178,
+				"models": 4,
+				"options": [
+					{
+						"name": "By Air, Land, Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Spotter",
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
 			},
 			{
 				"name": "Bofors 37mm m/38 - Inexperienced",
@@ -6615,12 +8287,12 @@
 				"models": 3,
 				"options": [
 					{
-						"name": "Skis/Sled",
+						"name": "Skis",
 						"points": 4
 					}
 				],
-				"keywords": ["Gun Shield, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Light AT Gun; Skis"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light AT Gun Team","Gun Shield"]
 			},
 			{
 				"name": "Bofors 37mm m/38 - Regular",
@@ -6634,12 +8306,12 @@
 				"models": 3,
 				"options": [
 					{
-						"name": "Skis/Sled",
+						"name": "Skis",
 						"points": 4
 					}
 				],
-				"keywords": ["Gun Shield, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Light AT Gun; Skis"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light AT Gun Team","Gun Shield"]
 			},
 			{
 				"name": "Bofors 37mm m/38 - Veteran",
@@ -6653,12 +8325,12 @@
 				"models": 3,
 				"options": [
 					{
-						"name": "Skis/Sled",
+						"name": "Skis",
 						"points": 4
 					}
 				],
-				"keywords": ["Gun Shield, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Light AT Gun; Skis"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light AT Gun Team","Gun Shield"]
 			},
 			{
 				"name": "Bofors 57mm m/43 - Inexperienced",
@@ -6671,8 +8343,8 @@
 				"points": 55,
 				"models": 3,
 				"options": [],
-				"keywords": ["Gun Shield, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Medium AT Gun"]
+				"keywords": [],
+				"equipment": ["Period: L","Medium AT Gun Team","Gun Shield"]
 			},
 			{
 				"name": "Bofors 57mm m/43 - Regular",
@@ -6685,8 +8357,8 @@
 				"points": 70,
 				"models": 3,
 				"options": [],
-				"keywords": ["Gun Shield, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Medium AT Gun"]
+				"keywords": [],
+				"equipment": ["Period: L","Medium AT Gun Team","Gun Shield"]
 			},
 			{
 				"name": "Bofors 57mm m/43 - Veteran",
@@ -6699,8 +8371,8 @@
 				"points": 85,
 				"models": 3,
 				"options": [],
-				"keywords": ["Gun Shield, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Medium AT Gun"]
+				"keywords": [],
+				"equipment": ["Period: L","Medium AT Gun Team","Gun Shield"]
 			},
 			{
 				"name": "Bofors 20mm Pvlk m/40 - Inexperienced",
@@ -6714,7 +8386,7 @@
 				"models": 3,
 				"options": [
 					{
-						"name": "Skis/Sled",
+						"name": "Skis",
 						"points": 4
 					},
 					{
@@ -6722,8 +8394,8 @@
 						"points": -5
 					}
 				],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Light Autocannon; Skis"]
+				"keywords": [],
+				"equipment": ["Period: M|L","Light Autocannon Team"]
 			},
 			{
 				"name": "Bofors 20mm Pvlk m/40 - Regular",
@@ -6737,7 +8409,7 @@
 				"models": 3,
 				"options": [
 					{
-						"name": "Skis/Sled",
+						"name": "Skis",
 						"points": 4
 					},
 					{
@@ -6745,8 +8417,8 @@
 						"points": -5
 					}
 				],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Light Autocannon; Skis"]
+				"keywords": [],
+				"equipment": ["Period: M|L","Light Autocannon Team"]
 			},
 			{
 				"name": "Bofors 20mm Pvlk m/40 - Veteran",
@@ -6760,7 +8432,7 @@
 				"models": 3,
 				"options": [
 					{
-						"name": "Skis/Sled",
+						"name": "Skis",
 						"points": 4
 					},
 					{
@@ -6768,8 +8440,8 @@
 						"points": -5
 					}
 				],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Light Autocannon; Skis"]
+				"keywords": [],
+				"equipment": ["Period: M|L","Light Autocannon Team"]
 			},
 			{
 				"name": "Bofors 80mm m/30 - Inexperienced",
@@ -6782,8 +8454,8 @@
 				"points": 102,
 				"models": 7,
 				"options": [],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 2in"],
-				"equipment": ["Heavy AA/AT Gun"]
+				"keywords": ["Flak"],
+				"equipment": ["Period: E|M|L","Heavy AT Gun Team"]
 			},
 			{
 				"name": "Bofors 80mm m/30 - Regular",
@@ -6796,8 +8468,8 @@
 				"points": 145,
 				"models": 7,
 				"options": [],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 2in"],
-				"equipment": ["Heavy AA/AT Gun"]
+				"keywords": ["Flak"],
+				"equipment": ["Period: E|M|L","Heavy AT Gun Team"]
 			},
 			{
 				"name": "Bofors 80mm m/30 - Veteran",
@@ -6810,8 +8482,8 @@
 				"points": 189,
 				"models": 7,
 				"options": [],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 2in"],
-				"equipment": ["Heavy AA/AT Gun"]
+				"keywords": ["Flak"],
+				"equipment": ["Period: E|M|L","Heavy AT Gun Team"]
 			},
 			{
 				"name": "Bofors 40mm m/36 - Inexperienced",
@@ -6824,8 +8496,8 @@
 				"points": 35,
 				"models": 6,
 				"options": [],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Heavy Autocannon"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
 			},
 			{
 				"name": "Bofors 40mm m/36 - Regular",
@@ -6838,8 +8510,8 @@
 				"points": 50,
 				"models": 6,
 				"options": [],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Heavy Autocannon"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
 			},
 			{
 				"name": "Bofors 40mm m/36 - Veteran",
@@ -6852,8 +8524,8 @@
 				"points": 65,
 				"models": 6,
 				"options": [],
-				"keywords": ["Flak, Team Weapon, Fixed, HE 1in"],
-				"equipment": ["Heavy Autocannon"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
 			},
 			{
 				"name": "Haubits 7.5cm m/02-33 - Inexperienced",
@@ -6866,8 +8538,8 @@
 				"points": 35,
 				"models": 3,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 2in"],
-				"equipment": ["Light Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Howitzer Team"]
 			},
 			{
 				"name": "Haubits 7.5cm m/02-33 - Regular",
@@ -6880,8 +8552,8 @@
 				"points": 50,
 				"models": 3,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 2in"],
-				"equipment": ["Light Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Howitzer Team"]
 			},
 			{
 				"name": "Haubits 7.5cm m/02-33 - Veteran",
@@ -6894,8 +8566,8 @@
 				"points": 60,
 				"models": 3,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 2in"],
-				"equipment": ["Light Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Howitzer Team"]
 			},
 			{
 				"name": "Haubits 10.5cm m/40 - Inexperienced",
@@ -6908,8 +8580,8 @@
 				"points": 63,
 				"models": 4,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 3in"],
-				"equipment": ["Medium Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
 			},
 			{
 				"name": "Haubits 10.5cm m/40 - Regular",
@@ -6922,8 +8594,8 @@
 				"points": 90,
 				"models": 4,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 3in"],
-				"equipment": ["Medium Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
 			},
 			{
 				"name": "Haubits 10.5cm m/40 - Veteran",
@@ -6936,8 +8608,8 @@
 				"points": 117,
 				"models": 4,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 3in"],
-				"equipment": ["Medium Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
 			},
 			{
 				"name": "Haubits 15cm m/38 - Inexperienced",
@@ -6950,8 +8622,8 @@
 				"points": 98,
 				"models": 5,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 4in"],
-				"equipment": ["Heavy Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
 			},
 			{
 				"name": "Haubits 15cm m/38 - Regular",
@@ -6964,8 +8636,8 @@
 				"points": 140,
 				"models": 5,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 4in"],
-				"equipment": ["Heavy Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
 			},
 			{
 				"name": "Haubits 15cm m/38 - Veteran",
@@ -6978,8 +8650,8 @@
 				"points": 182,
 				"models": 5,
 				"options": [],
-				"keywords": ["Team Weapon, Fixed, Howitzer, HE 4in"],
-				"equipment": ["Heavy Howitzer"]
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
 			},
 			{
 				"name": "Tankette m/Carden-Loyd Mk V - Inexperienced",
