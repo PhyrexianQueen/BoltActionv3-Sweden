@@ -292,6 +292,14 @@
 				"specialRules": ["Fixed Front"]
 			},
 			{
+				"name": "Nose Mounted Light Autocannon",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Nose Mounted MMGs",
+				"specialRules": ["Fixed Front"]
+			},
+			{
 				"name": "Wing Mounted Light Autocannon",
 				"specialRules": ["Fixed Front"]
 			},
@@ -304,6 +312,14 @@
 				"specialRules": ["Fixed Front"]
 			},
 			{
+				"name": "Rear Mounted Light Autocannon",
+				"specialRules": ["Fixed Rear"]
+			},
+			{
+				"name": "Rear Mounted MMGs",
+				"specialRules": ["Fixed Rear"]
+			},
+			{
 				"name": "Bombs",
 				"specialRules": ["---"]
 			},
@@ -313,13 +329,41 @@
 			},
 			{
 				"name": "Interceptor",
-				"specialRules": ["---"]
+				"specialRules": ["Interceptor"]
+			},
+			{
+				"name": "Barbed Wire",
+				"specialRules": ["Barbed Wire"]
+			},
+			{
+				"name": "Anti-Tank Ditches",
+				"specialRules": ["Anti-Tank Ditches"]
+			},
+			{
+				"name": "Dug In",
+				"specialRules": ["Anti-Tank Ditches"]
 			}
 		],
 		"keywords": [
 			{
 				"name": "---",
 				"definition": "PHY, DON'T FORGET TO ADD THESE"
+			},
+			{
+				"name": "Interceptor",
+				"definition": "Can attack other Warplanes; Bolt Action Community Experimental Rules"
+			},
+			{
+				"name": "Barbed Wire",
+				"definition": "Impassable to Infantry and Unarmored Vehicles; Bolt Action, 3rd Edition: Pg. 296"
+			},
+			{
+				"name": "Dug In",
+				"definition": "Additional Protection for Units Dug In; Bolt Action, 3rd Edition: Pg. 294"
+			},
+			{
+				"name": "Anti-Tank Ditches",
+				"definition": "Impassable to Wheeled Vehicles and Artillery; Bolt Action, 3rd Edition: Pg. 296"
 			},
 			{
 				"name": "Liason Officer",
@@ -346,7 +390,7 @@
 				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 96"
 			},
 			{
-				"name": "Flack",
+				"name": "Flak",
 				"definition": "Can attack aircraft during an Airstrike; Bolt Action, 3rd Edition: Pg. 117"
 			},
 			{
@@ -561,6 +605,10 @@
 			{
 				"name": "Flying Tank",
 				"definition": "Ground Attack Aircraft comes in on a 4, 5, or 6. If a Ground Attack Aircraft performs the airstrike, 5 Hits are required to bring it down; Bolt Action, 3rd Edition : Pg. ---"
+			},
+			{
+				"name": "Flying Tank - Experimental",
+				"definition": "Ignore the first Exceptional Damage Result of the game against this unit; Bolt Action, 3rd Edition : Pg. ---"
 			},
 			{
 				"name": "Massed Batteries",
@@ -9228,7 +9276,7 @@
 						"maxKey": "Ordinance"
 					}
 				],
-				"keywords": ["Interceptor"],
+				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x8"]
 			},
 			{
@@ -9257,7 +9305,7 @@
 						"maxKey": "Ordinance"
 					}
 				],
-				"keywords": ["Interceptor"],
+				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x8"]
 			},
 			{
@@ -9286,8 +9334,987 @@
 						"maxKey": "Ordinance"
 					}
 				],
-				"keywords": ["Interceptor"],
+				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x8"]
+			},
+			{
+				"name": "Dewoitine D.520 Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted MMGs","x4"]
+			},
+			{
+				"name": "Dewoitine D.520 Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted MMGs","x4"]
+			},
+			{
+				"name": "Dewoitine D.520 Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted MMGs","x4"]
+			},
+			{
+				"name": "Morane-Saulnier M.S.406 Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]				
+					}
+				],
+				"points": 104,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Morane-Saulnier M.S.406 Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]				
+					}
+				],
+				"points": 130,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Morane-Saulnier M.S.406 Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 156,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Breguet 693 Ground-Attack Aircraft - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 128,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted MMGs","x2","Bombs","Rear Mounted MMGs","x2"]
+			},
+			{
+				"name": "Breguet 693 Ground-Attack Aircraft - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted MMGs","x2","Bombs","Rear Mounted MMGs","x2"]
+			},
+			{
+				"name": "Breguet 693 Ground-Attack Aircraft - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 192,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted MMGs","x2","Bombs","Rear Mounted MMGs","x2"]
+			},
+			{
+				"name": "Yakovlev Yak-9 Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Yakovlev Yak-9 Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Yakovlev Yak-9 Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Lavochkin La-5 Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]				
+					}
+				],
+				"points": 112,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon", "x2"]
+			},
+			{
+				"name": "Lavochkin La-5 Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]				
+					}
+				],
+				"points": 140,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon", "x2"]
+			},
+			{
+				"name": "Lavochkin La-5 Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 168,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon", "x2"]
+			},
+			{
+				"name": "Illyushin Il-2 ‘Sturmovik’ Ground-Attack Aircraft - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 168,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": ["Flying Tank - Experimental"],
+				"equipment": ["Wing Mounted Light Autocannon", "x2","Wing Mounted MMGs","x2","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Illyushin Il-2 ‘Sturmovik’ Ground-Attack Aircraft - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 210,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": ["Flying Tank - Experimental"],
+				"equipment": ["Wing Mounted Light Autocannon", "x2","Wing Mounted MMGs","x2","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Illyushin Il-2 ‘Sturmovik’ Ground-Attack Aircraft - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 252,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": ["Flying Tank - Experimental"],
+				"equipment": ["Wing Mounted Light Autocannon", "x2","Wing Mounted MMGs","x2","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Messerschmitt Bf-109 Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Messerschmitt Bf-109 Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Messerschmitt Bf-109 Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Focke-Wulf Fw-190 Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]				
+					}
+				],
+				"points": 192,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon", "x4","Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Focke-Wulf Fw-190 Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]				
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon", "x4","Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Focke-Wulf Fw-190 Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 288,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon", "x4","Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Junkers Ju-87 'Stuka' Dive-bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Junkers Ju-87 'Stuka' Dive-bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Junkers Ju-87 'Stuka' Dive-bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Mitsubishi A6M ‘Zero' Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 128,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x2", "Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Mitsubishi A6M ‘Zero' Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x2", "Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Mitsubishi A6M ‘Zero' Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 192,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted Light Autocannon","x2", "Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Nakajima Ki-43 ‘Hayabusa’ Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]				
+					}
+				],
+				"points": 96,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Nakajima Ki-43 ‘Hayabusa’ Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]				
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Nakajima Ki-43 ‘Hayabusa’ Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 144,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Aichi D3A ‘Val’ Dive-bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Aichi D3A ‘Val’ Dive-bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Aichi D3A ‘Val’ Dive-bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Macchi C.202 ‘Folgore’ Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 112,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Macchi C.202 ‘Folgore’ Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 140,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Macchi C.202 ‘Folgore’ Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 168,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2"]
+			},
+			{
+				"name": "Fiat G.50 ‘Freccia’ Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]				
+					}
+				],
+				"points": 96,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Fiat G.50 ‘Freccia’ Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]				
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Fiat G.50 ‘Freccia’ Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 144,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x2"]
+			},
+			{
+				"name": "Breda Ba.65 Fighter-Bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
+			},
+			{
+				"name": "Breda Ba.65 Fighter-Bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
+			},
+			{
+				"name": "Breda Ba.65 Fighter-Bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 192,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
+			},
+			{
+				"name": "Reggiane Re.2002 Fighter-Bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
+			},
+			{
+				"name": "Reggiane Re.2002 Fighter-Bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
+			},
+			{
+				"name": "Reggiane Re.2002 Fighter-Bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 192,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
+			},
+			{
+				"name": "FFVS J 22 Fighter - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 112,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x4"]
+			},
+			{
+				"name": "FFVS J 22 Fighter - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 140,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x4"]
+			},
+			{
+				"name": "FFVS J 22 Fighter - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 168,
+				"models": 1,
+				"options": [],
+				"keywords": ["Interceptor"],
+				"equipment": ["Wing Mounted HMGs","x4"]
+			},
+			{
+				"name": "Saab 17 Dive-Bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]				
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Rear Mounted MMGs","Bombs"]
+			},
+			{
+				"name": "Saab 17 Dive-Bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]				
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Rear Mounted MMGs","Bombs"]
+			},
+			{
+				"name": "Saab 17 Dive-Bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x2","Rear Mounted MMGs","Bombs"]
+			},
+			{
+				"name": "Saab B-5 Dive-Bomber - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x4","Rear Mounted MMGs","Bombs"]
+			},
+			{
+				"name": "Saab B-5 Dive-Bomber - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x4","Rear Mounted MMGs","Bombs"]
+			},
+			{
+				"name": "Saab B-5 Dive-Bomber - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Wing Mounted MMGs","x4","Rear Mounted MMGs","Bombs"]
+			},
+			{
+				"name": "Saab T-18B-2 Ground Attack Aircraft - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": [],
+				"equipment":["Nose Mounted Heavy Autocannon","Nose Mounted Light Autocannon","x2","Wing Mounted Light Autocannon","Rear Mounted Light Autocannon"] 
+			},
+			{
+				"name": "Saab T-18B-2 Ground Attack Aircraft - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 250,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": [],
+				"equipment": ["Nose Mounted Heavy Autocannon","Nose Mounted Light Autocannon","x2","Wing Mounted Light Autocannon","Rear Mounted Light Autocannon"]
+			},
+			{
+				"name": "Saab T-18B-2 Ground Attack Aircraft - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 300,
+				"models": 1,
+				"options": [
+					{
+						"name": "Bombs",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					},
+					{
+						"name": "Rockets",
+						"points": 25,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Ordinance"
+					}
+				],
+				"keywords": [],
+				"equipment": ["Nose Mounted Heavy Autocannon","Nose Mounted Light Autocannon","x2","Wing Mounted Light Autocannon","Rear Mounted Light Autocannon"]
+			},
+			{
+				"name": "Barbed Wire",
+				"factions": [],
+				"availableIn": ["Fortifications and Defenses"],
+				"points": 50,
+				"models": 0,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Barbed Wire"]
+			},
+			{
+				"name": "Anti-Tank Ditches",
+				"factions": [],
+				"availableIn": ["Fortifications and Defenses"],
+				"points": 50,
+				"models": 0,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Anti-Tank Ditches"]
+			},
+			{
+				"name": "Weapon or Gun Pit",
+				"factions": [],
+				"availableIn": ["Fortifications and Defenses"],
+				"points": 50,
+				"models": 0,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Dug In"]
+			},
+			{
+				"name": "Trench Sections",
+				"factions": [],
+				"availableIn": ["Fortifications and Defenses"],
+				"points": 50,
+				"models": 0,
+				"options": [],
+				"keywords": [],
+				"equipment": ["Dug In"]
 			}
 		]
 	}
