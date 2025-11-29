@@ -160,194 +160,8 @@
 				"specialRules": ["Tank Hunters"]
 			},
 			{
-				"name": "Assault Rifle",
-				"specialRules": ["Assault","Tough Fighters"]
-			},
-			{
-				"name": "By Air, Land, and Sea (Airborne)",
-				"specialRules": ["Stubborn"]
-			},
-			{
-				"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
-				"specialRules": ["Stubborn"]
-			},
-			{
-				"name": "By Air, Land, and Sea (Rangers)",
-				"specialRules": ["Rangers Lead the Way!"]
-			},
-			{
-				"name": "Defend the Fatherland! (Gebirgsjäger)",
-				"specialRules": ["Fieldcraft"]
-			},
-			{
-				"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-				"specialRules": ["Fieldcraft","Winter Equipment"]
-			},
-			{
-				"name": "Defend the Fatherland! (Fallschirmjäger)",
-				"specialRules": ["Stubborn"]
-			},
-			{
-				"name": "Defend the Fatherland! (Waffen-SS)",
-				"specialRules": ["Fanatics"]
-			},
-			{
-				"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
-				"specialRules": ["Assault","Tough Fighters","Fanatics"]
-			},
-			{
-				"name": "Defend the Fatherland! (Waffen-SS InEx)",
-				"specialRules": ["Fanatics","Mixed Quality"]
-			},
-			{
-				"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
-				"specialRules": ["Assault","Tough Fighters","Fanatics", "Mixed Quality"]
-			},
-			{
-				"name": "Det Fria Kriget",
-				"specialRules": ["Engineers","Fieldcraft"]
-			},
-			{
-				"name": "For King and Country! (Airborne)",
-				"specialRules": ["Stubborn"]
-			},
-			{
-				"name": "For King and Country! (Airborne) w/ Anti-Tank",
-				"specialRules": ["Stubborn","Tank Hunters"]
-			},
-			{
-				"name": "For King and Country! (Airborne) w/ Welbikes",
-				"specialRules": ["Stubborn","Bicycles"]
-			},
-			{
-				"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
-				"specialRules": ["Stubborn","Tank Hunters","Bicycles"]
-			},
-			{
-				"name": "For King and Country! (Chindits)",
-				"specialRules": ["Behind Enemy Lines", "Fieldcraft", "Ambush Tactics"]
-			},
-			{
-				"name": "For King and Country! (Commandos)",
-				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent"]
-			},
-			{
-				"name": "For King and Country! (Commandos) w/ Anti-Tank",
-				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent","Tank Hunters"]
-			},
-			{
-				"name": "For King and Country! (Commandos) w/ SAS",
-				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent", "Who Dares Wins!"]
-			},
-			{
-				"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
-				"specialRules": ["Behind Enemy Lines", "Tough Fighters", "Independent", "Who Dares Wins!","Tank Hunters"]
-			},
-			{
-				"name": "For King and Country! (Guards)",
-				"specialRules": ["Iron Discipline"]
-			},
-			{
-				"name": "Hammer and Sickle (Naval Brigade)",
-				"specialRules": ["Tough Fighters"]
-			},
-			{
-				"name": "Hammer and Sickle (NKVD)",
-				"specialRules": ["Fanatics"]
-			},
-			{
-				"name": "Mount the Officer on a Horse",
-				"specialRules": ["Cavalry"]
-			},
-			{
-				"name": "Period: E|M|L",
-				"specialRules": ["Period: E|M|L"]
-			},
-			{
-				"name": "Period: M|L",
-				"specialRules": ["Period: M|L"]
-			},
-			{
-				"name": "Period: L",
-				"specialRules": ["Period: L"]
-			},
-			{
-				"name": "SMGs",
-				"specialRules": ["Assault","Tough Fighters"]
-			},
-			{
-				"name": "Skis",
-				"specialRules": ["Skis"]
-			},
-			{
-				"name": "Sword",
-				"specialRules": ["Tough Fighters"]
-			},
-			{
-				"name": "Liason Officer",
-				"specialRules": ["Liason Officer"]
-			},
-			{
-				"name": "Nose Mounted Heavy Autocannon",
-				"specialRules": ["Fixed Front"]
-			},
-			{
-				"name": "Nose Mounted Light Autocannon",
-				"specialRules": ["Fixed Front"]
-			},
-			{
-				"name": "Nose Mounted MMGs",
-				"specialRules": ["Fixed Front"]
-			},
-			{
-				"name": "Wing Mounted Light Autocannon",
-				"specialRules": ["Fixed Front"]
-			},
-			{
-				"name": "Wing Mounted MMGs",
-				"specialRules": ["Fixed Front"]
-			},
-			{
-				"name": "Wing Mounted HMGs",
-				"specialRules": ["Fixed Front"]
-			},
-			{
-				"name": "Rear Mounted Light Autocannon",
-				"specialRules": ["Fixed Rear"]
-			},
-			{
-				"name": "Rear Mounted MMGs",
-				"specialRules": ["Fixed Rear"]
-			},
-			{
-				"name": "Bombs",
-				"specialRules": ["---"]
-			},
-			{
-				"name": "Rockets",
-				"specialRules": ["---"]
-			},
-			{
-				"name": "Interceptor",
-				"specialRules": ["Interceptor"]
-			},
-			{
-				"name": "Barbed Wire",
-				"specialRules": ["Barbed Wire"]
-			},
-			{
-				"name": "Anti-Tank Ditches",
-				"specialRules": ["Anti-Tank Ditches"]
-			},
-			{
-				"name": "Dug In",
-				"specialRules": ["Anti-Tank Ditches"]
-			}
-		],
-		"equipment": [
-			{
-				"name": "Anti-Tank Grenades",
-				"specialRules": ["Tank Hunters"]
+				"name": "Turret Mounted Bazooka",
+				"specialRules": ["Shaped Charge","360° Arc"]
 			},
 			{
 				"name": "Light Mortar",
@@ -462,6 +276,10 @@
 				"specialRules": ["Cavalry"]
 			},
 			{
+				"name": "Command Vehicle",
+				"specialRules": ["Command Vehicle"]
+			},
+			{
 				"name": "Period: E|M|L",
 				"specialRules": ["Period: E|M|L"]
 			},
@@ -491,11 +309,11 @@
 			},
 			{
 				"name": "Nose Mounted Heavy Autocannon",
-				"specialRules": ["Fixed Front"]
+				"specialRules": ["Fixed Front","HE 1in"]
 			},
 			{
 				"name": "Nose Mounted Light Autocannon",
-				"specialRules": ["Fixed Front"]
+				"specialRules": ["Fixed Front","HE 1in"]
 			},
 			{
 				"name": "Nose Mounted MMGs",
@@ -503,7 +321,7 @@
 			},
 			{
 				"name": "Wing Mounted Light Autocannon",
-				"specialRules": ["Fixed Front"]
+				"specialRules": ["Fixed Front","HE 1in"]
 			},
 			{
 				"name": "Wing Mounted MMGs",
@@ -515,7 +333,7 @@
 			},
 			{
 				"name": "Rear Mounted Light Autocannon",
-				"specialRules": ["Fixed Rear"]
+				"specialRules": ["Fixed Rear","HE 1in"]
 			},
 			{
 				"name": "Rear Mounted MMGs",
@@ -562,6 +380,30 @@
 				"specialRules": ["Fixed","HE 4in","Team Weapon"]
 			},
 			{
+				"name": "Casement Light Howitzer",
+				"specialRules": ["Fixed Front","HE 2in"]
+			},
+			{
+				"name": "Casement Medium Howitzer",
+				"specialRules": ["Fixed Front","HE 3in"]
+			},
+			{
+				"name": "Casement Heavy Howitzer",
+				"specialRules": ["Fixed Front","HE 4in"]
+			},
+			{
+				"name": "Hull Mounted Light Howitzer",
+				"specialRules": ["Fixed Front","HE 2in"]
+			},
+			{
+				"name": "Hull Mounted Medium Howitzer",
+				"specialRules": ["Fixed Front","HE 3in"]
+			},
+			{
+				"name": "Hull Mounted Heavy Howitzer",
+				"specialRules": ["Fixed Front","HE 4in"]
+			},
+			{
 				"name": "Gun Shield",
 				"specialRules": ["Gun Shield"]
 			},
@@ -596,6 +438,138 @@
 			{
 				"name": "Flamethrower - Team Weapon",
 				"specialRules": ["Team Weapon","Flamethrower"]
+			},
+			{
+				"name": "Hull Mounted LMG",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Hull Mounted MMG",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Hull Mounted HMG",
+				"specialRules": ["Fixed Front"]
+			},
+			{
+				"name": "Turret Mounted LMG",
+				"specialRules": ["360° Arc"]
+			},
+			{
+				"name": "Turret Mounted MMG",
+				"specialRules": ["360° Arc"]
+			},
+			{
+				"name": "Turret Mounted HMG",
+				"specialRules": ["360° Arc"]
+			},
+			{
+				"name": "Turret Mounted Light Autocannon",
+				"specialRules": ["360° Arc","HE 1in"]
+			},
+			{
+				"name": "Turret Mounted Heavy Autocannon",
+				"specialRules": ["360° Arc","HE 1in"]
+			},
+			{
+				"name": "Platform Mounted LMG",
+				"specialRules": ["360° Arc","Flak"]
+			},
+			{
+				"name": "Platform Mounted MMG",
+				"specialRules": ["360° Arc","Flak"]
+			},
+			{
+				"name": "Platform Mounted HMG",
+				"specialRules": ["360° Arc","Flak"]
+			},
+			{
+				"name": "Pintle Mounted LMG",
+				"specialRules": ["360° Arc","Flak","Pintle"]
+			},
+			{
+				"name": "Pintle Mounted MMG",
+				"specialRules": ["360° Arc","Flak","Pintle"]
+			},
+			{
+				"name": "Pintle Mounted HMG",
+				"specialRules": ["360° Arc","Flak","Pintle"]
+			},
+			{
+				"name": "Turret Mounted Coaxial LMG",
+				"specialRules": ["360° Arc","Coaxial"]
+			},
+			{
+				"name": "Turret Mounted Coaxial MMG",
+				"specialRules": ["360° Arc","Coaxial"]
+			},
+			{
+				"name": "Turret Mounted Coaxial HMG",
+				"specialRules": ["360° Arc","Coaxial"]
+			},
+			{
+				"name": "Turret Mounted Light AT Gun",
+				"specialRules": ["360° Arc","HE 1in"]
+			},
+			{
+				"name": "Turret Mounted Medium AT Gun",
+				"specialRules": ["360° Arc","HE 1in"]
+			},
+			{
+				"name": "Turret Mounted Heavy AT Gun",
+				"specialRules": ["360° Arc","HE 2in"]
+			},
+			{
+				"name": "Turret Mounted Super Heavy AT Gun",
+				"specialRules": ["360° Arc","HE 3in"]
+			},
+			{
+				"name": "Hull Mounted Light AT Gun",
+				"specialRules": ["Fixed Front","HE 1in"]
+			},
+			{
+				"name": "Hull Mounted Medium AT Gun",
+				"specialRules": ["Fixed Front","HE 1in"]
+			},
+			{
+				"name": "Hull Mounted Heavy AT Gun",
+				"specialRules": ["Fixed Front","HE 2in"]
+			},
+			{
+				"name": "Hull Mounted Super Heavy AT Gun",
+				"specialRules": ["Fixed Front","HE 3in"]
+			},
+			{
+				"name": "Platform Mounted Light AT Gun",
+				"specialRules": ["360° Arc","HE 1in"]
+			},
+			{
+				"name": "Platform Mounted Medium AT Gun",
+				"specialRules": ["360° Arc","HE 1in"]
+			},
+			{
+				"name": "Platform Mounted Heavy AT Gun",
+				"specialRules": ["360° Arc","HE 2in"]
+			},
+			{
+				"name": "Platform Mounted Super Heavy AT Gun",
+				"specialRules": ["360° Arc","HE 3in"]
+			},
+			{
+				"name": "Platform Mounted Light Autocannon",
+				"specialRules": ["360° Arc","HE 1in","Flak"]
+			},
+			{
+				"name": "Platform Mounted Heavy Autocannon",
+				"specialRules": ["360° Arc","HE 1in","Flak"]
+			},
+			{
+				"name": "Turret Rear Mounted MMG",
+				"specialRules": ["360° Arc","Turret Rear Mounted MMG"]
+			},
+			{
+				"name": "Improved HE",
+				"specialRules": ["Improved HE"]
 			}
 		],
 		"keywords": [
@@ -604,8 +578,60 @@
 				"definition": "PHY, DON'T FORGET TO ADD THESE"
 			},
 			{
+				"name": "Experimental",
+				"definition": "Requires an additional Order Test; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Test Bed",
+				"definition": "Requires an additional Order Test; Swedish Unofficial Rules"
+			},
+			{
+				"name": "360° Arc",
+				"definition": "Can Fire all around; Bolt Action, 3rd Edition: Pg. 135"
+			},
+			{
+				"name": "Pintle",
+				"definition": "Flak; When fired against a Ground Target, makes the unit Open Topped until end of Turn; Bolt Action, 3rd Edition: Pg. 136"
+			},
+			{
+				"name": "Improved HE",
+				"definition": "Increase HE Value by 1 (I.E. From HE 1in to HE 2in); Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Coaxial",
+				"definition": "Must choose between firing the Main Gun or Coaxial Weapon; Bolt Action, 3rd Edition: Pg. 135"
+			},
+			{
 				"name": "Airborne Carriage",
 				"definition": "When the Unit is taken as Airborne, this weapon counts as Light for Towing Purposes; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "Soft Skin",
+				"definition": "Destroyed on a Damage Roll of 6+; Bolt Action, 3rd Edition: Pg. 138"
+			},
+			{
+				"name": "Damage 6+",
+				"definition": "Destroyed on a Damage Roll of 6+; Bolt Action, 3rd Edition: Pg. 138"
+			},
+			{
+				"name": "Damage 7+",
+				"definition": "Damage Roll of 7 Rolls on Superficial Damage Chart. 8+ Rolls on Damage Chart; Bolt Action, 3rd Edition: Pg. 138"
+			},
+			{
+				"name": "Damage 8+",
+				"definition": "Damage Roll of 8 Rolls on Superficial Damage Chart. 9+ Rolls on Damage Chart; Bolt Action, 3rd Edition: Pg. 138"
+			},
+			{
+				"name": "Damage 9+",
+				"definition": "Damage Roll of 9 Rolls on Superficial Damage Chart. 10+ Rolls on Damage Chart; Bolt Action, 3rd Edition: Pg. 138"
+			},
+			{
+				"name": "Damage 10+",
+				"definition": "Damage Roll of 10 Rolls on Superficial Damage Chart. 11+ Rolls on Damage Chart; Bolt Action, 3rd Edition: Pg. 138"
+			},
+			{
+				"name": "Damage 11+",
+				"definition": "Damage Roll of 11 Rolls on Superficial Damage Chart. 12+ Rolls on Damage Chart; Bolt Action, 3rd Edition: Pg. 138"
 			},
 			{
 				"name": "Multiple Launcher",
@@ -672,6 +698,14 @@
 				"definition": "AT Guns when using a Fire Order (incl. Ambush) have +1 to Hit when targetting Vehicles; Bolt Action, 3rd Edition: Pg. 96"
 			},
 			{
+				"name": "Wheeled",
+				"definition": "Advance: 12in; Run: 24in; Doubled on Roads; Bolt Action, 3rd Edition: Pg. 133"
+			},
+			{
+				"name": "Half-Tracked",
+				"definition": "Advance: 9in; Run: 18in; Doubled on Roads; Bolt Action, 3rd Edition: Pg. 133"
+			},
+			{
 				"name": "Assault",
 				"definition": "Negate Movement Penalty when Shooting. Grants Tough Fighters to Models equipped with a weapon that has the Assault Special Rule; Bolt Action, 3rd Edition: Pg. 96"
 			},
@@ -722,6 +756,10 @@
 			{
 				"name": "Team weapon",
 				"definition": "Suffers -1 to Hit when reduced to a single model; Bolt Action, 3rd Edition: Pg. 103"
+			},
+			{
+				"name": "Open Topped",
+				"definition": "Takes Pins from any hits. Additional +1 to Pen and +1 to Damage against top armor; Bolt Action, 3rd Edition: Pg. 149"
 			},
 			{
 				"name": "Bicycles",
@@ -853,7 +891,7 @@
 				"definition": "Can use Run Speed in Reverse; Bolt Action, 3rd Edition: Pg. 151"
 			},
 			{
-				"name": "Turret Rear-Mounted Machine Gun",
+				"name": "Turret Rear Mounted Machine Gun",
 				"definition": "Fires opposite arc of the Main Gun or Coax after the Main or Coax is fired; Bolt Action, 3rd Edition: Pg. 151"
 			},
 			{
@@ -1102,6 +1140,12 @@
 						"name": "United States of America"
 					}
 				],
+				"quantityLimitedBy": [
+					{
+						"unit": "Rifle Platoon",
+						"ratio": 1
+					}
+				],
 				"points": 0,
 				"models": 0
 			},
@@ -1166,6 +1210,12 @@
 					},
 					{
 						"name": "United States of America"
+					}
+				],
+				"quantityLimitedBy": [
+					{
+						"unit": "Rifle Platoon",
+						"ratio": 1
 					}
 				],
 				"points": 0,
@@ -1234,6 +1284,12 @@
 						"name": "United States of America"
 					}
 				],
+				"quantityLimitedBy": [
+					{
+						"unit": "Rifle Platoon",
+						"ratio": 1
+					}
+				],
 				"points": 0,
 				"models": 0
 			},
@@ -1300,6 +1356,12 @@
 						"name": "United States of America"
 					}
 				],
+				"quantityLimitedBy": [
+					{
+						"unit": "Rifle Platoon",
+						"ratio": 1
+					}
+				],
 				"points": 0,
 				"models": 0
 			},
@@ -1364,6 +1426,12 @@
 					},
 					{
 						"name": "United States of America"
+					}
+				],
+				"quantityLimitedBy": [
+					{
+						"unit": "Rifle Platoon",
+						"ratio": 1
 					}
 				],
 				"points": 0,
@@ -1509,6 +1577,14 @@
 				"availableIn":["HQ Platoon"],
 				"points": 42,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -1735,6 +1811,14 @@
 				"availableIn":["HQ Platoon"],
 				"points": 60,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -2036,6 +2120,14 @@
 				],
 				"points": 78,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -2399,6 +2491,14 @@
 				],
 				"points": 42,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -2447,6 +2547,14 @@
 				],
 				"points": 60,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -2495,6 +2603,14 @@
 				],
 				"points": 78,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -2546,6 +2662,14 @@
 				],
 				"points": 17,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Chaplain",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -2584,6 +2708,14 @@
 				],
 				"points": 25,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Chaplain",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "For King and Country (Guards)",
@@ -2640,6 +2772,14 @@
 				],
 				"points": 33,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Chaplain",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "For King and Country (Airborne)",
@@ -2972,6 +3112,14 @@
 				],
 				"points": 21,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -3457,6 +3605,14 @@
 				],
 				"points": 30,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -3953,6 +4109,14 @@
 				],
 				"points": 39,
 				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -4278,6 +4442,14 @@
 				],
 				"points": 15,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Special",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -4304,6 +4476,14 @@
 				],
 				"points": 15,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Special",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -4369,6 +4549,14 @@
 				],
 				"points": 23,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -4488,6 +4676,14 @@
 				],
 				"points": 30,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -4694,6 +4890,14 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -4859,6 +5063,14 @@
 				],
 				"points": 90,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5121,6 +5333,14 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5334,6 +5554,14 @@
 				],
 				"points": 90,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5518,6 +5746,14 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5555,6 +5791,14 @@
 				],
 				"points": 90,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5592,6 +5836,14 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5629,6 +5881,14 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5676,6 +5936,14 @@
 				],
 				"points": 90,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5728,6 +5996,14 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5775,6 +6051,14 @@
 				],
 				"points": 90,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5827,6 +6111,14 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5864,6 +6156,14 @@
 				],
 				"points": 90,
 				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -5901,6 +6201,14 @@
 				],
 				"points": 52,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Sniper",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "SMGs",
@@ -5943,6 +6251,14 @@
 				],
 				"points": 67,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Sniper",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "SMGs",
@@ -5992,16 +6308,10 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
@@ -6009,6 +6319,14 @@
 				],
 				"points": 42,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -6032,16 +6350,10 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
@@ -6049,6 +6361,14 @@
 				],
 				"points": 60,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6084,16 +6404,10 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
@@ -6101,6 +6415,158 @@
 				],
 				"points": 78,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Shaped Charge, Team Weapon"],
+				"equipment": ["Period: M|L","Bazooka"]
+			},
+			{
+				"name": "Bazooka - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 42,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Shaped Charge, Team Weapon"],
+				"equipment": ["Period: M|L","Bazooka"]
+			},
+			{
+				"name": "Bazooka - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 60,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Shaped Charge, Team Weapon"],
+				"equipment": ["Period: M|L","Bazooka"]
+			},
+			{
+				"name": "Bazooka - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 78,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6148,17 +6614,22 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 26,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Team Weapon"],
-				"equipment": ["Recoilless Rifle; Skis"]
+				"equipment": ["Recoilless Rifle","Skis"]
 			},
 			{
 				"name": "Recoilless Anti-Tank Rifle - Regular",
@@ -6168,14 +6639,19 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 35,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6184,7 +6660,7 @@
 					}
 				],
 				"keywords": ["Team Weapon"],
-				"equipment": ["Recoilless Rifle; Skis"]
+				"equipment": ["Recoilless Rifle","Skis"]
 			},
 			{
 				"name": "Recoilless Anti-Tank Rifle - Veteran",
@@ -6194,14 +6670,19 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 44,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6210,7 +6691,85 @@
 					}
 				],
 				"keywords": ["Team Weapon"],
-				"equipment": ["Recoilless Rifle; Skis"]
+				"equipment": ["Recoilless Rifle","Skis"]
+			},
+			{
+				"name": "Recoilless Anti-Tank Rifle - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 26,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Team Weapon"],
+				"equipment": ["Recoilless Rifle","Skis"]
+			},
+			{
+				"name": "Recoilless Anti-Tank Rifle - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 35,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Team Weapon"],
+				"equipment": ["Recoilless Rifle","Skis"]
+			},
+			{
+				"name": "Recoilless Anti-Tank Rifle - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 44,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Team Weapon"],
+				"equipment": ["Recoilless Rifle","Skis"]
 			},
 			{
 				"name": "Flamethrower Team - Regular",
@@ -6225,6 +6784,14 @@
 				],
 				"points": 50,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Flamethrower",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6259,6 +6826,14 @@
 				],
 				"points": 65,
 				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Flamethrower",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6280,7 +6855,6 @@
 				"keywords": [],
 				"equipment": ["Flamethrower - Team Weapon"]
 			},
-			
 			{
 				"name": "Light Mortar Team - Inexperienced",
 				"factions": [],
@@ -6289,17 +6863,19 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 24,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -6323,17 +6899,19 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 35,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -6375,10 +6953,160 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"points": -7,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers) - Reduced Manning",
+						"points": -7,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
+			},
+							{
+				"name": "Req - Light Mortar Team - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 24,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
+			},
+			{
+				"name": "Req - Light Mortar Team - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"points": -5,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
+			},
+			{
+				"name": "Req - Light Mortar Team - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -6386,6 +7114,841 @@
 				],
 				"points": 46,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"points": -7,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers) - Reduced Manning",
+						"points": -7,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
+			},
+			{
+				"name": "Req - Medium Mortar Team - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 32,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Mortar"]
+			},
+			{
+				"name": "Req - Medium Mortar Team - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 45,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Mortar"]
+			},
+			{
+				"name": "Req - Medium Mortar Team - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 59,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Medium Mortar"]
+			},
+			{
+				"name": "Req - Heavy Mortar Team - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 42,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy Mortar"]
+			},
+			{
+				"name": "Req - Heavy Mortar Team - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 60,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy Mortar"]
+			},
+			{
+				"name": "Req - Heavy Mortar Team - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 78,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: M|L","Heavy Mortar"]
+			},
+			{
+				"name": "Req - Medium Machine Gun - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","MMG"]
+			},
+			{
+				"name": "Req - Medium Machine Gun - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 50,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","MMG"]
+			},
+			{
+				"name": "Req - Medium Machine Gun - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","MMG"]
+			},
+			{
+				"name": "Req - Heavy Machine Gun - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 49,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","HMG"]
+			},
+			{
+				"name": "Req - Heavy Machine Gun - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 70,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","HMG"]
+			},
+			{
+				"name": "Req - Heavy Machine Gun - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 91,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","HMG"]
+			},
+			{
+				"name": "Req - Heavy Weapons Rifle Team - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 21,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+			{
+				"name": "Req - Heavy Weapons Rifle Team - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 30,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+			{
+				"name": "Req - Heavy Weapons Rifle Team - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Req Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+							{
+				"name": "Light Mortar Team - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 24,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden (Unofficial)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"points": -5,
+						"addsModels": -1,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": [],
+				"equipment": ["Period: E|M|L","Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -6444,6 +8007,14 @@
 				],
 				"points": 32,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Add Spotter",
@@ -6477,6 +8048,14 @@
 				],
 				"points": 45,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Add Spotter",
@@ -6522,6 +8101,14 @@
 				],
 				"points": 59,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Add Spotter",
@@ -6579,6 +8166,14 @@
 				],
 				"points": 42,
 				"models": 4,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Add Spotter",
@@ -6607,6 +8202,14 @@
 				],
 				"points": 60,
 				"models": 4,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Add Spotter",
@@ -6635,6 +8238,14 @@
 				],
 				"points": 78,
 				"models": 4,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Add Spotter",
@@ -6651,6 +8262,149 @@
 				"equipment": ["Period: M|L","Heavy Mortar"]
 			},
 			{
+				"name": "Heavy Weapons Rifle Team, Mortar Replacement - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 21,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+			{
+				"name": "Heavy Weapons Rifle Team, Mortar Replacement - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 30,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+			{
+				"name": "Heavy Weapons Rifle Team, Mortar Replacement - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
+						"points": 0,
+						"perModel": true
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Selection - Heavy Weapons Team"],
+				"equipment": []
+			},
+						{
 				"name": "Medium Machine Gun - Inexperienced",
 				"factions": [],
 				"availableIn": [
@@ -6663,6 +8417,14 @@
 				],
 				"points": 35,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -6691,6 +8453,14 @@
 				],
 				"points": 50,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6731,6 +8501,14 @@
 				],
 				"points": 65,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6783,6 +8561,14 @@
 				],
 				"points": 49,
 				"models": 4,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -6806,6 +8592,14 @@
 				],
 				"points": 70,
 				"models": 4,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6841,6 +8635,14 @@
 				],
 				"points": 91,
 				"models": 4,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Det Fria Kriget",
@@ -6864,7 +8666,7 @@
 				"equipment": ["Period: E|M|L","HMG"]
 			},
 			{
-				"name": "Heavy Weapons Rifle Team - Inexperienced",
+				"name": "Heavy Weapons Rifle Team, MG Replacement - Inexperienced",
 				"factions": [],
 				"availableIn": [
 					{
@@ -6873,6 +8675,14 @@
 				],
 				"points": 21,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -6897,7 +8707,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Heavy Weapons Rifle Team - Regular",
+				"name": "Heavy Weapons Rifle Team, MG Replacement - Regular",
 				"factions": [],
 				"availableIn": [
 					{
@@ -6906,6 +8716,14 @@
 				],
 				"points": 30,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -6935,7 +8753,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Heavy Weapons Rifle Team - Veteran",
+				"name": "Heavy Weapons Rifle Team, MG Replacement - Veteran",
 				"factions": [],
 				"availableIn": [
 					{
@@ -6944,6 +8762,14 @@
 				],
 				"points": 39,
 				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "MG Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -6988,13 +8814,18 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 35,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7004,18 +8835,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -7037,13 +8868,18 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 50,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7053,18 +8889,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -7083,7 +8919,7 @@
 					}
 				],
 				"keywords": [],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades; Skis"]
+				"equipment": []
 			},
 			{
 				"name": "Swedish Infantry Squad - Veteran",
@@ -7091,13 +8927,18 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 65,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7107,18 +8948,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -7137,7 +8978,179 @@
 					}
 				],
 				"keywords": [],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades; Skis"]
+				"equipment": []
+			},
+			{
+				"name": "Swedish Infantry Squad - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Swedish Infantry Squad - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Swedish Infantry Squad - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 65,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
 			},
 			{
 				"name": "Swedish Home Guard Squad - Inexperienced",
@@ -7149,6 +9162,14 @@
 				],
 				"points": 42,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7158,18 +9179,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": 3,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -7183,7 +9204,7 @@
 					}
 				],
 				"keywords": [],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades; Skis"]
+				"equipment": []
 			},
 			{
 				"name": "Free Ranger Squad - Regular",
@@ -7191,13 +9212,18 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 70,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7207,18 +9233,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -7237,7 +9263,7 @@
 					}
 				],
 				"keywords": [],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades; Skis"]
+				"equipment": []
 			},
 			{
 				"name": "Free Ranger Squad - Veteran",
@@ -7245,13 +9271,18 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
 					}
 				],
 				"points": 85,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7261,18 +9292,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -7290,8 +9321,126 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Behind Enemy Lines, Stubborn"],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades; Skis"]
+				"keywords": ["Behind Enemy Lines","Stubborn"],
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+					}
+				],
+				"points": 85,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Behind Enemy Lines","Stubborn"],
+				"equipment": []
 			},
 			{
 				"name": "Free Ranger Squad, Mounted - Veteran",
@@ -7303,6 +9452,14 @@
 				],
 				"points": 95,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7312,18 +9469,18 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG",
-						"points": 4
-					},
-					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 9
+						"max": 10,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 6
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
 					},
 					{
 						"name": "AT Grenades",
@@ -7334,7 +9491,8 @@
 						"name": "Pansarskott m/45",
 						"points": 2,
 						"increment": true,
-						"max": 2
+						"max": 2,
+						"maxKey": "gun"
 					},
 					{
 						"name": "Skis",
@@ -7347,8 +9505,8 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Behind Enemy Lines, Stubborn, Cavalry"],
-				"equipment": ["Pistol, Rifle, SMGs, Automatic Rifle, AT Grenades, Pansarskott m/45"]
+				"keywords": ["Behind Enemy Lines","Stubborn","Cavalry"],
+				"equipment": []
 			},
 			{
 				"name": "Engineer Squad - Regular",
@@ -7363,6 +9521,14 @@
 				],
 				"points": 55,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7436,6 +9602,14 @@
 				],
 				"points": 70,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -7506,6 +9680,14 @@
 				],
 				"points": 35,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7525,6 +9707,14 @@
 				],
 				"points": 50,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7549,6 +9739,14 @@
 				],
 				"points": 65,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7573,6 +9771,14 @@
 				],
 				"points": 49,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7592,6 +9798,14 @@
 				],
 				"points": 70,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7616,6 +9830,14 @@
 				],
 				"points": 91,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7640,6 +9862,14 @@
 				],
 				"points": 70,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
@@ -7654,6 +9884,14 @@
 				],
 				"points": 100,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
@@ -7668,6 +9906,14 @@
 				],
 				"points": 130,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: M|L","Heavy AT Gun Team","Gun Shield"]
@@ -7682,6 +9928,14 @@
 				],
 				"points": 102,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7701,6 +9955,14 @@
 				],
 				"points": 145,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7720,6 +9982,14 @@
 				],
 				"points": 189,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7744,6 +10014,14 @@
 				],
 				"points": 35,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7763,6 +10041,14 @@
 				],
 				"points": 50,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7782,6 +10068,14 @@
 				],
 				"points": 65,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7805,6 +10099,14 @@
 				],
 				"points": 77,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Flak","Cumbersome"],
 				"equipment": ["Period: M|L","HMG","x4"]
@@ -7819,6 +10121,14 @@
 				],
 				"points": 110,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Flak","Cumbersome"],
 				"equipment": ["Period: M|L","HMG","x4"]
@@ -7833,6 +10143,14 @@
 				],
 				"points": 143,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Flak","Cumbersome"],
 				"equipment": ["Period: M|L","HMG","x4"]
@@ -7847,6 +10165,14 @@
 				],
 				"points": 45,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Airborne)",
@@ -7872,6 +10198,14 @@
 				],
 				"points": 54,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Airborne)",
@@ -7902,6 +10236,14 @@
 				],
 				"points": 46,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -7922,6 +10264,14 @@
 				],
 				"points": 65,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -7942,6 +10292,14 @@
 				],
 				"points": 85,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -7967,6 +10325,14 @@
 				],
 				"points": 46,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -7987,6 +10353,14 @@
 				],
 				"points": 65,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8007,6 +10381,14 @@
 				],
 				"points": 85,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8032,6 +10414,14 @@
 				],
 				"points": 36,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8056,6 +10446,14 @@
 				],
 				"points": 45,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Airborne)",
@@ -8085,6 +10483,14 @@
 				],
 				"points": 54,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Airborne)",
@@ -8119,6 +10525,14 @@
 				],
 				"points": 60,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8147,6 +10561,14 @@
 				],
 				"points": 85,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8175,6 +10597,14 @@
 				],
 				"points": 111,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8208,6 +10638,14 @@
 				],
 				"points": 95,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8232,6 +10670,14 @@
 				],
 				"points": 135,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8256,6 +10702,14 @@
 				],
 				"points": 178,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, Sea (Marines)",
@@ -8285,6 +10739,14 @@
 				],
 				"points": 35,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -8304,6 +10766,14 @@
 				],
 				"points": 50,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -8323,6 +10793,14 @@
 				],
 				"points": 65,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -8342,6 +10820,14 @@
 				],
 				"points": 55,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: L","Medium AT Gun Team","Gun Shield"]
@@ -8356,6 +10842,14 @@
 				],
 				"points": 70,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: L","Medium AT Gun Team","Gun Shield"]
@@ -8370,6 +10864,14 @@
 				],
 				"points": 85,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: L","Medium AT Gun Team","Gun Shield"]
@@ -8384,6 +10886,14 @@
 				],
 				"points": 35,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -8407,6 +10917,14 @@
 				],
 				"points": 50,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -8430,6 +10948,14 @@
 				],
 				"points": 65,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Skis",
@@ -8453,6 +10979,14 @@
 				],
 				"points": 102,
 				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Flak"],
 				"equipment": ["Period: E|M|L","Heavy AT Gun Team"]
@@ -8467,6 +11001,14 @@
 				],
 				"points": 145,
 				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Flak"],
 				"equipment": ["Period: E|M|L","Heavy AT Gun Team"]
@@ -8481,6 +11023,14 @@
 				],
 				"points": 189,
 				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Flak"],
 				"equipment": ["Period: E|M|L","Heavy AT Gun Team"]
@@ -8495,6 +11045,14 @@
 				],
 				"points": 35,
 				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
@@ -8509,6 +11067,14 @@
 				],
 				"points": 50,
 				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
@@ -8523,6 +11089,14 @@
 				],
 				"points": 65,
 				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Heavy Autocannon Team"]
@@ -8537,6 +11111,14 @@
 				],
 				"points": 35,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Light Howitzer Team"]
@@ -8551,6 +11133,14 @@
 				],
 				"points": 50,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Light Howitzer Team"]
@@ -8565,6 +11155,14 @@
 				],
 				"points": 60,
 				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Light Howitzer Team"]
@@ -8579,6 +11177,14 @@
 				],
 				"points": 63,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
@@ -8593,6 +11199,14 @@
 				],
 				"points": 90,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
@@ -8607,6 +11221,14 @@
 				],
 				"points": 117,
 				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Medium Howitzer Team"]
@@ -8621,6 +11243,14 @@
 				],
 				"points": 98,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
@@ -8635,6 +11265,14 @@
 				],
 				"points": 140,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
@@ -8649,6 +11287,14 @@
 				],
 				"points": 182,
 				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Period: E|M|L","Heavy Howitzer Team"]
@@ -8663,13 +11309,21 @@
 				],
 				"points": 12,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Recce, Open Topped, Extra Frontal Armored, Damage Value: 6+"],
+				"keywords": ["Recce","Open Topped","Extra Frontal Armored","Damage Value: 6+","Soft Skin"],
 				"equipment": ["Hull Mounted LMG"]
 			},
 			{
@@ -8682,13 +11336,21 @@
 				],
 				"points": 15,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Recce, Open Topped, Extra Frontal Armored, Damage Value: 6+"],
+				"keywords": ["Recce","Open Topped","Extra Frontal Armored","Damage Value: 6+","Soft Skin"],
 				"equipment": ["Hull Mounted LMG"]
 			},
 			{
@@ -8701,13 +11363,21 @@
 				],
 				"points": 18,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Recce, Open Topped, Extra Frontal Armored, Damage Value: 6+"],
+				"keywords": ["Recce","Open Topped","Extra Frontal Armored","Damage Value: 6+","Soft Skin"],
 				"equipment": ["Hull Mounted LMG"]
 			},
 			{
@@ -8720,14 +11390,22 @@
 				],
 				"points": 52,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 7+"],
-				"equipment": ["2x Turret-Mounted MMG"]
+				"equipment": ["Turret Mounted MMG","x2"]
 			},
 			{
 				"name": "Strv m/37 - Regular",
@@ -8739,14 +11417,22 @@
 				],
 				"points": 65,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 7+"],
-				"equipment": ["2x Turret-Mounted MMG"]
+				"equipment": ["Turret Mounted MMG","x2"]
 			},
 			{
 				"name": "Strv m/37 - Veteran",
@@ -8758,14 +11444,22 @@
 				],
 				"points": 78,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 7+"],
-				"equipment": ["2x Turret-Mounted MMG"]
+				"equipment": ["Turret Mounted MMG","x2"]
 			},
 			{
 				"name": "Strv m/38 (L-60) - Inexperienced",
@@ -8777,14 +11471,22 @@
 				],
 				"points": 100,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, Coaxial MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
 				"name": "Strv m/38 (L-60) - Regular",
@@ -8796,14 +11498,22 @@
 				],
 				"points": 125,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, Coaxial MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
 				"name": "Strv m/38 (L-60) - Veteran",
@@ -8815,14 +11525,22 @@
 				],
 				"points": 150,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, Coaxial MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
 				"name": "Strv m/39 / Strv m/40 - Inexperienced",
@@ -8834,14 +11552,22 @@
 				],
 				"points": 104,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, 2x Coaxial MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","x2"]
 			},
 			{
 				"name": "Strv m/39 / Strv m/40 - Regular",
@@ -8853,14 +11579,22 @@
 				],
 				"points": 130,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, 2x Coaxial MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","x2"]
 			},
 			{
 				"name": "Strv m/39 / Strv m/40 - Veteran",
@@ -8872,14 +11606,22 @@
 				],
 				"points": 156,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, 2x Coaxial MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","x2"]
 			},
 			{
 				"name": "Strv m/41 - Inexperienced",
@@ -8891,14 +11633,22 @@
 				],
 				"points": 104,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, Coaxial MMG, Hull Mounted MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","x2","Hull Mounted MMG"]
 			},
 			{
 				"name": "Strv m/41 - Regular",
@@ -8910,14 +11660,22 @@
 				],
 				"points": 130,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, Coaxial MMG, Hull Mounted MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","x2","Hull Mounted MMG"]
 			},
 			{
 				"name": "Strv m/41 - Veteran",
@@ -8929,14 +11687,22 @@
 				],
 				"points": 156,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Turret-Mounted Light AT Gun, Coaxial MMG, Hull Mounted MMG"]
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","x2","Hull Mounted MMG"]
 			},
 			{
 				"name": "Strv m/42 - Inexperienced",
@@ -8948,14 +11714,22 @@
 				],
 				"points": 160,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 9+"],
-				"equipment": ["Turret-Mounted Medium AT Gun, 2x Coaxial MMG, Hull Mounted MMG, Reverse Turret-Mounted MMG"]
+				"equipment": ["Turret Mounted Medium AT Gun","Coaxial MMG","x2","Hull Mounted MMG","Turret Rear Mounted MMG"]
 			},
 			{
 				"name": "Strv m/42 - Regular",
@@ -8967,14 +11741,22 @@
 				],
 				"points": 200,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 9+"],
-				"equipment": ["Turret-Mounted Medium AT Gun, 2x Coaxial MMG, Hull Mounted MMG, Reverse Turret-Mounted MMG"]
+				"equipment": ["Turret Mounted Medium AT Gun","Coaxial MMG","x2","Hull Mounted MMG","Turret Rear Mounted MMG"]
 			},
 			{
 				"name": "Strv m/42 - Veteran",
@@ -8986,14 +11768,22 @@
 				],
 				"points": 240,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 9+"],
-				"equipment": ["Turret-Mounted Medium AT Gun, 2x Coaxial MMG, Hull Mounted MMG, Reverse Turret-Mounted MMG"]
+				"equipment": ["Turret Mounted Medium AT Gun","Coaxial MMG","x2","Hull Mounted MMG","Turret Rear Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 'Machine Gun Car' - Inexperienced",
@@ -9005,14 +11795,22 @@
 				],
 				"points": 60,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled, Recce"],
-				"equipment": ["Platform Mounted MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled","Recce"],
+				"equipment": ["Platform Mounted MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 'Machine Gun Car' - Regular",
@@ -9024,14 +11822,22 @@
 				],
 				"points": 75,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled, Recce"],
-				"equipment": ["Platform Mounted MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled","Recce"],
+				"equipment": ["Platform Mounted MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 'Machine Gun Car' - Veteran",
@@ -9043,14 +11849,22 @@
 				],
 				"points": 90,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled, Recce"],
-				"equipment": ["Platform Mounted MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled","Recce"],
+				"equipment": ["Platform Mounted MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 'Canon Car' - Inexperienced",
@@ -9062,14 +11876,22 @@
 				],
 				"points": 88,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled"],
-				"equipment": ["Platform Mounted Light AT Gun, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled"],
+				"equipment": ["Platform Mounted Light AT Gun","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 'Canon Car' - Regular",
@@ -9081,14 +11903,22 @@
 				],
 				"points": 110,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled"],
-				"equipment": ["Platform Mounted Light AT Gun, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled"],
+				"equipment": ["Platform Mounted Light AT Gun","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 'Canon Car' - Veteran",
@@ -9100,14 +11930,22 @@
 				],
 				"points": 132,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled"],
-				"equipment": ["Platform Mounted Light AT Gun, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled"],
+				"equipment": ["Platform Mounted Light AT Gun","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 - Inexperienced",
@@ -9119,14 +11957,22 @@
 				],
 				"points": 76,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled"],
-				"equipment": ["Platform Mounted Light Autocannon, Coaxial MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled"],
+				"equipment": ["Platform Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 - Regular",
@@ -9138,14 +11984,22 @@
 				],
 				"points": 95,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled"],
-				"equipment": ["Platform Mounted Light Autocannon, Coaxial MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled"],
+				"equipment": ["Platform Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/31 - Veteran",
@@ -9157,33 +12011,22 @@
 				],
 				"points": 114,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled"],
-				"equipment": ["Platform Mounted Light Autocannon, Coaxial MMG, Hull Mounted MMG"]
-			},
-			{
-				"name": "Pbil m/31 - Veteran",
-				"factions": [],
-				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
-					}
-				],
-				"points": 114,
-				"models": 1,
-				"options": [
-					{
-						"name": "Command",
-						"points": 10
-					}
-				],
-				"keywords": ["Damage Value: 7+, Open Topped, Wheeled"],
-				"equipment": ["Platform Mounted Light Autocannon, Coaxial MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Wheeled"],
+				"equipment": ["Platform Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/39 Lynx - Inexperienced",
@@ -9195,14 +12038,22 @@
 				],
 				"points": 88,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Dual-Directional Steering, Wheeled"],
-				"equipment": ["Turret0Mounted Light Autocannon, Coaxial MMG, 2x Hull Mounted MMGs"]
+				"keywords": ["Damage Value: 7+","Turn on the Spot","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG","x2"]
 			},
 			{
 				"name": "Pbil m/39 Lynx - Regular",
@@ -9214,14 +12065,22 @@
 				],
 				"points": 110,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Dual-Directional Steering, Wheeled"],
-				"equipment": ["Turret0Mounted Light Autocannon, Coaxial MMG, 2x Hull Mounted MMGs"]
+				"keywords": ["Damage Value: 7+","Turn on the Spot","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG","x2"]
 			},
 			{
 				"name": "Pbil m/39 Lynx - Veteran",
@@ -9233,14 +12092,22 @@
 				],
 				"points":132,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Dual-Directional Steering, Wheeled"],
-				"equipment": ["Turret0Mounted Light Autocannon, Coaxial MMG, 2x Hull Mounted MMGs"]
+				"keywords": ["Damage Value: 7+","Turn on the Spot","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG","x2"]
 			},
 			{
 				"name": "Pbil m/41 - Inexperienced",
@@ -9252,14 +12119,22 @@
 				],
 				"points": 80,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Wheeled"],
-				"equipment": ["Turret0Mounted Light Autocannon, Coaxial MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/41 - Regular",
@@ -9271,14 +12146,22 @@
 				],
 				"points": 100,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Wheeled"],
-				"equipment": ["Turret0Mounted Light Autocannon, Coaxial MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pbil m/41 - Veteran",
@@ -9290,14 +12173,22 @@
 				],
 				"points": 120,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Wheeled"],
-				"equipment": ["Turret0Mounted Light Autocannon, Coaxial MMG, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Sav m/43 'Early' - Inexperienced",
@@ -9309,14 +12200,22 @@
 				],
 				"points": 92,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Light Howitzer"]
+				"equipment": ["Casement Light Howitzer"]
 			},
 			{
 				"name": "Sav m/43 'Early' - Regular",
@@ -9328,14 +12227,22 @@
 				],
 				"points": 115,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Light Howitzer"]
+				"equipment": ["Casement Light Howitzer"]
 			},
 			{
 				"name": "Sav m/43 'Early' - Veteran",
@@ -9347,14 +12254,22 @@
 				],
 				"points": 138,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Light Howitzer"]
+				"equipment": ["Casement Light Howitzer"]
 			},
 			{
 				"name": "Sav m/43 'Late' - Inexperienced",
@@ -9366,14 +12281,22 @@
 				],
 				"points": 100,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Medium Howitzer"]
+				"equipment": ["Casement Medium Howitzer"]
 			},
 			{
 				"name": "Sav m/43 'Late' - Regular",
@@ -9385,14 +12308,22 @@
 				],
 				"points": 125,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Medium Howitzer"]
+				"equipment": ["Casement Medium Howitzer"]
 			},
 			{
 				"name": "Sav m/43 'Late' - Veteran",
@@ -9404,14 +12335,22 @@
 				],
 				"points": 150,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
 				"keywords": ["Damage Value: 8+"],
-				"equipment": ["Medium Howitzer"]
+				"equipment": ["Casement Medium Howitzer"]
 			},
 			{
 				"name": "Pvkv m/43 - Inexperienced",
@@ -9423,14 +12362,22 @@
 				],
 				"points": 148,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 9+, Open Topped"],
-				"equipment": ["Medium AT Gun, Pintle Mounted MMG"]
+				"keywords": ["Damage Value: 9+","Open Topped"],
+				"equipment": ["Hull Mounted Medium AT Gun","Pintle Mounted MMG"]
 			},
 			{
 				"name": "Pvkv m/43 - Regular",
@@ -9442,14 +12389,22 @@
 				],
 				"points": 185,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 9+, Open Topped"],
-				"equipment": ["Medium AT Gun, Pintle Mounted MMG"]
+				"keywords": ["Damage Value: 9+","Open Topped"],
+				"equipment": ["Hull Mounted Medium AT Gun","Pintle Mounted MMG"]
 			},
 			{
 				"name": "Pvkv m/43 - Veteran",
@@ -9461,14 +12416,22 @@
 				],
 				"points": 222,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 9+, Open Topped"],
-				"equipment": ["Medium AT Gun, Pintle Mounted MMG"]
+				"keywords": ["Damage Value: 9+","Open Topped"],
+				"equipment": ["Hull Mounted Medium AT Gun","Pintle Mounted MMG"]
 			},
 			{
 				"name": "L-62 Anti II - Inexperienced",
@@ -9480,13 +12443,21 @@
 				],
 				"points": 68,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped"],
+				"keywords": ["Damage Value: 7+","Open Topped","Flak"],
 				"equipment": ["Turret Mounted Heavy Autocannon"]
 			},
 			{
@@ -9499,13 +12470,21 @@
 				],
 				"points": 117,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped"],
+				"keywords": ["Damage Value: 7+","Open Topped","Flak"],
 				"equipment": ["Turret Mounted Heavy Autocannon"]
 			},
 			{
@@ -9518,13 +12497,21 @@
 				],
 				"points": 141,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped"],
+				"keywords": ["Damage Value: 7+","Open Topped","Flak"],
 				"equipment": ["Turret Mounted Heavy Autocannon"]
 			},
 			{
@@ -9537,14 +12524,30 @@
 				],
 				"points": 68,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Slow"],
-				"equipment": ["2x Linked Turret Mounted Heavy Autocannon"]
+				"keywords": ["Damage Value: 7+","Open Topped","Slow"],
+				"equipment": ["Turret Mounted Heavy Autocannon","x2"]
 			},
 			{
 				"name": "Lvkv fm/43 - Regular",
@@ -9556,14 +12559,22 @@
 				],
 				"points": 85,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Slow"],
-				"equipment": ["2x Linked Turret Mounted Heavy Autocannon"]
+				"keywords": ["Damage Value: 7+","Open Topped","Slow"],
+				"equipment": ["Turret Mounted Heavy Autocannon","x2"]
 			},
 			{
 				"name": "Lvkv fm/43 - Veteran",
@@ -9575,14 +12586,22 @@
 				],
 				"points": 102,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Open Topped, Slow"],
-				"equipment": ["2x Linked Turret Mounted Heavy Autocannon"]
+				"keywords": ["Damage Value: 7+","Open Topped","Slow"],
+				"equipment": ["Turret Mounted Heavy Autocannon","x2"]
 			},
 			{
 				"name": "Lvtdgb m/40 - Inexperienced",
@@ -9594,13 +12613,21 @@
 				],
 				"points": 44,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 6+, Extra Frontal Armor, Open Topped, Wheeled"],
+				"keywords": ["Damage Value: 6+","Extra Frontal Armor","Open Topped","Wheeled"],
 				"equipment": ["Platform Mounted Heavy Autocannon"]
 			},
 			{
@@ -9613,13 +12640,21 @@
 				],
 				"points": 55,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 6+, Extra Frontal Armor, Open Topped, Wheeled"],
+				"keywords": ["Damage Value: 6+","Extra Frontal Armor","Open Topped","Wheeled"],
 				"equipment": ["Platform Mounted Heavy Autocannon"]
 			},
 			{
@@ -9632,13 +12667,21 @@
 				],
 				"points": 66,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 6+, Extra Frontal Armor, Open Topped, Wheeled"],
+				"keywords": ["Damage Value: 6+","Extra Frontal Armor","Open Topped","Wheeled"],
 				"equipment": ["Platform Mounted Heavy Autocannon"]
 			},
 			{
@@ -9651,13 +12694,21 @@
 				],
 				"points": 48,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Recce",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 6+, Open Topped, Extra Frontal Armor"],
+				"keywords": ["Damage Value: 6+","Open Topped","Extra Frontal Armor","Wheeled"],
 				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
@@ -9670,13 +12721,21 @@
 				],
 				"points": 60,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Recce",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 6+, Open Topped, Extra Frontal Armor"],
+				"keywords": ["Damage Value: 6+","Open Topped","Extra Frontal Armor","Wheeled"],
 				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
@@ -9689,13 +12748,21 @@
 				],
 				"points": 72,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Recce",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 6+, Open Topped, Extra Frontal Armor"],
+				"keywords": ["Damage Value: 6+","Open Topped","Extra Frontal Armor","Wheeled"],
 				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
@@ -9708,14 +12775,22 @@
 				],
 				"points": 28,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Slow"],
-				"equipment": ["Turret Mounted Twin LMGs"]
+				"keywords": ["Damage Value: 7+","Slow"],
+				"equipment": ["Turret Mounted LMG","x2"]
 			},
 			{
 				"name": "Strv m/21-29 - Regular",
@@ -9727,14 +12802,22 @@
 				],
 				"points": 35,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Slow"],
-				"equipment": ["Turret Mounted Twin LMGs"]
+				"keywords": ["Damage Value: 7+","Slow"],
+				"equipment": ["Turret Mounted LMG","x2"]
 			},
 			{
 				"name": "Strv m/21-29 - Veteran",
@@ -9746,14 +12829,22 @@
 				],
 				"points": 42,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Slow"],
-				"equipment": ["Turret Mounted Twin LMGs"]
+				"keywords": ["Damage Value: 7+","Slow"],
+				"equipment": ["Turret Mounted LMG","x2"]
 			},
 			{
 				"name": "Armoured Train - Inexperienced",
@@ -9765,13 +12856,21 @@
 				],
 				"points": 88,
 				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Train, Armored All Around"],
+				"keywords": ["Damage Value: 7+","Train","Armored All Around"],
 				"equipment": ["See Rules Guide"]
 			},
 			{
@@ -9784,13 +12883,21 @@
 				],
 				"points": 110,
 				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Train, Armored All Around"],
+				"keywords": ["Damage Value: 7+","Train","Armored All Around"],
 				"equipment": ["See Rules Guide"]
 			},
 			{
@@ -9803,13 +12910,21 @@
 				],
 				"points": 132,
 				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
-				"keywords": ["Damage Value: 7+, Train, Armored All Around"],
+				"keywords": ["Damage Value: 7+","Train","Armored All Around"],
 				"equipment": ["See Rules Guide"]
 			},
 			{
@@ -9822,8 +12937,16 @@
 				],
 				"points": 140,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 9+, Test Bed"],
+				"keywords": ["Damage Value: 9+","Test Bed"],
 				"equipment": ["Turret Mounted Medium AT Gun"]
 			},
 			{
@@ -9836,8 +12959,16 @@
 				],
 				"points": 175,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 9+, Test Bed"],
+				"keywords": ["Damage Value: 9+","Test Bed"],
 				"equipment": ["Turret Mounted Medium AT Gun"]
 			},
 			{
@@ -9850,9 +12981,17 @@
 				],
 				"points": 336,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 11+, Test Bed"],
-				"equipment": ["Turret Mounted Super Heavy AT Gun, Coaxial MMG"]
+				"keywords": ["Damage Value: 11+","Test Bed"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Coaxial MMG"]
 			},
 			{
 				"name": "Konigstiger - Regular",
@@ -9864,9 +13003,17 @@
 				],
 				"points": 440,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 11+, Test Bed"],
-				"equipment": ["Turret Mounted Super Heavy AT Gun, Coaxial MMG"]
+				"keywords": ["Damage Value: 11+","Test Bed"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Coaxial MMG"]
 			},
 			{
 				"name": "Pvkv II - Inexperienced",
@@ -9878,9 +13025,17 @@
 				],
 				"points": 84,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 7+, Open Topped, Experimental"],
-				"equipment": ["Turret Mounted Medium AT Gun, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 11+","Test Bed"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Coaxial MMG"]
 			},
 			{
 				"name": "Pvkv II - Regular",
@@ -9892,9 +13047,17 @@
 				],
 				"points": 105,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 7+, Open Topped, Experimental"],
-				"equipment": ["Turret Mounted Medium AT Gun, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Experimental"],
+				"equipment": ["Turret Mounted Medium AT Gun","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pvkv III - Inexperienced",
@@ -9906,9 +13069,17 @@
 				],
 				"points": 68,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 7+, Open Topped, Experimental"],
-				"equipment": ["Turret Mounted Light AT Gun, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Experimental"],
+				"equipment": ["Turret Mounted Medium AT Gun","Hull Mounted MMG"]
 			},
 			{
 				"name": "Pvkv III - Regular",
@@ -9920,9 +13091,17 @@
 				],
 				"points": 85,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 7+, Open Topped, Experimental"],
-				"equipment": ["Turret Mounted Light AT Gun, Hull Mounted MMG"]
+				"keywords": ["Damage Value: 7+","Open Topped","Experimental"],
+				"equipment": ["Turret Mounted Medium AT Gun","Hull Mounted MMG"]
 			},
 			{
 				"name": "Spj fm/43-44 - Inexperienced",
@@ -9934,9 +13113,17 @@
 				],
 				"points": 80,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 6+, Open Topped, Experimental, Slow, Extra Frontal Armor, Slow Load, Heavy Shell, HE 4in"],
-				"equipment": ["Super Heavy AT Gun"]
+				"keywords": ["Damage Value: 6+","Open Topped","Experimental","Slow","Extra Frontal Armor","Slow Load","Heavy Shell"],
+				"equipment": ["Casement Super Heavy AT Gun"]
 			},
 			{
 				"name": "Spj fm/43-44 - Regular",
@@ -9948,9 +13135,83 @@
 				],
 				"points": 100,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
 				"options": [],
-				"keywords": ["Damage Value: 6+, Open Topped, Experimental, Slow, Extra Frontal Armor, Slow Load, Heavy Shell, HE 4in"],
-				"equipment": ["Super Heavy AT Gun"]
+				"keywords": ["Damage Value: 6+","Open Topped","Experimental","Slow","Extra Frontal Armor","Slow Load","Heavy Shell"],
+				"equipment": ["Casement Super Heavy AT Gun"]
+			},
+			{
+				"name": "Armored Jeep w/ Twin Bazookas - Inexperienced",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 116,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: L","Damage Value:6+","Frontal Armor","Recce"],
+				"equipment": ["Turret Mounted Bazooka","x2"]
+			},
+			{
+				"name": "Armored Jeep w/ Twin Bazookas - Regular",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 145,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: L","Damage Value:6+","Frontal Armor","Recce"],
+				"equipment": ["Turret Mounted Bazooka","x2"]
+			},
+			{
+				"name": "Armored Jeep w/ Twin Bazookas - Veteran",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 174,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: L","Damage Value:6+","Frontal Armor","Recce"],
+				"equipment": ["Turret Mounted Bazooka","x2"]
 			},
 			{
 				"name": "Terrangbil m/42 KP - Inexperienced",
@@ -9978,7 +13239,7 @@
 				"points": 78,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 7+, Open Topped, Transport 16, Tow L/M AA/AT/Howitzer"],
+				"keywords": ["Damage Value: 7+","Open Topped","Transport","16","Tow"],
 				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
@@ -10007,7 +13268,7 @@
 				"points": 97,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 7+, Open Topped, Transport 16, Tow L/M AA/AT/Howitzer"],
+				"keywords": ["Damage Value: 7+","Open Topped","Transport","16","Tow"],
 				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
@@ -10036,7 +13297,7 @@
 				"points": 117,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 7+, Open Topped, Transport 16, Tow L/M AA/AT/Howitzer"],
+				"keywords": ["Damage Value: 7+","Open Topped","Transport","16","Tow"],
 				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
@@ -10065,7 +13326,7 @@
 				"points": 20,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Open Topped, Transport 12, Tow Any, Half-Track"],
+				"keywords": ["Damage Value: 6+","Open Topped","Transport","12","Tow","Half-Track"],
 				"equipment": []
 			},
 			{
@@ -10094,7 +13355,7 @@
 				"points": 24,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Open Topped, Transport 12, Tow Any, Half-Track"],
+				"keywords": ["Damage Value: 6+","Open Topped","Transport","12","Tow","Half-Track"],
 				"equipment": []
 			},
 			{
@@ -10123,7 +13384,7 @@
 				"points": 29,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Open Topped, Transport 12, Tow Any, Half-Track"],
+				"keywords": ["Damage Value: 6+","Open Topped","Transport","12","Tow","Half-Track"],
 				"equipment": []
 			},
 			{
@@ -10137,7 +13398,7 @@
 				"points": 38,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Ambulance, Medic, Medical Vehicle, Wheeled"],
+				"keywords": ["Damage Value: 6+","Ambulance","Medic","Medical Vehicle","Wheeled"],
 				"equipment": []
 			},
 			{
@@ -10151,7 +13412,7 @@
 				"points": 46,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Ambulance, Medic, Medical Vehicle, Wheeled"],
+				"keywords": ["Damage Value: 6+","Ambulance","Medic","Medical Vehicle","Wheeled"],
 				"equipment": []
 			},
 			{
@@ -10181,11 +13442,11 @@
 				"models": 1,
 				"options": [
 					{
-						"name": "Pintle-Mounted MMG",
+						"name": "Pintle Mounted MMG",
 						"points": 15
 					}
 				],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 8, Tow L/M AT, L Howitzer/AA"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","8","Tow"],
 				"equipment": []
 			},
 			{
@@ -10215,11 +13476,11 @@
 				"models": 1,
 				"options": [
 					{
-						"name": "Pintle-Mounted MMG",
+						"name": "Pintle Mounted MMG",
 						"points": 15
 					}
 				],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 8, Tow L/M AT, L Howitzer/AA"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","8","Tow"],
 				"equipment": []
 			},
 			{
@@ -10249,11 +13510,11 @@
 				"models": 1,
 				"options": [
 					{
-						"name": "Pintle-Mounted MMG",
+						"name": "Pintle Mounted MMG",
 						"points": 15
 					}
 				],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 8, Tow L/M AT, L Howitzer/AA"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","8","Tow"],
 				"equipment": []
 			},
 			{
@@ -10283,11 +13544,11 @@
 				"models": 1,
 				"options": [
 					{
-						"name": "Pintle-Mounted MMG",
+						"name": "Pintle Mounted MMG",
 						"points": 15
 					}
 				],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 12, Tow L/M AT, L Howitzer/AA"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","12","Tow"],
 				"equipment": []
 			},
 			{
@@ -10317,11 +13578,11 @@
 				"models": 1,
 				"options": [
 					{
-						"name": "Pintle-Mounted MMG",
+						"name": "Pintle Mounted MMG",
 						"points": 15
 					}
 				],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 12, Tow L/M AT, L Howitzer/AA"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","12","Tow"],
 				"equipment": []
 			},
 			{
@@ -10351,11 +13612,11 @@
 				"models": 1,
 				"options": [
 					{
-						"name": "Pintle-Mounted MMG",
+						"name": "Pintle Mounted MMG",
 						"points": 15
 					}
 				],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 12, Tow L/M AT, L Howitzer/AA"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","12","Tow"],
 				"equipment": []
 			},
 			{
@@ -10384,7 +13645,7 @@
 				"points": 14,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 3"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","3"],
 				"equipment": []
 			},
 			{
@@ -10413,7 +13674,7 @@
 				"points": 18,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 3"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","3"],
 				"equipment": []
 			},
 			{
@@ -10442,7 +13703,7 @@
 				"points": 22,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 6+, Wheeled, Transport 3"],
+				"keywords": ["Damage Value: 6+","Wheeled","Transport","3"],
 				"equipment": []
 			},
 			{
@@ -10476,7 +13737,7 @@
 						"points": 5
 					}
 				],
-				"keywords": ["Damage Value: 3+, Waterborne, Slow, May Not Run, Transport 16"],
+				"keywords": ["Damage Value: 3+","Waterborne","Slow","May Not Run","Transport","16"],
 				"equipment": []
 			},
 			{
@@ -10510,7 +13771,7 @@
 						"points": 5
 					}
 				],
-				"keywords": ["Damage Value: 3+, Waterborne, Slow, May Not Run, Transport 16"],
+				"keywords": ["Damage Value: 3+","Waterborne","Slow","May Not Run","Transport","16"],
 				"equipment": []
 			},
 			{
@@ -10544,7 +13805,7 @@
 						"points": 5
 					}
 				],
-				"keywords": ["Damage Value: 3+, Waterborne, Slow, May Not Run, Transport 16"],
+				"keywords": ["Damage Value: 3+","Waterborne","Slow","May Not Run","Transport","16"],
 				"equipment": []
 			},
 			{
@@ -10570,7 +13831,7 @@
 				"points": 12,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 3+, Transport 12"],
+				"keywords": ["Damage Value: 3+","Transport","12"],
 				"equipment": []
 			},
 			{
@@ -10596,7 +13857,7 @@
 				"points": 14,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 3+, Transport 12"],
+				"keywords": ["Damage Value: 3+","Transport","12"],
 				"equipment": []
 			},
 			{
@@ -10622,7 +13883,7 @@
 				"points": 16,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 3+, Transport 12"],
+				"keywords": ["Damage Value: 3+","Transport","12"],
 				"equipment": []
 			},
 			{
@@ -10636,7 +13897,7 @@
 				"points": 8,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 3+, Tow Any"],
+				"keywords": ["Damage Value: 3+","Tow"],
 				"equipment": []
 			},
 			{
@@ -10650,7 +13911,7 @@
 				"points": 10,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 3+, Tow Any"],
+				"keywords": ["Damage Value: 3+","Tow"],
 				"equipment": []
 			},
 			{
@@ -10664,7 +13925,7 @@
 				"points": 12,
 				"models": 1,
 				"options": [],
-				"keywords": ["Damage Value: 3+, Tow Any"],
+				"keywords": ["Damage Value: 3+","Tow"],
 				"equipment": []
 			},
 			{
@@ -10677,6 +13938,13 @@
 				],
 				"points": 160,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x4"]
@@ -10691,6 +13959,13 @@
 				],
 				"points": 200,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x4"]
@@ -10705,6 +13980,13 @@
 				],
 				"points": 240,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x4"]
@@ -10719,6 +14001,13 @@
 				],
 				"points": 176,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x2","Wing Mounted MMGs","x2"]
@@ -10733,6 +14022,13 @@
 				],
 				"points": 220,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x2","Wing Mounted MMGs","x2"]
@@ -10747,6 +14043,13 @@
 				],
 				"points": 264,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x2","Wing Mounted MMGs","x2"]
@@ -10761,6 +14064,13 @@
 				],
 				"points": 176,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -10790,6 +14100,13 @@
 				],
 				"points": 220,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -10819,6 +14136,13 @@
 				],
 				"points": 264,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -10848,6 +14172,13 @@
 				],
 				"points": 160,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x6"]
@@ -10862,6 +14193,13 @@
 				],
 				"points": 200,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x6"]
@@ -10876,6 +14214,13 @@
 				],
 				"points": 240,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x6"]
@@ -10890,6 +14235,13 @@
 				],
 				"points": 160,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Heavy Autocannon","Wing Mounted HMGs","x2","Wing Mounted MMGs","x4"]
@@ -10904,6 +14256,13 @@
 				],
 				"points": 200,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Heavy Autocannon","Wing Mounted HMGs","x2","Wing Mounted MMGs","x4"]
@@ -10918,6 +14277,13 @@
 				],
 				"points": 240,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Heavy Autocannon","Wing Mounted HMGs","x2","Wing Mounted MMGs","x4"]
@@ -10932,6 +14298,13 @@
 				],
 				"points": 208,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -10961,6 +14334,13 @@
 				],
 				"points": 260,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -10990,6 +14370,13 @@
 				],
 				"points": 312,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -11019,6 +14406,13 @@
 				],
 				"points": 120,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted MMGs","x4"]
@@ -11033,6 +14427,13 @@
 				],
 				"points": 150,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted MMGs","x4"]
@@ -11047,6 +14448,13 @@
 				],
 				"points": 180,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted MMGs","x4"]
@@ -11061,6 +14469,13 @@
 				],
 				"points": 104,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon","Wing Mounted MMGs","x2"]
@@ -11075,6 +14490,13 @@
 				],
 				"points": 130,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon","Wing Mounted MMGs","x2"]
@@ -11089,6 +14511,13 @@
 				],
 				"points": 156,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon","Wing Mounted MMGs","x2"]
@@ -11103,6 +14532,13 @@
 				],
 				"points": 128,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted MMGs","x2","Bombs","Rear Mounted MMGs","x2"]
@@ -11117,6 +14553,13 @@
 				],
 				"points": 160,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted MMGs","x2","Bombs","Rear Mounted MMGs","x2"]
@@ -11131,6 +14574,20 @@
 				],
 				"points": 192,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted MMGs","x2","Bombs","Rear Mounted MMGs","x2"]
@@ -11145,6 +14602,13 @@
 				],
 				"points": 120,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
@@ -11159,6 +14623,13 @@
 				],
 				"points": 150,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
@@ -11173,6 +14644,13 @@
 				],
 				"points": 180,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
@@ -11187,6 +14665,13 @@
 				],
 				"points": 112,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon", "x2"]
@@ -11201,6 +14686,13 @@
 				],
 				"points": 140,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon", "x2"]
@@ -11215,6 +14707,13 @@
 				],
 				"points": 168,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon", "x2"]
@@ -11229,6 +14728,13 @@
 				],
 				"points": 168,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -11258,6 +14764,13 @@
 				],
 				"points": 210,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -11287,6 +14800,13 @@
 				],
 				"points": 252,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -11319,6 +14839,13 @@
 				],
 				"points": 120,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
@@ -11336,6 +14863,13 @@
 				],
 				"points": 150,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
@@ -11353,6 +14887,13 @@
 				],
 				"points": 180,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Nose Mounted Light Autocannon", "Wing Mounted HMGs","x2"]
@@ -11367,6 +14908,13 @@
 				],
 				"points": 192,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon", "x4","Wing Mounted HMGs","x2"]
@@ -11381,6 +14929,13 @@
 				],
 				"points": 240,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon", "x4","Wing Mounted HMGs","x2"]
@@ -11395,6 +14950,13 @@
 				],
 				"points": 288,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon", "x4","Wing Mounted HMGs","x2"]
@@ -11409,6 +14971,13 @@
 				],
 				"points": 100,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
@@ -11423,6 +14992,13 @@
 				],
 				"points": 125,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
@@ -11437,6 +15013,13 @@
 				],
 				"points": 150,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
@@ -11451,6 +15034,13 @@
 				],
 				"points": 128,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x2", "Wing Mounted MMGs","x2"]
@@ -11465,6 +15055,13 @@
 				],
 				"points": 160,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x2", "Wing Mounted MMGs","x2"]
@@ -11479,6 +15076,13 @@
 				],
 				"points": 192,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted Light Autocannon","x2", "Wing Mounted MMGs","x2"]
@@ -11493,6 +15097,13 @@
 				],
 				"points": 96,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2"]
@@ -11507,6 +15118,13 @@
 				],
 				"points": 120,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2"]
@@ -11521,6 +15139,13 @@
 				],
 				"points": 144,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2"]
@@ -11535,6 +15160,13 @@
 				],
 				"points": 80,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
@@ -11549,6 +15181,13 @@
 				],
 				"points": 100,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
@@ -11563,6 +15202,13 @@
 				],
 				"points": 120,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
@@ -11577,6 +15223,13 @@
 				],
 				"points": 112,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2"]
@@ -11591,6 +15244,13 @@
 				],
 				"points": 140,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2"]
@@ -11605,6 +15265,13 @@
 				],
 				"points": 168,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2"]
@@ -11619,6 +15286,13 @@
 				],
 				"points": 96,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2"]
@@ -11633,6 +15307,13 @@
 				],
 				"points": 120,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2"]
@@ -11647,6 +15328,13 @@
 				],
 				"points": 144,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x2"]
@@ -11661,6 +15349,13 @@
 				],
 				"points": 125,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
@@ -11675,6 +15370,13 @@
 				],
 				"points": 160,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
@@ -11689,6 +15391,13 @@
 				],
 				"points": 192,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
@@ -11703,6 +15412,13 @@
 				],
 				"points": 125,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
@@ -11717,6 +15433,13 @@
 				],
 				"points": 160,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
@@ -11731,6 +15454,13 @@
 				],
 				"points": 192,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted HMGs","x2","Wing Mounted MMGs","x2","Bombs"]
@@ -11745,6 +15475,13 @@
 				],
 				"points": 112,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x4"]
@@ -11759,6 +15496,13 @@
 				],
 				"points": 140,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x4"]
@@ -11773,6 +15517,13 @@
 				],
 				"points": 168,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Interceptor"],
 				"equipment": ["Wing Mounted HMGs","x4"]
@@ -11787,6 +15538,13 @@
 				],
 				"points": 100,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Rear Mounted MMGs","Bombs"]
@@ -11801,6 +15559,13 @@
 				],
 				"points": 125,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Rear Mounted MMGs","Bombs"]
@@ -11815,6 +15580,13 @@
 				],
 				"points": 150,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x2","Rear Mounted MMGs","Bombs"]
@@ -11829,6 +15601,13 @@
 				],
 				"points": 120,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x4","Rear Mounted MMGs","Bombs"]
@@ -11843,6 +15622,13 @@
 				],
 				"points": 150,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x4","Rear Mounted MMGs","Bombs"]
@@ -11857,6 +15643,13 @@
 				],
 				"points": 180,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": [],
 				"equipment": ["Wing Mounted MMGs","x4","Rear Mounted MMGs","Bombs"]
@@ -11871,6 +15664,13 @@
 				],
 				"points": 200,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -11900,6 +15700,13 @@
 				],
 				"points": 250,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
@@ -11929,6 +15736,13 @@
 				],
 				"points": 300,
 				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [
 					{
 						"name": "Bombs",
