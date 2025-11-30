@@ -30,6 +30,11 @@
 		"property": "campaign",
 		"label": "Include Campaign Rules",
 		"default": false
+	},
+    {
+		"property": "compendium",
+		"label": "Include Compendium Rules",
+		"default": false
 	}
 ],
 "limits": [],
@@ -161,7 +166,8 @@
 				"name": "Poland"
 			},
 			{
-				"name": "Polish Peoples Army (LWP)"
+				"name": "Polish Peoples Army (LWP)",
+				"compendium": true
 			},
 			{
 				"name": "Romania"
