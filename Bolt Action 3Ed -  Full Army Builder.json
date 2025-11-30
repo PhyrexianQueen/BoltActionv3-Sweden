@@ -15,9 +15,31 @@
 		"abbreviation": "S"
     }
 ],
-"limits": [],
-"counts": [],
-"calculations": [],
+"toggles": [
+    {
+      "property": "experimental",
+      "label": "Include Experimental Rules",
+      "default": false
+    },
+    {
+      "property": "community",
+      "label": "Include Community Rules",
+      "default": false
+    },
+    {
+      "property": "campaign",
+      "label": "Include Campaign Rules",
+      "default": false
+    }
+  ],
+  "limits": [],
+  "counts": [],
+  "calculations": [
+    {
+      "label": "Order Dice",
+      "properties": ["order"]
+    }
+  ],
 "additionalPrint": [],
 "elements": [
 	{
@@ -148,7 +170,8 @@
 				"name": "Soviet Union"
 			},
 			{
-				"name": "Sweden (Unofficial)"
+				"name": "Sweden",
+				"community": true
 			},
 			{
 				"name": "United States of America"
@@ -1002,7 +1025,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1068,7 +1091,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1134,7 +1157,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1206,7 +1229,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1278,7 +1301,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1350,7 +1373,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1422,7 +1445,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1494,7 +1517,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1506,6 +1529,7 @@
 			{
 				"name": "Air Support",
 				"unlimited": false,
+				"experimental": true,
 				"decreaseModelCount": 1,
 				"factions": [
 					{
@@ -1560,7 +1584,7 @@
 						"name": "Soviet Union"
 					},
 					{
-						"name": "Sweden (Unofficial)"
+						"name": "Sweden"
 					},
 					{
 						"name": "United States of America"
@@ -1573,6 +1597,7 @@
 		"units": [
 			{
 				"name": "Company Commander - Inexperienced",
+				"order":1,
 				"factions": [],
 				"availableIn":["HQ Platoon"],
 				"points": 42,
@@ -1726,7 +1751,7 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "SMGs",
@@ -1734,7 +1759,7 @@
 						"increment": true,
 						"max": 3,
 						"maxKey": "gun",
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Pistols",
@@ -1742,14 +1767,14 @@
 						"increment": true,
 						"max": 3,
 						"maxKey": "gun",
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
 						"availableIn": [
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -1808,6 +1833,7 @@
 			{
 				"name": "Company Commander - Regular",
 				"factions": [],
+				"order":1,
 				"availableIn":["HQ Platoon"],
 				"points": 60,
 				"models": 1,
@@ -1970,21 +1996,21 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
@@ -1993,7 +2019,7 @@
 						"Finland"],
 						"availableIn": [
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -2054,7 +2080,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Intelligence",
@@ -2112,13 +2138,14 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Soviet Union" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "United States of America" }]			
 					}
 				],
 				"points": 78,
+				"order":1,
 				"models": 1,
 				"sortPriority": 1,
 				"limits": [
@@ -2297,7 +2324,7 @@
 						"availableIn": [
 							"Finland",
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -2306,21 +2333,21 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
 						"max": 3,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Additional Men",
@@ -2455,7 +2482,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Intelligence",
@@ -2654,7 +2681,7 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "United States of America" }]			
@@ -2700,7 +2727,7 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "United States of America" }]			
@@ -2727,7 +2754,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -2764,7 +2791,7 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "United States of America" }]			
@@ -2821,7 +2848,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -3080,19 +3107,19 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Soviet Union" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "United States of America" }]			
@@ -3276,21 +3303,21 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 2,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
 						"availableIn": [
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -3573,19 +3600,19 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Soviet Union" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "United States of America" }]			
@@ -3788,14 +3815,14 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 2,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
@@ -3803,7 +3830,7 @@
 						"availableIn": [
 							"Finland",
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -4077,19 +4104,19 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Soviet Union" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "United States of America" }]			
@@ -4375,14 +4402,14 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": 2,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
@@ -4390,7 +4417,7 @@
 						"availableIn": [
 							"Finland",
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -4541,7 +4568,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -4572,7 +4599,7 @@
 						"availableIn": [
 							"Finland",
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -4668,7 +4695,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -4698,7 +4725,7 @@
 						"perModel": true,
 						"availableIn": [
 							"Finland",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -4876,10 +4903,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -4915,7 +4942,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -4943,7 +4970,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -4960,7 +4987,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -4978,7 +5005,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -5049,10 +5076,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -5088,7 +5115,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5116,7 +5143,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5133,7 +5160,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -5200,7 +5227,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -5319,10 +5346,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -5358,7 +5385,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5390,7 +5417,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5414,7 +5441,7 @@
 						"availableIn": [
 							"Finland",
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5433,7 +5460,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -5540,10 +5567,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -5579,7 +5606,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5611,7 +5638,7 @@
 							"Germany",
 							"Great Britain",
 							"Italy",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5635,7 +5662,7 @@
 						"availableIn": [
 							"Finland",
 							"Norway",
-							"Sweden (Unofficial)"
+							"Sweden"
 						]
 					},
 					{
@@ -5703,7 +5730,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6193,7 +6220,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6220,7 +6247,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6243,7 +6270,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6270,7 +6297,7 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6305,10 +6332,10 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6331,7 +6358,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -6347,10 +6374,10 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6374,12 +6401,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6401,10 +6428,10 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6428,12 +6455,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6467,7 +6494,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -6487,7 +6514,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -6503,7 +6530,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -6524,12 +6551,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6551,7 +6578,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -6572,12 +6599,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6611,10 +6638,10 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 26,
@@ -6636,10 +6663,10 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -6667,10 +6694,10 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 44,
@@ -6698,7 +6725,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 26,
@@ -6720,7 +6747,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -6748,7 +6775,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 44,
@@ -6776,7 +6803,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
@@ -6797,12 +6824,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -6818,7 +6845,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
@@ -6839,12 +6866,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -6860,7 +6887,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6880,7 +6907,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -6896,7 +6923,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6916,13 +6943,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -6950,7 +6977,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
@@ -6970,13 +6997,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7016,7 +7043,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7036,7 +7063,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7052,7 +7079,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7072,13 +7099,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7106,7 +7133,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7126,13 +7153,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7172,7 +7199,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7197,7 +7224,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7213,7 +7240,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7238,13 +7265,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7266,7 +7293,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7291,13 +7318,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7331,7 +7358,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7356,7 +7383,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -7367,7 +7394,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7392,7 +7419,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -7403,7 +7430,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7428,7 +7455,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -7439,7 +7466,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7459,7 +7486,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7475,7 +7502,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7496,12 +7523,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7523,7 +7550,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7544,12 +7571,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7583,7 +7610,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7603,7 +7630,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -7614,7 +7641,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7635,12 +7662,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7657,7 +7684,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7678,12 +7705,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7843,7 +7870,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7863,7 +7890,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -7879,7 +7906,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7899,13 +7926,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7933,7 +7960,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -7953,13 +7980,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -7999,7 +8026,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8024,7 +8051,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -8040,7 +8067,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8065,13 +8092,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -8093,7 +8120,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8118,13 +8145,13 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -8158,7 +8185,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8183,7 +8210,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -8194,7 +8221,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8219,7 +8246,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -8230,7 +8257,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8255,7 +8282,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -8409,7 +8436,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8429,7 +8456,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -8445,7 +8472,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8466,12 +8493,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -8493,7 +8520,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8514,12 +8541,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -8553,7 +8580,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8573,7 +8600,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": [],
@@ -8584,7 +8611,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8605,12 +8632,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -8627,7 +8654,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -8648,12 +8675,12 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Skis",
 						"points": 0,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -8813,7 +8840,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -8867,7 +8894,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 50,
@@ -8926,7 +8953,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 65,
@@ -8985,7 +9012,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -9039,7 +9066,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 50,
@@ -9098,7 +9125,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 65,
@@ -9157,7 +9184,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 42,
@@ -9211,7 +9238,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 70,
@@ -9270,7 +9297,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 85,
@@ -9329,7 +9356,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 70,
@@ -9388,7 +9415,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 85,
@@ -9447,7 +9474,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 95,
@@ -9513,7 +9540,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
@@ -9571,13 +9598,13 @@
 						"name": "Skis",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -9594,7 +9621,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
@@ -9652,13 +9679,13 @@
 						"name": "Skis",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden (Unofficial)"]
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -10734,7 +10761,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -10761,7 +10788,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 50,
@@ -10788,7 +10815,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 65,
@@ -10815,7 +10842,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 55,
@@ -10837,7 +10864,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 70,
@@ -10859,7 +10886,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 85,
@@ -10881,7 +10908,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -10912,7 +10939,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 50,
@@ -10943,7 +10970,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 65,
@@ -10974,7 +11001,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 102,
@@ -10996,7 +11023,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 145,
@@ -11018,7 +11045,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 189,
@@ -11040,7 +11067,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -11062,7 +11089,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 50,
@@ -11084,7 +11111,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 65,
@@ -11106,7 +11133,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -11128,7 +11155,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 50,
@@ -11150,7 +11177,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 60,
@@ -11172,7 +11199,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 63,
@@ -11194,7 +11221,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 90,
@@ -11216,7 +11243,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 117,
@@ -11238,7 +11265,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 98,
@@ -11260,7 +11287,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 140,
@@ -11282,7 +11309,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 182,
@@ -11304,7 +11331,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 12,
@@ -11331,7 +11358,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 15,
@@ -11358,7 +11385,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 18,
@@ -11385,7 +11412,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 52,
@@ -11412,7 +11439,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 65,
@@ -11439,7 +11466,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 78,
@@ -11466,7 +11493,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 100,
@@ -11493,7 +11520,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 125,
@@ -11520,7 +11547,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 150,
@@ -11547,7 +11574,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 104,
@@ -11574,7 +11601,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 130,
@@ -11601,7 +11628,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 156,
@@ -11628,7 +11655,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 104,
@@ -11655,7 +11682,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 130,
@@ -11682,7 +11709,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 156,
@@ -11709,7 +11736,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 160,
@@ -11736,7 +11763,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 200,
@@ -11763,7 +11790,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 240,
@@ -11790,7 +11817,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 60,
@@ -11817,7 +11844,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 75,
@@ -11844,7 +11871,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 90,
@@ -11871,7 +11898,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 88,
@@ -11898,7 +11925,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 110,
@@ -11925,7 +11952,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 132,
@@ -11952,7 +11979,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 76,
@@ -11979,7 +12006,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 95,
@@ -12006,7 +12033,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 114,
@@ -12033,7 +12060,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 88,
@@ -12060,7 +12087,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 110,
@@ -12087,7 +12114,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points":132,
@@ -12114,7 +12141,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 80,
@@ -12141,7 +12168,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 100,
@@ -12168,7 +12195,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 120,
@@ -12195,7 +12222,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 92,
@@ -12222,7 +12249,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 115,
@@ -12249,7 +12276,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 138,
@@ -12276,7 +12303,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 100,
@@ -12303,7 +12330,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 125,
@@ -12330,7 +12357,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 150,
@@ -12357,7 +12384,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 148,
@@ -12384,7 +12411,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 185,
@@ -12411,7 +12438,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 222,
@@ -12438,7 +12465,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 68,
@@ -12465,7 +12492,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 117,
@@ -12492,7 +12519,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 141,
@@ -12519,7 +12546,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 68,
@@ -12554,7 +12581,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 85,
@@ -12581,7 +12608,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 102,
@@ -12608,7 +12635,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 44,
@@ -12635,7 +12662,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 55,
@@ -12662,7 +12689,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 66,
@@ -12689,7 +12716,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 48,
@@ -12716,7 +12743,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 60,
@@ -12743,7 +12770,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 72,
@@ -12770,7 +12797,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 28,
@@ -12797,7 +12824,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 35,
@@ -12824,7 +12851,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 42,
@@ -12851,7 +12878,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 88,
@@ -12878,7 +12905,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 110,
@@ -12905,7 +12932,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 132,
@@ -12932,7 +12959,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 140,
@@ -12954,7 +12981,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 175,
@@ -12976,7 +13003,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 336,
@@ -12998,7 +13025,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 440,
@@ -13020,7 +13047,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 84,
@@ -13042,7 +13069,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 105,
@@ -13064,7 +13091,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 68,
@@ -13086,7 +13113,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 85,
@@ -13108,7 +13135,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 80,
@@ -13130,7 +13157,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 100,
@@ -13218,22 +13245,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 78,
@@ -13247,22 +13274,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 97,
@@ -13276,22 +13303,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 117,
@@ -13305,22 +13332,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 20,
@@ -13334,22 +13361,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 24,
@@ -13363,22 +13390,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 29,
@@ -13392,7 +13419,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 38,
@@ -13406,7 +13433,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 46,
@@ -13420,22 +13447,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 18,
@@ -13454,22 +13481,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 23,
@@ -13488,22 +13515,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 28,
@@ -13522,22 +13549,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 22,
@@ -13556,22 +13583,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 27,
@@ -13590,22 +13617,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 32,
@@ -13624,22 +13651,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 14,
@@ -13653,22 +13680,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 18,
@@ -13682,22 +13709,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 22,
@@ -13711,22 +13738,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 8,
@@ -13745,22 +13772,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 10,
@@ -13779,22 +13806,22 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 12,
@@ -13813,19 +13840,19 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 12,
@@ -13839,19 +13866,19 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 14,
@@ -13865,19 +13892,19 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 16,
@@ -13891,7 +13918,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 8,
@@ -13905,7 +13932,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 10,
@@ -13919,7 +13946,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 12,
@@ -15470,7 +15497,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 112,
@@ -15491,7 +15518,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 140,
@@ -15512,7 +15539,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 168,
@@ -15533,7 +15560,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]				
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]				
 					}
 				],
 				"points": 100,
@@ -15554,7 +15581,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]				
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]				
 					}
 				],
 				"points": 125,
@@ -15575,7 +15602,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 150,
@@ -15596,7 +15623,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 120,
@@ -15617,7 +15644,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 150,
@@ -15638,7 +15665,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 180,
@@ -15659,7 +15686,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 200,
@@ -15695,7 +15722,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 250,
@@ -15731,7 +15758,7 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Sweden (Unofficial)" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 300,
