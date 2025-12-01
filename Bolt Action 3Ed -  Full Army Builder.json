@@ -2563,6 +2563,59 @@
 				"equipment": []
 			},		
 			{
+				"name": "Colonel James 'Jumpin Jim' Gavin - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"sortPriority": 3,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Stubbron","Act With Courage","Act with Initiative","I-SUB"],
+				"equipment": []
+			},
+			{
 				"name": "Red Army Company Commander - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -10646,7 +10699,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 7,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -10708,7 +10761,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 10,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -10832,7 +10885,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 7,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -10894,7 +10947,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 10,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -11018,7 +11071,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 7,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -11080,7 +11133,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 10,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -11204,7 +11257,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 7,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -11266,7 +11319,7 @@
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 10,
 						"increment": true,
 						"max": 6,
 						"addsModels": 1
@@ -11366,6 +11419,430 @@
 					}
 				],
 				"keywords": ["Period: M|L"],
+				"equipment": []
+			},
+			{
+				"name": "Rear Echelon Squad - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 36,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 6,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 6
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Green","Jittery","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "FSSF Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 96,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Medic",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Tough Fighters","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "FSSF Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 96,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Medic",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Tough Fighters","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "FSSF Scouts - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 36,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 2,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Tough Fighters","Escape Reaction","Recon Troops","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "FSSF Scouts - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 36,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 2,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Tough Fighters","Escape Reaction","Recon Troops","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Darby's Rangers 'The Black Death' - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 80,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Light Recognition","Rangers Lead the Way!","Achnacarry Training","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Darby's Rangers 'The Black Death' - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 80,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Light Recognition","Rangers Lead the Way!","Achnacarry Training","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -18606,7 +19083,7 @@
 				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Half-Track"],
 				"equipment": ["Hull Mounted Medium Howitzer"]
 			},
-						{
+			{
 				"name": "T12 75mm Motor Carriage - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -18703,6 +19180,43 @@
 				"equipment": ["Hull Mounted Medium AT Gun"]
 			},
 						{
+				"name": "T12 'Ranger Force' 75mm Motor Carriage - Veteran",
+				"factions": [],
+				"campaign": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command",
+						"points": 10
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG",
+						"points": 25
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Half-Track", "Improved HE","Shoot 'n' Scoot","I-SUB"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
 				"name": "T30 75mm Howitzer Motor Carriage - Inexperienced",
 				"factions": [],
 				"order": 1,
