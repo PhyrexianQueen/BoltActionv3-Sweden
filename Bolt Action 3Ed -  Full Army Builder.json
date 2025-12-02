@@ -183,7 +183,7 @@
 				"name": "United States of America"
 			}
 		],
-		"equipment": [
+				"equipment": [
 			{
 				"name": "Anti-Tank Grenades",
 				"specialRules": ["Tank Hunters"]
@@ -191,6 +191,10 @@
 			{
 				"name": "Empty Pylons",
 				"specialRules": ["Empty Pylons","Interceptor"]
+			},
+			{
+				"name": "Ivory Handle Pistol Pair",
+				"specialRules": ["Ivory Handle Pistol Pair"]
 			},
 			{
 				"name": "Turret Mounted Bazooka",
@@ -617,6 +621,14 @@
 				"specialRules": ["Left Arc"]
 			},
 			{
+				"name": "Rifle Grenade Adaptor",
+				"specialRules": ["Indirect","HE 1in","BotB"]
+			},
+			{
+				"name": "Rifle Grenade Adaptor",
+				"specialRules": ["Indirect","HE 1in","BotB"]
+			},
+			{
 				"name": "STBD Mounted HMGs",
 				"specialRules": ["Right Arc"]
 			}
@@ -629,6 +641,118 @@
 			{
 				"name": "Experimental",
 				"definition": "Requires an additional Order Test; Bolt Action, 3rd Edition: Pg. ---"
+			},
+			{
+				"name": "BotB",
+				"definition": "Bolt Action 2nd Edition Campaign Book: Battle of the Bulge"
+			},
+			{
+				"name": "I-SUB",
+				"definition": "Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly"
+			},
+			{
+				"name": "Act with Courage",
+				"definition": "All units within 12in ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 125"
+			},
+			{
+				"name": "Act with Initiative",
+				"definition": "At the start of each turn, roll a D6. On a roll of 4+ you receive the first order die of the turn; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 125"
+			},
+			{
+				"name": "Rear Echelon Squad",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 112"
+			},
+			{
+				"name": "FSSF Section",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
+			},
+			{
+				"name": "FSSF Scouts",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
+			},
+			{
+				"name": "Freddie's Freighters",
+				"definition": "Can move through impassable mountainous/hilly terrain; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 113"
+			},
+			{
+				"name": "Masters of Concealment",
+				"definition": "Shortened detection range when Hidden; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 113"
+			},
+			{
+				"name": "Recon Troops",
+				"definition": "Can spot hidden units at 18in; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
+			},
+			{
+				"name": "Escape Reaction",
+				"definition": "When Attacked or Assault, may issue a run order and move up to 6in away from the attacking unit; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
+			},
+			{
+				"name": "Jittery",
+				"definition": "When performing an order test, Doulbe 1s count as a FUBAR, like Double 6s; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 112"
+			},
+			{
+				"name": "The Black Death",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 115"
+			},
+			{
+				"name": "Light Recognition",
+				"definition": "Increase Night Detection Range by 6in; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 115"
+			},
+			{
+				"name": "Ivory Handle Pistol Pair",
+				"definition": "Ivory Handle Pistol Pair has Shots:2; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 115"
+			},
+			{
+				"name": "Ranger Force T12",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 116"
+			},
+			{
+				"name": "Colonel Gavin",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 125"
+			},
+			{
+				"name": "Colonel Darby",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 125"
+			},
+			{
+				"name": "Colonel Frederick",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+			},
+			{
+				"name": "General Patton",
+				"definition": "Campaign Unit - Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+			},
+			{
+				"name": "Shoot 'n' Scoot",
+				"definition": "After resolving a Fire Order, may make a reverse move; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 116"
+			},
+			{
+				"name": "Hold'em by the Nose and Kick'em in the Ass!",
+				"definition": "Outflanking Units may come in 12in further than normal; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+			},
+			{
+				"name": "I Won't Subsidise Cowardice!",
+				"definition": "Units within 12in of Patton have their Morale raised by 1 and Reroll Failed Morale Tests. (Order Tests are not Morale Tests); Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+			},
+			{
+				"name": "Ol' Blood'n'Guts!",
+				"definition": "In a Scenario with Victory Points, if Patton is defeated, the opponent gains 2 VPs; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+			},
+			{
+				"name": "We're Gonna Go Through Them Like crap Through Goose!",
+				"definition": "After setup, but before the first turn of the game as a part of beginning of game actions, all units that are deployed on the board may make a Run Move; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+			},
+			{
+				"name": "Lead From the Front",
+				"definition": "When a unit is within 12in of a Company or Platoon Commander, they may ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+			},
+			{
+				"name": "Able Leadership",
+				"definition": "All Units with 'Rangers Lead the Way!' within 12in ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 116"
+			},
+			{
+				"name": "Achnacarry Training",
+				"definition": "Can move through impassable mountainous/hilly terrain; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 107"
 			},
 			{
 				"name": "Test Bed",
@@ -2612,8 +2736,167 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: L","Stubbron","Act With Courage","Act with Initiative","I-SUB"],
+				"keywords": ["Period: L","Stubborn","Colonel Gavin","Act With Courage","Act with Initiative","I-SUB"],
 				"equipment": []
+			},
+			{
+				"name": "Colonel William 'El Darbo' Darby - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"sortPriority": 3,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Rangers Lead the Way!","Colonel Darby","Able Leadership","Spotter","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Colonel Robert T. Frederick - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 190,
+				"models": 1,
+				"sortPriority": 3,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Masters of Concealment","Colonel Frederick","Freddie's Freighters","Tough Fighters","Lead From the Front","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Lt. General George S. Patton Jr. - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 215,
+				"models": 1,
+				"sortPriority": 3,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Hold'em by the Nose and Kick'em in the Ass!","I Won't Subsidise Cowardice!","Ol' Blood'n'Guts!","We're Gonna Go Through Them Like crap Through Goose!","General Patton","I-SUB"],
+				"equipment": ["Ivory Handle Pistol Pair"]
 			},
 			{
 				"name": "Red Army Company Commander - Inexperienced",
@@ -9721,7 +10004,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","LZ Signals","Stubbron"],
+				"keywords": ["Period: M|L","LZ Signals","Stubborn"],
 				"equipment": []
 			},
 			{
@@ -9766,7 +10049,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","LZ Signals","Stubbron"],
+				"keywords": ["Period: M|L","LZ Signals","Stubborn"],
 				"equipment": []
 			},
 			{
@@ -11464,7 +11747,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: E|M|L","Green","Jittery","I-SUB"],
+				"keywords": ["Period: E|M|L","Green","Jittery","I-SUB","Rear Echelon Squad"],
 				"equipment": []
 			},
 			{
@@ -11540,7 +11823,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: L","Tough Fighters","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"keywords": ["Period: L","Tough Fighters","FSSF Section","Freddie's Freighters","Masters of Concealment","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -11616,7 +11899,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: L","Tough Fighters","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"keywords": ["Period: L","Tough Fighters","FSSF Section","Freddie's Freighters","Masters of Concealment","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -11655,7 +11938,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: L","Tough Fighters","Escape Reaction","Recon Troops","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"keywords": ["Period: L","Tough Fighters","FSSF Scouts","Escape Reaction","Recon Troops","Freddie's Freighters","Masters of Concealment","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -11694,7 +11977,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: L","Tough Fighters","Escape Reaction","Recon Troops","Freddie's Freighters","Masters of Concealment","I-SUB"],
+				"keywords": ["Period: L","Tough Fighters","FSSF Scouts","Escape Reaction","Recon Troops","Freddie's Freighters","Masters of Concealment","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -11768,7 +12051,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Light Recognition","Rangers Lead the Way!","Achnacarry Training","I-SUB"],
+				"keywords": ["Period: M|L","The Black Death","Light Recognition","Rangers Lead the Way!","Achnacarry Training","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -11842,7 +12125,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Light Recognition","Rangers Lead the Way!","Achnacarry Training","I-SUB"],
+				"keywords": ["Period: M|L","The Black Death","Light Recognition","Rangers Lead the Way!","Achnacarry Training","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -19213,7 +19496,7 @@
 						"points": 25
 					}
 				],
-				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Half-Track", "Improved HE","Shoot 'n' Scoot","I-SUB"],
+				"keywords": ["Period: M|L","Ranger Force T12","Damage Value:7+","Open Topped","Half-Track", "Improved HE","Shoot 'n' Scoot","I-SUB"],
 				"equipment": ["Hull Mounted Medium AT Gun"]
 			},
 			{
@@ -22653,141 +22936,6 @@
 				"equipment": ["Turret Mounted Light AT Gun","Pintle Mounted HMG"]
 			},
 			{
-				"name": "Terrangbil m/42 KP - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					}
-				],
-				"points": 78,
-				"models": 1,
-				"options": [],
-				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Transport","16","Tow"],
-				"equipment": ["Pintle Mounted MMG"]
-			},
-			{
-				"name": "Terrangbil m/42 KP - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					}
-				],
-				"points": 97,
-				"models": 1,
-				"options": [],
-				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Transport","16","Tow"],
-				"equipment": ["Pintle Mounted MMG"]
-			},
-			{
-				"name": "Terrangbil m/42 KP - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					}
-				],
-				"points": 117,
-				"models": 1,
-				"options": [],
-				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Transport","16","Tow"],
-				"equipment": ["Pintle Mounted MMG"]
-			},
-			{
-				"name": "Terrangbil m/42 KP - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Armoured Platoon"	}, { "in": "Sweden" }]			
-					}
-				],
-				"points": 88,
-				"models": 1,
-				"options": [],
-				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
-				"equipment": ["Pintle Mounted MMG"]
-			},
-			{
-				"name": "Terrangbil m/42 KP - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Armoured Platoon"	}, { "in": "Sweden" }]			
-					}
-				],
-				"points": 107,
-				"models": 1,
-				"options": [],
-				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
-				"equipment": ["Pintle Mounted MMG"]
-			},
-			{
-				"name": "Terrangbil m/42 KP - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Armoured Platoon"	}, { "in": "Sweden" }]			
-					}
-				],
-				"points": 127,
-				"models": 1,
-				"options": [],
-				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
-				"equipment": ["Pintle Mounted MMG"]
-			},
-			{
 				"name": "1 1/2 Ton Truck - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -22811,7 +22959,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 32,
+				"points": 22,
 				"models": 1,
 				"options": [
 					{
@@ -22856,7 +23004,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 37,
+				"points": 27,
 				"models": 1,
 				"options": [
 					{
@@ -22901,7 +23049,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 42,
+				"points": 32,
 				"models": 1,
 				"options": [
 					{
@@ -22946,7 +23094,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 36,
+				"points": 26,
 				"models": 1,
 				"options": [
 					{
@@ -22991,7 +23139,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 43,
+				"points": 33,
 				"models": 1,
 				"options": [
 					{
@@ -23036,7 +23184,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 50,
+				"points": 40,
 				"models": 1,
 				"options": [
 					{
@@ -24757,6 +24905,1743 @@
 				"options": [],
 				"keywords": ["Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Amphibious","Turn On The Spot"],
 				"equipment": []
+			},
+			{
+				"name": "Terrangbil m/42 KP - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Transport","16","Tow"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			
+			{
+				"name": "1 1/2 Ton Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "1 1/2 Ton Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"points": 37,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "1 1/2 Ton Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"points": 42,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "2 1/2 Ton Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"points": 36,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","18","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "2 1/2 Ton Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"points": 43,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","18","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "2 1/2 Ton Truck - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","18","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "3/4 Ton Dodge Truck - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","8","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "3/4 Ton Dodge Truck - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 33,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","8","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "3/4 Ton Dodge Truck - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 38,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","8","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "DUKW Amphibious Truck - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","12","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "DUKW Amphibious Truck - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 37,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","12","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "DUKW Amphibious Truck - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 42,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","12","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 24,
+				"models": 1,
+				"options": [
+					{
+						"name": "Amphibious",
+						"points": 0
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Amphibious",
+						"points": 0
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Amphibious",
+						"points": 0
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","100 Men, 2 Soft Skin Vehicles, or 1 Armored Vehicle (DV9+ or Less)","Slow","Waterborne","Landing Craft","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","100 Men, 2 Soft Skin Vehicles, or 1 Armored Vehicle (DV9+ or Less)","Slow","Waterborne","Landing Craft","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 104,
+				"models": 1,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","100 Men, 2 Soft Skin Vehicles, or 1 Armored Vehicle (DV9+ or Less)","Slow","Waterborne","Landing Craft","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Personnel - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft","Open Topped"],
+				"equipment": ["Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L"]
+			},
+			{
+				"name": "Landing Craft, Personnel - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft","Open Topped"],
+				"equipment": ["Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L"]
+			},
+			{
+				"name": "Landing Craft, Personnel - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 53,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft","Open Topped"],
+				"equipment": ["Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L"]
+			},
+			{
+				"name": "LVT Amphibious Troop Transport - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Front Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG, F|R; Pintle Mounted HMG, F|L",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Front Pintle"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R; Pintle Mounted MMG, B|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Rear Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","24","Amphibious"],
+				"equipment": ["Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L"]
+			},
+			{
+				"name": "LVT Amphibious Troop Transport - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 79,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Front Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG, F|R; Pintle Mounted HMG, F|L",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Front Pintle"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R; Pintle Mounted MMG, B|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Rear Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","24","Amphibious"],
+				"equipment": ["Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L"]
+			},
+			{
+				"name": "LVT Amphibious Troop Transport - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 93,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Front Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG, F|R; Pintle Mounted HMG, F|L",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Front Pintle"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R; Pintle Mounted MMG, B|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Rear Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","24","Amphibious"],
+				"equipment": ["Pintle Mounted MMG, F|R; Pintle Mounted MMG, F|L"]
+			},
+			{
+				"name": "LVT(A)2 Armored Amphibious Troop Transport - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: L","Damage Value: 7+","Transport","18","Amphibious","Open Topped"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "LVT(A)2 Armored Amphibious Troop Transport - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 98,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: L","Damage Value: 7+","Transport","18","Amphibious","Open Topped"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "LVT(A)2 Armored Amphibious Troop Transport - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 116,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: L","Damage Value: 7+","Transport","18","Amphibious","Open Topped"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "LVT4 'Water Buffalo' Landing Vehicle - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG x2",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG x2",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: L","Damage Value: 7+","Transport","30 Men, Jeep, or Light/Medium Arty","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT4 'Water Buffalo' Landing Vehicle - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 110,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG x2",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG x2",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: L","Damage Value: 7+","Transport","30 Men, Jeep, or Light/Medium Arty","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT4 'Water Buffalo' Landing Vehicle - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 130,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG x2",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG x2",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: L","Damage Value: 7+","Transport","30 Men, Jeep, or Light/Medium Arty","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "M2 Half-Track - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 7+","Transport","10","Open Topped","Half-Track"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M2 Half-Track - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 7+","Transport","10","Open Topped","Half-Track"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M2 Half-Track - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 94,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 7+","Transport","10","Open Topped","Half-Track"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M2 A1 Half-Track - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"options": [
+					{
+						"name": "Right Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","10","Open Topped","Half-Track"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M2 A1 Half-Track - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"options": [
+					{
+						"name": "Right Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","10","Open Topped","Half-Track"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M2 A1 Half-Track - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"options": [
+					{
+						"name": "Right Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","10","Open Topped","Half-Track"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M3 Half-Track - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"options": [
+					{
+						"name": "Right Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 7+","Transport","12","Open Topped","Half-Trak"],
+				"equipment": []
+			},
+			{
+				"name": "M3 Half-Track - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 87,
+				"models": 1,
+				"options": [
+					{
+						"name": "Right Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 7+","Transport","12","Open Topped","Half-Trak"],
+				"equipment": []
+			},
+			{
+				"name": "M3 Half-Track - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 102,
+				"models": 1,
+				"options": [
+					{
+						"name": "Right Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG ",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 7+","Transport","12","Open Topped","Half-Trak"],
+				"equipment": []
+			},
+			{
+				"name": "2 Ton+ Mack Heavy Truck - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 41,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","24","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "2 Ton+ Mack Heavy Truck - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 49,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","24","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "2 Ton+ Mack Heavy Truck - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 57,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","24","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "M29 'Weasel' Tracked Transport - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Tow","Turn On The Spot"],
+				"equipment": []
+			},
+			{
+				"name": "M29 'Weasel' Tracked Transport - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Tow","Turn On The Spot"],
+				"equipment": []
+			},
+			{
+				"name": "M29 'Weasel' Tracked Transport - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 64,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Tow","Turn On The Spot"],
+				"equipment": []
+			},
+			{
+				"name": "M29C 'Water Weasel' Tracked Transport - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Amphibious","Turn On The Spot"],
+				"equipment": []
+			},
+			{
+				"name": "M29C 'Water Weasel' Tracked Transport - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Amphibious","Turn On The Spot"],
+				"equipment": []
+			},
+			{
+				"name": "M29C 'Water Weasel' Tracked Transport - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 64,
+				"models": 1,
+				"options": [],
+				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Amphibious","Turn On The Spot"],
+				"equipment": []
+			},
+			{
+				"name": "Terrangbil m/42 KP - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 97,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Transport","16","Tow"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Terrangbil m/42 KP - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 117,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Transport","16","Tow"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Terrangbil m/42 KP - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armoured Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Terrangbil m/42 KP - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armoured Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 107,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Terrangbil m/42 KP - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armoured Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 127,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
+				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
 				"name": "Artilleritraktor m/40 & m/43 - Inexperienced",
