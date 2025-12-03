@@ -5192,7 +5192,7 @@
 						"availableIn": ["Germany"]
 					},
 					{
-						"name": "Defend the Fatherland! Fallschirmjäger Only - Winter Equipment",
+						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
 						"points": 0,
 						"availableIn": ["Germany"]
 					},
@@ -5627,7 +5627,7 @@
 						"availableIn": ["Germany"]
 					},
 					{
-						"name": "Defend the Fatherland! Fallschirmjäger Only - Winter Equipment",
+						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
 						"points": 0,
 						"availableIn": ["Germany"]
 					},
@@ -6148,7 +6148,7 @@
 						"availableIn": ["Germany"]
 					},
 					{
-						"name": "Defend the Fatherland! Fallschirmjäger Only - Winter Equipment",
+						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
 						"points": 0,
 						"availableIn": ["Germany"]
 					},
@@ -6711,6 +6711,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -6759,6 +6762,12 @@
 						"max": 3,
 						"increment": true,
 						"availableIn": ["United States of America"]
+					,
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon"],
@@ -6771,6 +6780,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
@@ -6833,6 +6845,29 @@
 						"max": 3,
 						"increment": true,
 						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon"],
@@ -9138,7 +9173,6 @@
 				],
 				"points": 70,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9191,7 +9225,6 @@
 				],
 				"points": 65,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9250,7 +9283,6 @@
 				],
 				"points": 40,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9318,7 +9350,6 @@
 				],
 				"points": 55,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9389,7 +9420,6 @@
 				],
 				"points": 35,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9460,7 +9490,6 @@
 				],
 				"points": 50,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9530,7 +9559,6 @@
 				],
 				"points": 70,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9571,7 +9599,6 @@
 				],
 				"points": 90,
 				"models": 5,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9807,7 +9834,6 @@
 				],
 				"points": 78,
 				"models": 6,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -9848,7 +9874,6 @@
 				],
 				"points": 96,
 				"models": 6,
-				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
