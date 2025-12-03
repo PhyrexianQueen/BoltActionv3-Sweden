@@ -6762,7 +6762,7 @@
 						"max": 3,
 						"increment": true,
 						"availableIn": ["United States of America"]
-					,
+					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
@@ -6913,7 +6913,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -6968,7 +6968,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7035,7 +7035,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7064,7 +7064,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7099,7 +7099,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7146,7 +7146,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7175,7 +7175,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7210,7 +7210,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7257,7 +7257,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7294,7 +7294,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7343,7 +7343,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
 				"equipment": ["Bazooka"]
 			},
 			{
@@ -7404,7 +7404,7 @@
 						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge, Team Weapon"],
+				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
 				"equipment": ["Bazooka"]
 			},
 			{
