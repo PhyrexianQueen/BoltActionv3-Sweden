@@ -6708,6 +6708,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -6766,6 +6769,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
@@ -7562,6 +7568,153 @@
 				],
 				"keywords": ["Period: M|L","Team Weapon"],
 				"equipment": ["Recoilless Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 18,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 25,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 33,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 18,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 25,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 33,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
 			},
 			{
 				"name": "Flamethrower Team - Regular",
@@ -8678,6 +8831,774 @@
 				"equipment": []
 			},
 			{
+				"name": "Light Mortar Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 21,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 30,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 21,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 30,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Medium Mortar Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 36,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Medium Mortar"]
+			},
+			{
+				"name": "Medium Mortar Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]	
+					}
+				],
+				"points": 45,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Medium Mortar"]
+			},
+			{
+				"name": "Medium Mortar Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					}
+				],
+				"points": 54,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
+						}
+				],
+				"keywords": [],
+				"equipment": ["Medium Mortar"]
+			},
+			{
+				"name": "Medium Machine Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["MMG"]
+			},
+			{
+				"name": "Medium Machine Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					}
+				],
+				"points": 50,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["MMG"]
+			},
+			{
+				"name": "Medium Machine Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["MMG"]
+			},
+			{
+				"name": "Foreign Legion Veteran Infantry Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Pistol-Armed Man",
+						"points": 13,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Stubborn"],
+				"equipment": []
+			},
+			{
+				"name": "Groupe Franc/SES/GIA Veteran Infantry Section - Veteran",
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 65,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Chasseurs Alpine",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Infantry Section - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 40,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": -1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Senegalese Tirailleurs",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Engineers"],
+				"equipment": []
+			},
+			{
+				"name": "Infantry Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 55,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": -1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Senegalese Tirailleurs",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Engineers"],
+				"equipment": []
+			},
+			{
+				"name": "Infantry Section - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": -1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Senegalese Tirailleurs",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Infantry Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": -1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Senegalese Tirailleurs",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Moroccan Goumier - Veteran",
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Tough Fighters"],
+				"equipment": []
+			},
+			{
+				"name": "Motorcycle Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 90,
+				"models": 5,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Motorcycles"]
+			},
+			{
 				"name": "I&R Squad - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -8870,6 +9791,88 @@
 					}
 				],
 				"keywords": ["Period: E|M|L","Recon Troops","Regimental Units"],
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 78,
+				"models": 6,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Cavalry"],
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 96,
+				"models": 6,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Cavalry"],
 				"equipment": []
 			},
 			{
@@ -13581,6 +14584,381 @@
 				"equipment": ["Light AT Gun Team","Gun Shield"]
 			},
 			{
+				"name": "Light Anti-Tank Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "37mm Mle 1916 Low Velocity Light AT Gun",
+						"points": -10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "Light Anti-Tank Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 50,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "37mm Mle 1916 Low Velocity Light AT Gun",
+						"points": -10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "Light Anti-Tank Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "37mm Mle 1916 Low Velocity Light AT Gun",
+						"points": -10
+					}
+				],
+				"keywords": [],
+				"equipment": ["Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "Medium Anti-Tank Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 55,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Medium AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "Medium Anti-Tank Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 70,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Medium AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "Medium Anti-Tank Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 85,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Medium AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "AA Autocannon - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 25,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Autocannon Team"]
+			},
+			{
+				"name": "AA Autocannon - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Autocannon Team"]
+			},
+			{
+				"name": "AA Autocannon - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 46,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Autocannon Team"]
+			},
+			{
+				"name": "Dual AA Autocannon - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 45,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Autocannon Team","x2"]
+			},
+			{
+				"name": "Dual AA Autocannon - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 55,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Autocannon Team","x2"]
+			},
+			{
+				"name": "Dual AA Autocannon - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 66,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": [],
+				"equipment": ["Light Autocannon Team","x2"]
+			},
+			{
+				"name": "Light Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 32,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+						}
+				],
+				"keywords": [],
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "Light Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 45,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+						}
+				],
+				"keywords": [],
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "Light Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 59,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+						}
+				],
+				"keywords": [],
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
 				"name": "57mm Anti-Tank Gun M1 - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -14390,8 +15768,9 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
-						"points": 10
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -14427,8 +15806,9 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
-						"points": 10
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -14469,8 +15849,9 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
-						"points": 10
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -14502,8 +15883,9 @@
 						"perModel": true
 					},
 					{
-						"name": "Spotter",
-						"points": 10
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -14535,8 +15917,9 @@
 						"perModel": true
 					},
 					{
-						"name": "Spotter",
-						"points": 10
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -14573,11 +15956,210 @@
 						"perModel": true
 					},
 					{
-						"name": "Spotter",
-						"points": 10
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1
 					}
 				],
 				"keywords": ["Period: E|M|L"],
+				"equipment": ["Heavy Howitzer Team"]
+			},
+			{
+				"name": "Medium Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 72,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Medium Howitzer Team"]
+			},
+			{
+				"name": "Medium Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 85,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Medium Howitzer Team"]
+			},
+			{
+				"name": "Medium Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 99,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Medium Howitzer Team"]
+			},
+			{
+				"name": "Heavy Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 122,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Heavy Howitzer Team"]
+			},
+			{
+				"name": "Heavy Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 135,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Heavy Howitzer Team"]
+			},
+			{
+				"name": "Heavy Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 149,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": [],
 				"equipment": ["Heavy Howitzer Team"]
 			},
 			{
@@ -17163,7 +18745,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17191,7 +18773,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -17233,7 +18815,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -17275,7 +18857,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -17401,7 +18983,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17429,7 +19011,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17457,7 +19039,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17485,7 +19067,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17513,7 +19095,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17541,7 +19123,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17569,7 +19151,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17597,7 +19179,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17625,7 +19207,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -17779,7 +19361,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -17821,7 +19403,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -18919,7 +20501,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -18947,7 +20529,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -18975,7 +20557,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19003,7 +20585,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19031,7 +20613,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19059,7 +20641,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19087,7 +20669,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19123,7 +20705,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19159,7 +20741,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19195,7 +20777,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19227,7 +20809,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19259,7 +20841,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19291,7 +20873,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19323,7 +20905,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19355,7 +20937,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19387,7 +20969,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19419,7 +21001,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19451,7 +21033,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19484,7 +21066,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19520,7 +21102,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19552,7 +21134,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19584,7 +21166,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19616,7 +21198,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19644,7 +21226,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19672,7 +21254,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19700,7 +21282,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19728,7 +21310,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19756,7 +21338,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19784,7 +21366,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19812,7 +21394,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19840,7 +21422,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -19868,7 +21450,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19908,7 +21490,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19948,7 +21530,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -19980,7 +21562,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20012,7 +21594,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20044,7 +21626,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20076,7 +21658,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20108,7 +21690,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20136,7 +21718,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20164,7 +21746,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20192,7 +21774,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20220,7 +21802,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20248,7 +21830,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20284,7 +21866,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20320,7 +21902,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20356,7 +21938,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20384,7 +21966,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20412,7 +21994,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -20454,7 +22036,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20504,7 +22086,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20554,7 +22136,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20590,7 +22172,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20622,7 +22204,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20654,7 +22236,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20686,7 +22268,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20718,7 +22300,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20750,7 +22332,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20782,7 +22364,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20814,7 +22396,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20846,7 +22428,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20878,7 +22460,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20910,7 +22492,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20942,7 +22524,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -20974,7 +22556,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21006,7 +22588,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21038,7 +22620,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21070,7 +22652,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21112,7 +22694,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21154,7 +22736,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21196,7 +22778,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21238,7 +22820,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21280,7 +22862,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21322,7 +22904,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21364,7 +22946,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21406,7 +22988,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21448,7 +23030,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21490,7 +23072,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21532,7 +23114,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21574,7 +23156,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21620,7 +23202,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21666,7 +23248,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21712,7 +23294,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21758,7 +23340,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21804,7 +23386,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21850,7 +23432,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21882,7 +23464,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21914,7 +23496,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21946,7 +23528,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -21978,7 +23560,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22010,7 +23592,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22042,7 +23624,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22070,7 +23652,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22098,7 +23680,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22126,7 +23708,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22154,7 +23736,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22182,7 +23764,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22210,7 +23792,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22260,7 +23842,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22310,7 +23892,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22360,7 +23942,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22406,7 +23988,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22452,7 +24034,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22498,7 +24080,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22526,7 +24108,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22554,7 +24136,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22582,7 +24164,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22628,7 +24210,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22674,7 +24256,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22700,6 +24282,384 @@
 				"equipment": []
 			},
 			{
+				"name": "Citroen-Kegresse/Laffly S20TL - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 52,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Mounted Light AT Gun",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Main"
+					},
+					{
+						"name": "Front Mounted Light AT Gun",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Main"
+					}
+				],
+				"keywords": ["Damage Value:6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Citroen-Kegresse/Laffly S20TL - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Mounted Light AT Gun",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Main"
+					},
+					{
+						"name": "Front Mounted Light AT Gun",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Main"
+					}
+				],
+				"keywords": ["Damage Value:6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Citroen-Kegresse/Laffly S20TL - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Mounted Light AT Gun",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Main"
+					},
+					{
+						"name": "Front Mounted Light AT Gun",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Main"
+					}
+				],
+				"keywords": ["Damage Value:6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Laffly W15 TCC - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","Wheeled"],
+				"equipment": ["Rear Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Laffly W15 TCC - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","Wheeled"],
+				"equipment": ["Rear Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Laffly W15 TCC - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 98,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","Wheeled"],
+				"equipment": ["Rear Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Renault FT /w MMG Turret - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 24,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","One Man Turret", "Slow... Pitifully Slow"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Renault FT /w MMG Turret - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 30,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","One Man Turret", "Slow... Pitifully Slow"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Renault FT /w MMG Turret - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 36,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","One Man Turret", "Slow... Pitifully Slow"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Renault FT /w Light AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 54,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","One Man Turret", "Slow... Pitifully Slow","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun"]
+			},
+			{
+				"name": "Renault FT /w Light AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","One Man Turret", "Slow... Pitifully Slow","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun"]
+			},
+			{
+				"name": "Renault FT /w Light AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:6+","One Man Turret", "Slow... Pitifully Slow","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun"]
+			},
+			{
 				"name": "M7 'Priest' Howitzer Motor Carriage - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -22720,7 +24680,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22748,7 +24708,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22776,7 +24736,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22804,7 +24764,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22836,7 +24796,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22868,7 +24828,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					},
 					{
@@ -22900,7 +24860,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -22928,7 +24888,7 @@
 				],
 				"options": [
 					{
-						"name": "Command",
+						"name": "Command Vehicle",
 						"points": 10
 					}
 				],
@@ -23581,6 +25541,664 @@
 				"equipment": []
 			},
 			{
+				"name": "Landing Craft, Assault - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 16,
+				"options": [
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","36 Men","Slow","Waterborne"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Assault - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 20,
+				"models": 1,
+				"options": [
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","36 Men","Slow","Waterborne"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Assault - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 24,
+				"models": 1,
+				"options": [
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","36 Men","Slow","Waterborne"],
+				"equipment": []
+			},
+			{
+				"name": "Laffly S15 / V15 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 16,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","5","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Laffly S15 / V15 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 20,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","5","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Laffly S15 / V15 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 24,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","5","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "S20TL Six-Wheeled Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 46,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","10","Wheeled"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "S20TL Six-Wheeled Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","10","Wheeled"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "S20TL Six-Wheeled Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 54,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","10","Wheeled"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "Landing Craft, Personnel - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 34,
+				"options": [],
+				"keywords": ["Period: M|L","Command Vehicle","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne"],
+				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
+			},
+			{
+				"name": "Landing Craft, Personnel - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Command Vehicle","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne"],
+				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
+			},
+			{
+				"name": "Landing Craft, Personnel - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 46,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Command Vehicle","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne"],
+				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
+			},
+			{
+				"name": "Landing Craft, Mechanised - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 70,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M|L","Command Vehicle","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M|L","Command Vehicle","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M|L","Command Vehicle","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Assault - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 26,
+				"options": [
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","36 Men","Slow","Waterborne"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Assault - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 30,
+				"models": 1,
+				"options": [
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","36 Men","Slow","Waterborne"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Assault - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 34,
+				"models": 1,
+				"options": [
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","36 Men","Slow","Waterborne"],
+				"equipment": []
+			},
+			{
+				"name": "Laffly S15 / V15 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 26,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","5","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Laffly S15 / V15 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 30,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","5","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Laffly S15 / V15 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 34,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","5","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "S20TL Six-Wheeled Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 56,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","10","Wheeled"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "S20TL Six-Wheeled Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","10","Wheeled"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "S20TL Six-Wheeled Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 64,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Command Vehicle","Damage Value: 6+","Transport","10","Wheeled"],
+				"equipment": ["Pintle Mounted MMG","x2"]
+			},
+			{
 				"name": "Landing Craft, Mechanised - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -23714,6 +26332,229 @@
 				],
 				"keywords": ["Period: M|L","Damage Value: 6+","Transport","100 Men, 2 Soft Skin Vehicles, or 1 Armored Vehicle (DV9+ or Less)","Slow","Waterborne","Landing Craft","Open Topped"],
 				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 60,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Mechanised - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"options": [
+					{
+						"name": "Turret Mounted MMG, F|R; Turret Mounted MMG, F|L",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Turret Mounted HMG, F|R; Turret Mounted HMG, F|L",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Personnel - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 24,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne"],
+				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
+			},
+			{
+				"name": "Landing Craft, Personnel - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 30,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne"],
+				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
+			},
+			{
+				"name": "Landing Craft, Personnel - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 36,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne"],
+				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
 			},
 			{
 				"name": "Landing Craft, Personnel - Inexperienced",
@@ -25160,6 +28001,163 @@
 				"equipment": []
 			},
 			{
+				"name": "Berliet VUDB Carrier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 46,
+				"models": 1,
+				"options": [],
+				"keywords": ["Damage Value: 7+","Transport","7","Wheeled"],
+				"equipment": ["Forward Facing LMG"]
+			},
+			{
+				"name": "Berliet VUDB Carrier - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 57,
+				"models": 1,
+				"options": [],
+				"keywords": ["Damage Value: 7+","Transport","7","Wheeled"],
+				"equipment": ["Forward Facing LMG"]
+			},
+			{
+				"name": "Berliet VUDB Carrier - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"models": 1,
+				"options": [],
+				"keywords": ["Damage Value: 7+","Transport","7","Wheeled"],
+				"equipment": ["Forward Facing LMG"]
+			},
+			{
+				"name": "Berliet VUDB Carrier - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 56,
+				"models": 1,
+				"options": [],
+				"keywords": ["Damage Value: 7+","Transport","7","Wheeled","Command Vehicle"],
+				"equipment": ["Forward Facing LMG"]
+			},
+			{
+				"name": "Berliet VUDB Carrier - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 67,
+				"models": 1,
+				"options": [],
+				"keywords": ["Damage Value: 7+","Transport","7","Wheeled","Command Vehicle"],
+				"equipment": ["Forward Facing LMG"]
+			},
+			{
+				"name": "Berliet VUDB Carrier - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"options": [],
+				"keywords": ["Damage Value: 7+","Transport","7","Wheeled","Command Vehicle"],
+				"equipment": ["Forward Facing LMG"]
+			},
+			{
 				"name": "3/4 Ton Dodge Truck - Inexperienced",
 				"factions": [],
 				"limits": [
@@ -26172,6 +29170,1420 @@
 				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","10","Open Topped","Half-Track"],
 				"equipment": ["Pintle Mounted HMG"]
 			},
+			
+			{
+				"name": "AMC Schneider P16 Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Recce","Low Velocity","Dual Direction Steering","Half-Track"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMC Schneider P16 Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Recce","Low Velocity","Dual Direction Steering","Half-Track"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMC Schneider P16 Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Recce","Low Velocity","Dual Direction Steering","Half-Track"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Laffly S15TOE - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 56,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Laffly S15TOE - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Laffly S15TOE - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "AMR33/AMR35 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 46,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "AMR33/AMR35 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "AMR33/AMR35 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "AMD Laffly 80AM - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 71,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted HMG","Rear Facing Turret Mounted MMG"]
+			},
+			{
+				"name": "AMD Laffly 80AM - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted HMG","Rear Facing Turret Mounted MMG"]
+			},
+			{
+				"name": "AMD Laffly 80AM - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 99,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted HMG","Rear Facing Turret Mounted MMG"]
+			},
+			{
+				"name": "AMD Laffly 50AM / AMD Panhard 165/175 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 91,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMD Laffly 50AM / AMD Panhard 165/175 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMD Laffly 50AM / AMD Panhard 165/175 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 119,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMD Panhard 178 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 101,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMD Panhard 178 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMD Panhard 178 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 129,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Char 2C - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 148,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:9+","Slow"],
+				"equipment": ["Restricted F|L|R - Turret Mounted Light Howitzer","Restricted B|L|R - Turret Mounted MMG","Restricted F - Turret Mounted MMG","Restricted F|L - Turret Mounted MMG","Restricted F|R - Turret Mounted MMG"]
+			},
+			{
+				"name": "Char 2C - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 185,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:9+","Slow"],
+				"equipment": ["Restricted F|L|R - Turret Mounted Light Howitzer","Restricted B|L|R - Turret Mounted MMG","Restricted F - Turret Mounted MMG","Restricted F|L - Turret Mounted MMG","Restricted F|R - Turret Mounted MMG"]
+			},
+			{
+				"name": "Char 2C - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 222,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value:9+","Slow"],
+				"equipment": ["Restricted F|L|R - Turret Mounted Light Howitzer","Restricted B|L|R - Turret Mounted MMG","Restricted F - Turret Mounted MMG","Restricted F|L - Turret Mounted MMG","Restricted F|R - Turret Mounted MMG"]
+			},
+			{
+				"name": "Char 2C - Company Commander Ver. - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 223,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Damage Value:10+","Slow","Command Vehicle"],
+				"equipment": ["Restricted F|L|R - Turret Mounted Light Howitzer","Restricted B|L|R - Turret Mounted MMG","Restricted F - Turret Mounted MMG","Restricted F|L - Turret Mounted MMG","Restricted F|R - Turret Mounted MMG"]
+			},
+			{
+				"name": "Char 2C - Company Commander Ver. - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 260,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Damage Value:10+","Slow","Command Vehicle"],
+				"equipment": ["Restricted F|L|R - Turret Mounted Light Howitzer","Restricted B|L|R - Turret Mounted MMG","Restricted F - Turret Mounted MMG","Restricted F|L - Turret Mounted MMG","Restricted F|R - Turret Mounted MMG"]
+			},
+			{
+				"name": "Char 2C - Company Commander Ver. - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 297,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Damage Value:10+","Slow","Command Vehicle"],
+				"equipment": ["Restricted F|L|R - Turret Mounted Light Howitzer","Restricted B|L|R - Turret Mounted MMG","Restricted F - Turret Mounted MMG","Restricted F|L - Turret Mounted MMG","Restricted F|R - Turret Mounted MMG"]
+			},
+			{
+				"name": "Char B1 / B1 BIS - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 176,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:9+","Slow","One Man Turret","Armored All Round"],
+				"equipment": ["Hull Mounted Light Howitzer","Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Char B1 / B1 BIS - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 220,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:9+","Slow","One Man Turret","Armored All Round"],
+				"equipment": ["Hull Mounted Light Howitzer","Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Char B1 / B1 BIS - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 264,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:9+","Slow","One Man Turret","Armored All Round"],
+				"equipment": ["Hull Mounted Light Howitzer","Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Renault R35 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Armored All Round","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Renault R35 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Armored All Round","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Renault R35 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Armored All Round","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Renault R39 / R40 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 94,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Armored All Round"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Renault R39 / R40 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Armored All Round"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Renault R39 / R40 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 136,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Armored All Round"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Char D1 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 99,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Char D1 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Char D1 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 141,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Char D2 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 69,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Unreliable"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Char D2 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Unreliable"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Char D2 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 111,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","Slow","One Man Turret","Unreliable"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "H35/FCM36 Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "H35/FCM36 Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "H35/FCM36 Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret","Low Velocity"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "H38 Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 94,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "H38 Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "H38 Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 136,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMC 35 Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 94,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMC 35 Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AMC 35 Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 136,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Somua S35 Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 114,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Somua S35 Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Somua S35 Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 156,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+						}
+				],
+				"keywords": ["Damage Value:8+","One Man Turret","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
 			{
 				"name": "M3 Half-Track - Inexperienced",
 				"factions": [],
@@ -26995,6 +31407,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
 				],
 				"points": 14,
@@ -27025,6 +31455,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
 				],
 				"points": 18,
@@ -27055,6 +31503,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
 				],
 				"points": 22,
@@ -27085,6 +31551,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
 				],
 				"points": 8,
@@ -27120,6 +31604,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
 				],
 				"points": 10,
@@ -27155,6 +31657,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Recee Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
 				],
 				"points": 12,
