@@ -15130,6 +15130,57 @@
 				"equipment": []
 			},
 			{
+				"name": "US Marine Infantry - US Marine War Dog Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 30,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Dog Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L", "Stubborn","Tough Fighters","Selection - US Marine Infantry","Spotting"],
+				"equipment": []
+			},
+			{
 				"name": "Rear Detachment Squad - Inexperienced",
 				"factions": [],
 				"order": 1,
