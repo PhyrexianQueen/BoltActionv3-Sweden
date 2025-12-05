@@ -17728,6 +17728,707 @@
 				"equipment": ["Medium Howitzer Team"]
 			},
 			{
+				"name": "20mm Flak 38 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 28,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Platform Mounted Light Autocannon Team"]
+			},
+			{
+				"name": "20mm Flak 38 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 40,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Platform Mounted Light Autocannon Team"]
+			},
+			{
+				"name": "20mm Flak 38 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Platform Mounted Light Autocannon Team"]
+			},
+			{
+				"name": "20mm Flakvierling 38 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 88,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Platform Mounted Light Autocannon Team","x4"]
+			},
+			{
+				"name": "20mm Flakvierling 38 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 125,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Platform Mounted Light Autocannon Team","x4"]
+			},
+			{
+				"name": "20mm Flakvierling 38 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 163,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Platform Mounted Light Autocannon Team","x4"]
+			},
+			{
+				"name": "50mm Pak 38 Medium AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 49,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Medium AT Gun Team"]
+			},
+			{
+				"name": "50mm Pak 38 Medium AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Medium AT Gun Team"]
+			},
+			{
+				"name": "50mm Pak 38 Medium AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 91,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Medium AT Gun Team"]
+			},
+			{
+				"name": "75mm LG40 Light Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M"],
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "75mm LG40 Light Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 59,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "37mm Pak 36 Light AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Stielgranate 41",
+						"points": 15
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Light AT Gun Team"]
+			},
+			{
+				"name": "37mm Pak 36 Light AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Stielgranate 41",
+						"points": 15
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Light AT Gun Team"]
+			},
+			{
+				"name": "37mm Pak 36 Light AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Stielgranate 41",
+						"points": 15
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"equipment": ["Light AT Gun Team"]
+			},
+			{
+				"name": "37mm Flak 36 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Platform Mounted Heavy Autocannon Team"]
+			},
+			{
+				"name": "37mm Flak 36 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Platform Mounted Heavy Autocannon Team"]
+			},
+			{
+				"name": "37mm Flak 36 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Platform Mounted Heavy Autocannon Team"]
+			},
+			{
+				"name": "37mm Flakzwilling 43 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 63,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"equipment": ["Platform Mounted Heavy Autocannon Team","x2"]
+			},
+			{
+				"name": "37mm Flakzwilling 43 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"equipment": ["Platform Mounted Heavy Autocannon Team","x2"]
+			},
+			{
+				"name": "37mm Flakzwilling 43 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 107,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Gun Shield",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"equipment": ["Platform Mounted Heavy Autocannon Team","x2"]
+			},
+			{
 				"name": "128mm Pak 44 Super Heavy AT Gun - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -17825,7 +18526,7 @@
 					{
 						"name": "Howling Cow Rocket Launcher",
 						"points": -10,
-						"addsModels": -1,
+						"addsModels": -2,
 						"availableIn": ["Germany"]
 					}
 				],
@@ -17861,7 +18562,7 @@
 					{
 						"name": "Howling Cow Rocket Launcher",
 						"points": -10,
-						"addsModels": -1,
+						"addsModels": -2,
 						"availableIn": ["Germany"]
 					}
 				],
@@ -17897,12 +18598,238 @@
 					{
 						"name": "Howling Cow Rocket Launcher",
 						"points": -10,
-						"addsModels": -1,
+						"addsModels": -2,
 						"availableIn": ["Germany"]
 					}
 				],
 				"keywords": ["Period: L","Massive Shells","Gun Shield"],
 				"equipment": ["Light AT Gun Team","Squeeze-bore"]
+			},
+			{
+				"name": "88mm Flak 36 Dual Purpose AA/AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 133,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield","Versatile - Medium Howitzer"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun Team"]
+			},
+			{
+				"name": "88mm Flak 36 Dual Purpose AA/AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 190,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield","Versatile - Medium Howitzer"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun Team"]
+			},
+			{
+				"name": "88mm Flak 36 Dual Purpose AA/AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 247,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"]
+					},
+					{
+						"name": "Spotter",
+						"points": 10,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield","Versatile - Medium Howitzer"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun Team"]
+			},
+			{
+				"name": "88mm Pak 43 Super Heavy AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 98,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Gun Shield","Versatile - Medium Howitzer"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun Team"]
+			},
+			{
+				"name": "88mm Pak 43 Super Heavy AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 140,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Gun Shield","Versatile - Medium Howitzer"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun Team"]
+			},
+			{
+				"name": "88mm Pak 43 Super Heavy AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 182,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Gun Shield","Versatile - Medium Howitzer"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun Team"]
+			},
+			{
+				"name": "88mm Raketenwerfer 43 Puppchen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Gun Shield","Shaped Charge"],
+				"equipment": ["Rocket Launcher"]
+			},
+			{
+				"name": "88mm Raketenwerfer 43 Puppchen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 107,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Gun Shield","Shaped Charge"],
+				"equipment": ["Rocket Launcher"]
 			},
 			{
 				"name": "37mm Anti-Tank Gun M3 - Inexperienced",
