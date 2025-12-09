@@ -1803,8 +1803,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -1822,8 +1823,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -1841,8 +1843,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -1873,8 +1876,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -1886,8 +1890,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -1899,8 +1904,9 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -1911,8 +1917,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -1930,8 +1937,9 @@
 						"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
@@ -1958,24 +1966,27 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": ["Sweden"]
 					},
 					{
@@ -2001,19 +2012,21 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
 						]
 					},
 					{
-						"name": "SMGs",
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2023,8 +2036,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 6,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 6,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2099,7 +2113,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -2118,7 +2134,9 @@
 						"name": "NCO SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -2137,7 +2155,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -2169,7 +2189,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -2181,7 +2203,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -2193,7 +2217,9 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -2204,7 +2230,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Hungary",
@@ -2223,7 +2251,9 @@
 						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
@@ -2241,11 +2271,17 @@
 					{
 						"name": "NCO SMG",
 						"points": 0,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Japan"]
 					},
 					{
 						"name": "Sword",
 						"points": 0,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Japan"]
 					},
 					{
@@ -2265,21 +2301,27 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": ["Sweden"]
 					},
 					{
@@ -2307,7 +2349,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2317,7 +2361,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2327,7 +2373,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 6,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 6,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2468,7 +2516,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -2487,7 +2537,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -2506,7 +2558,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -2537,7 +2591,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 4,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Romania",
@@ -2548,7 +2604,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Romania",
@@ -2559,7 +2617,9 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Romania"
@@ -2569,7 +2629,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Romania",
@@ -2586,7 +2648,9 @@
 						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
@@ -2628,11 +2692,17 @@
 					{
 						"name": "NCO SMG",
 						"points": 0,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Japan"]
 					},
 					{
 						"name": "Sword",
 						"points": 0,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Japan"]
 					},
 					{
@@ -2661,21 +2731,26 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
-						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": ["Sweden"]
 					},
 					{
@@ -2693,7 +2768,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2703,7 +2780,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2713,7 +2792,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 6,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 6,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -2850,7 +2931,7 @@
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 200,
+				"points": 250,
 				"models": 1,
 				"sortPriority": 3,
 				"limit": 1,
@@ -2870,22 +2951,28 @@
 						"addsModels": 1
 					},
 					{
-						"name": "SMG",
+						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -2929,22 +3016,28 @@
 						"addsModels": 1
 					},
 					{
-						"name": "SMG",
+						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -2988,22 +3081,28 @@
 						"addsModels": 1
 					},
 					{
-						"name": "SMG",
+						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -3050,13 +3149,17 @@
 						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -3116,7 +3219,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Intelligence",
@@ -3173,7 +3278,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "Intelligence",
@@ -3230,7 +3337,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Intelligence",
@@ -3655,7 +3764,7 @@
 						"all": [{ "in": "Engineer Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]
 					},
 					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
@@ -3757,7 +3866,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -3776,7 +3887,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -3795,7 +3908,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -3825,7 +3940,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 4,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -3835,7 +3952,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -3845,14 +3964,18 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -3868,8 +3991,9 @@
 						"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
 						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
@@ -3899,7 +4023,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -3909,7 +4035,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -3919,7 +4047,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 6,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 6,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -3937,14 +4067,18 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Sweden"]
 					},
 					{
@@ -4208,7 +4342,7 @@
 						"all": [{ "in": "Engineer Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]
 					},
 					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
@@ -4312,7 +4446,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -4334,7 +4470,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -4356,7 +4494,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -4389,7 +4529,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 4,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -4399,7 +4541,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -4409,14 +4553,18 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -4432,12 +4580,17 @@
 						"name": "Defend the Fatherland! Waffen-SS Only - Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Sword",
 						"points": 0,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Japan"]
 					},
 					{
@@ -4467,7 +4620,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -4477,7 +4632,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -4487,7 +4644,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 6,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 6,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -4511,14 +4670,18 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Sweden"]
 					},
 					{
@@ -4774,7 +4937,7 @@
 						"all": [{ "in": "Engineer Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Polish Peoples Army (LWP)" }]
 					},
 					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Polish Peoples Army (LWP)" }]			
@@ -4877,7 +5040,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -4898,7 +5063,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -4919,7 +5086,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -4951,7 +5120,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 4,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -4961,7 +5132,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -4971,14 +5144,18 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Germany",
 							"Soviet Union"
@@ -4994,7 +5171,9 @@
 						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
@@ -5024,6 +5203,8 @@
 					{
 						"name": "Sword",
 						"points": 0,
+						"max": ["parentModels", 1],
+						"maxKey": "guns",
 						"availableIn": ["Japan"]
 					},
 					{
@@ -5053,7 +5234,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -5063,7 +5246,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -5073,7 +5258,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 6,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 6,
 						"availableIn": [
 							"Great Britain",
 							"United States of America"
@@ -5159,14 +5346,18 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Sweden"]
 					},
 					{
@@ -5256,7 +5447,9 @@
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					}
 				],
 				"keywords": ["Show Your Loyalty!"],
@@ -5293,13 +5486,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Guard Dog",
@@ -5716,7 +5913,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -5728,7 +5927,9 @@
 						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"France",
 							"Japan",
@@ -5739,7 +5940,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -5751,7 +5954,9 @@
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"France",
 							"Japan",
@@ -5762,14 +5967,18 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -5781,7 +5990,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"France",
 							"Japan",
@@ -5923,7 +6134,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -5935,7 +6148,9 @@
 						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"France",
 							"Japan",
@@ -5943,10 +6158,12 @@
 						]
 					},
 					{
-						"name": "SMGs",
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -5958,7 +6175,9 @@
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"France",
 							"Japan",
@@ -5969,14 +6188,18 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -5988,7 +6211,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"France",
 							"Japan",
@@ -6227,7 +6452,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -6239,7 +6466,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -6251,14 +6480,18 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -6273,7 +6506,9 @@
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -6288,7 +6523,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -6300,7 +6537,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -6486,7 +6725,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -6498,7 +6739,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -6510,14 +6753,18 @@
 						"name": "Assault Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": ["Germany"]
 					},
 					{
 						"name": "SMGs",
 						"points": 0,
 						"increment": true,
-						"max": 2,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -6532,7 +6779,9 @@
 						"name": "NCO SMG",
 						"points": 0,
 						"increment": true,
-						"max": 1,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -6547,7 +6796,9 @@
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Germany",
 							"Great Britain",
@@ -6559,7 +6810,9 @@
 						"name": "Pistols",
 						"points": 0,
 						"increment": true,
-						"max": 3,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
@@ -6716,19 +6969,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Observer","Stubborn"],
@@ -6768,19 +7027,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Observer","Stubborn"],
@@ -6820,19 +7085,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Observer","Stubborn"],
@@ -6872,19 +7143,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -6934,19 +7211,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -7001,19 +7284,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -7063,19 +7352,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -7130,19 +7425,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					}
 				],
 				"keywords": ["Infiltrator","Observer","Liason Officer"],
@@ -7182,19 +7483,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Pistols",
 						"points": -1,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					}
 				],
 				"keywords": ["Infiltrator","Observer","Liason Officer"],
@@ -7233,7 +7540,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -7304,7 +7613,9 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -9783,7 +10094,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -9833,7 +10146,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -9888,7 +10203,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -10804,9 +11121,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					}
 				],
@@ -10839,7 +11153,9 @@
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "VB Launcher",
@@ -10855,9 +11171,6 @@
 				"name": "Groupe Franc/SES/GIA Veteran Infantry Section - Veteran",
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					}
@@ -10884,19 +11197,146 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Chasseurs Alpine",
+						"points": 0
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Foreign Legion Veteran Infantry Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Pistol-Armed Man",
+						"points": 13,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Stubborn"],
+				"equipment": []
+			},
+			{
+				"name": "Groupe Franc/SES/GIA Veteran Infantry Section - Veteran",
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 65,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "VB Launcher",
@@ -10948,21 +11388,25 @@
 						"name": "Pistol",
 						"points": -1,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -11015,21 +11459,25 @@
 						"name": "Pistol",
 						"points": -1,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -11057,9 +11505,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					}
 				],
@@ -11085,21 +11530,167 @@
 						"name": "Pistol",
 						"points": -1,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Senegalese Tirailleurs",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Infantry Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": -1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "VB Launcher",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Senegalese Tirailleurs",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": [],
+				"equipment": []
+			},
+			{
+				"name": "Infantry Section - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": -1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -11128,9 +11719,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					}
 				],
 				"points": 50,
@@ -11139,7 +11727,7 @@
 				"limits": [
 					{
 						"key": "Rifle Team",
-						"limit": 5,
+						"limit": 4,
 						"perParent": true
 					}
 				],
@@ -11155,21 +11743,25 @@
 						"name": "Pistol",
 						"points": -1,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "NCO"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -11196,9 +11788,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					}
 				],
@@ -11224,7 +11813,47 @@
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Tough Fighters"],
+				"equipment": []
+			},
+			{
+				"name": "Moroccan Goumier - Veteran",
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					}
 				],
 				"keywords": ["Tough Fighters"],
@@ -11235,9 +11864,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					}
@@ -11264,20 +11890,214 @@
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					}
 				],
 				"keywords": [],
 				"equipment": ["Motorcycles"]
 			},
 			{
-				"name": "I&R Squad - Inexperienced",
+				"name": "Motorcycle Section - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 90,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
 					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": [],
+				"equipment": ["Motorcycles"]
+			},
+			{
+				"name": "Cavalry Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 78,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Cavalry"],
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 96,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Cavalry"],
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 78,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Cavalry"],
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 96,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Cavalry"],
+				"equipment": []
+			},
+			{
+				"name": "I&R Squad - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -11310,19 +12130,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -11346,9 +12172,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -11381,19 +12204,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -11417,9 +12246,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -11452,19 +12278,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -11484,64 +12316,175 @@
 				"equipment": []
 			},
 			{
-				"name": "Cavalry Section - Regular",
+				"name": "I&R Squad - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 78,
-				"models": 6,
+				"points": 28,
+				"models": 4,
+				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
 						"key": "Rifle Team",
-						"limit": 5,
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "I&R Team",
+						"limit": 2,
 						"perParent": true
 					}
 				],
 				"options": [
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 7,
 						"increment": true,
-						"max": 7,
+						"max": 5,
 						"addsModels": 1
 					},
 					{
-						"name": "LMG",
-						"points": 15,
+						"name": "SMGs",
+						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Cavalry"],
+				"keywords": ["Period: E|M|L","Recon Troops","Regimental Units"],
 				"equipment": []
 			},
 			{
-				"name": "Cavalry Section - Veteran",
+				"name": "I&R Squad - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 96,
-				"models": 6,
+				"points": 40,
+				"models": 4,
+				"limit": 2,
 				"sortPriority": 3,
 				"limits": [
 					{
 						"key": "Rifle Team",
-						"limit": 5,
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "I&R Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Recon Troops","Regimental Units"],
+				"equipment": []
+			},
+			{
+				"name": "I&R Squad - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 52,
+				"models": 4,
+				"limit": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "I&R Team",
+						"limit": 2,
 						"perParent": true
 					}
 				],
@@ -11550,17 +12493,48 @@
 						"name": "Additional Men",
 						"points": 13,
 						"increment": true,
-						"max": 7,
+						"max": 5,
 						"addsModels": 1
 					},
 					{
-						"name": "LMG",
-						"points": 15,
+						"name": "SMGs",
+						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
 					}
 				],
-				"keywords": ["Cavalry"],
+				"keywords": ["Period: E|M|L","Recon Troops","Regimental Units"],
 				"equipment": []
 			},
 			{
@@ -21097,6 +22071,1555 @@
 				"options": [],
 				"keywords": ["Period: E|M|L"],
 				"equipment": ["Heavy Howitzer Team"]
+			},
+			{
+				"name": "3.7cm Pak 36 Auf Selbstfahrlafette Renault UE(F) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:7+","Open Topped"],
+				"equipment": ["Forward Facing, 360° Light AT Gun"]
+			},
+			{
+				"name": "3.7cm Pak 36 Auf Selbstfahrlafette Renault UE(F) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:7+","Open Topped"],
+				"equipment": ["Forward Facing, 360° Light AT Gun"]
+			},
+			{
+				"name": "3.7cm Pak 36 Auf Selbstfahrlafette Renault UE(F) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 102,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:7+","Open Topped"],
+				"equipment": ["Forward Facing, 360° Light AT Gun"]
+			},
+			{
+				"name": "Borgward Wanze Ausf. C - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 92,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|","Damage Value:7+","Open Topped", "Shaped Charge"],
+				"equipment": ["Forward Facing Recoilless Rocket Launcer"]
+			},
+			{
+				"name": "Borgward Wanze Ausf. C - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:7+","Open Topped", "Shaped Charge"],
+				"equipment": ["Forward Facing Recoilless Rocket Launcer"]
+			},
+			{
+				"name": "Borgward B-IV Demolition Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Heavy Charge", "Remote Controlled"],
+				"equipment": []
+			},
+			{
+				"name": "Brummbär Self Propelled Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 256,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:10+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Heavy Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "Brummbär Self Propelled Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 320,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:10+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Heavy Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "Brummbär Self Propelled Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 384,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:10+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Heavy Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "Ferdinand Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 304,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:11+","Slow","Unreliable"],
+				"equipment": ["Casement Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "Ferdinand Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 380,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:11+","Slow","Unreliable"],
+				"equipment": ["Casement Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "Ferdinand Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 456,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:11+","Slow","Unreliable"],
+				"equipment": ["Casement Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "Elefant Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 314,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:11+","Slow","Unreliable","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Super Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Elefant Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 390,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:11+","Slow","Unreliable","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Super Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Elefant Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 466,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:11+","Slow","Unreliable","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Super Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Flakpanzer 38(t) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 76,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:8+","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Flakpanzer 38(t) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 95,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:8+","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Flakpanzer 38(t) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 114,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:8+","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Flammpanzer B2(F) Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 168,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:9+","Armored All Round","One Man Turret","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "Flammpanzer B2(F) Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 210,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:9+","Armored All Round","One Man Turret","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "Flammpanzer B2(F) Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 252,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:9+","Armored All Round","One Man Turret","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "Gep.M.Trsp.Wg.Bedford (E) Armored Carrier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 92,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Wheeled"],
+				"equipment": ["Hull Mounted Light AT Gun","Pintle Mounted B|R MMG","Pintle Mounted B|L MMG"]
+			},
+			{
+				"name": "Gep.M.Trsp.Wg.Bedford (E) Armored Carrier - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Wheeled"],
+				"equipment": ["Hull Mounted Light AT Gun","Pintle Mounted B|R MMG","Pintle Mounted B|L MMG"]
+			},
+			{
+				"name": "Gep.M.Trsp.Wg.Bedford (E) Armored Carrier - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 138,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Wheeled"],
+				"equipment": ["Hull Mounted Light AT Gun","Pintle Mounted B|R MMG","Pintle Mounted B|L MMG"]
+			},
+			{
+				"name": "Grille Self Propelled Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 144,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Hitler's Buzz Saw","One, Not Both!"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Grille Self Propelled Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Hitler's Buzz Saw","One, Not Both!"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Grille Self Propelled Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 216,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Hitler's Buzz Saw","One, Not Both!"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Grosser Funk Pzkpfw 38H(F) Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value:8+","Command Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Grosser Funk Pzkpfw 38H(F) Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value:8+","Command Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Grosser Funk Pzkpfw 38H(F) Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value:8+","Command Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Hetzer Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 164,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Weak Sides","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","Casement Heavy AT Gun"]
+			},
+			{
+				"name": "Hetzer Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 205,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Weak Sides","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","Casement Heavy AT Gun"]
+			},
+			{
+				"name": "Hetzer Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 246,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Weak Sides","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","Casement Heavy AT Gun"]
+			},
+			{
+				"name": "Flammpanzer 38(t) Hetzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 104,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Weak Sides","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "Flammpanzer 38(t) Hetzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 145,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Weak Sides","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "Flammpanzer 38(t) Hetzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 186,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Weak Sides","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "Horch 1A Field Car w/ Flak 38 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 36,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:6+","Stationary Firing Platform","Wheeled"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Horch 1A Field Car w/ Flak 38 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:6+","Stationary Firing Platform","Wheeled"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Horch 1A Field Car w/ Flak 38 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 54,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:6+","Stationary Firing Platform","Wheeled"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Jagdpanther Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 320,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:10+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Super Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Jagdpanther Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 384,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:10+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Super Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Jagdpanzer IV Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 198,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Reinforced Front Armor","Hitler's Buzz Saw"],
+				"equipment": ["Casement Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Jagdpanzer IV Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 248,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Reinforced Front Armor","Hitler's Buzz Saw"],
+				"equipment": ["Casement Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Jagdpanzer IV Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 298,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:9+","Reinforced Front Armor","Hitler's Buzz Saw"],
+				"equipment": ["Casement Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Jagdtiger Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 348,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:11+","128mm Pak44","Hitler's Buzz Saw"],
+				"equipment": ["Casement Super Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Jagdtiger Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 435,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:11+","128mm Pak44","Hitler's Buzz Saw"],
+				"equipment": ["Casement Super Heavy AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Kfz 13 Adler Light Armored Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 48,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value:7+","Open Topped","Recce","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Kfz 13 Adler Light Armored Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value:7+","Open Topped","Recce","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Kfz 13 Adler Light Armored Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value:7+","Open Topped","Recce","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Krupp Protze w/ Pak 36 - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:6+","Wheeled"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Krupp Protze w/ Pak 36 - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:6+","Wheeled"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Krupp Protze w/ Pak 36 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:6+","Wheeled"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Kübelwagen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:6+","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Kübelwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:6+","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Kübelwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:6+","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
 				"name": "Tankette m/Carden-Loyd Mk V - Inexperienced",
