@@ -1931,7 +1931,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
@@ -1946,13 +1947,15 @@
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Additional Men",
@@ -2053,7 +2056,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Intelligence",
@@ -2245,7 +2249,8 @@
 						"points": 2,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"specialRules": ["Fanatics"]
+						"specialRules": ["Fanatics"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
@@ -2260,13 +2265,15 @@
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "NCO SMG",
@@ -2385,7 +2392,8 @@
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Anti-Tank Grenades",
@@ -2396,19 +2404,22 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Intelligence",
@@ -2642,7 +2653,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
@@ -2657,19 +2669,22 @@
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Fallschirmjäger Only - Additional Men",
@@ -2681,13 +2696,15 @@
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "NCO SMG",
@@ -2804,55 +2821,64 @@
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Anti-Tank",
 						"points": 3,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Welbikes",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
 						"points": 4,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
 						"points": 3,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos)",
 						"points": 3,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ Anti-Tank",
 						"points": 5,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
 						"points": 5,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
 						"points": 7,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! Commandos Only - Additional Men",
@@ -2867,7 +2893,8 @@
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"specialRules": ["Iron Discipline"]
+						"specialRules": ["Iron Discipline"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Anti-Tank Grenades",
@@ -2879,30 +2906,35 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Intelligence",
@@ -3391,7 +3423,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"equipment": [],
@@ -3439,24 +3472,28 @@
 						"name": "For King and Country (Guards)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"availableIn": ["United States of America"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"equipment": [],
@@ -3504,66 +3541,77 @@
 						"name": "For King and Country (Airborne)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country (Airborne) w/ Welbikes",
 						"points": 2,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country (Chindits)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country (Commandos)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country (Commandos), w/ SAS",
 						"points": 5,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country (Guards)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"availableIn": ["United States of America"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"availableIn": ["United States of America"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"availableIn": ["United States of America"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"equipment": [],
@@ -3985,7 +4033,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
@@ -4000,13 +4049,15 @@
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Additional Men",
@@ -4092,7 +4143,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Anti-Tank Grenades",
@@ -4574,7 +4626,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Waffen-SS Only - Assault Rifle",
@@ -4597,13 +4650,15 @@
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Additional Men",
@@ -4656,7 +4711,8 @@
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Additional Men",
@@ -4697,12 +4753,14 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Anti-Tank Grenades",
@@ -4997,7 +5055,7 @@
 						"all": [{ "in": "Engineer Platoon" }, { "in": "United States of America" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "United States of America" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "United States of America" }]
 					},
 					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "United States of America" }]			
@@ -5165,7 +5223,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
@@ -5180,7 +5239,8 @@
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
@@ -5192,7 +5252,8 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Fallschirmjäger Only - Additional Men",
@@ -5211,13 +5272,15 @@
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Additional Men",
@@ -5270,55 +5333,64 @@
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Anti-Tank",
 						"points": 3,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Welbikes",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
 						"points": 4,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country (Chindits)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos)",
 						"points": 3,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ Anti-Tank",
 						"points": 5,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
 						"points": 5,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
 						"points": 7,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! Commandos Only - Additional Men",
@@ -5332,7 +5404,8 @@
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Additional Men",
@@ -5380,24 +5453,28 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Intelligence",
@@ -5586,37 +5663,43 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NVKD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L","Medic","Self-Defence"],
@@ -5716,13 +5799,15 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
@@ -5733,13 +5818,15 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "For King and Country (Airborne)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country Airborne Only - Welbikes",
@@ -5751,13 +5838,15 @@
 						"name": "For King and Country (Chindits)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country (Commandos)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country Commandos Only - SAS",
@@ -5766,7 +5855,7 @@
 						"perModel": true
 					},
 					{
-						"name": "For King and Country Commandos Only - SAS",
+						"name": "For King and Country Commandos Only - SAS Additional Men",
 						"points": 11,
 						"availableIn": ["Great Britain"],
 						"increment": true,
@@ -5777,49 +5866,58 @@
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU",
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NVKD)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Soviet Union"]
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L","Medic","Self-Defence"],
@@ -6008,31 +6106,36 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -6229,13 +6332,15 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
@@ -6246,31 +6351,36 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Welbikes",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
 						"points": 3,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
 						"points": 5,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! Commandos Only - Additional Men",
@@ -6284,37 +6394,43 @@
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -6563,31 +6679,36 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -6836,13 +6957,15 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
@@ -6853,31 +6976,36 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Airborne) w/ Welbikes",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
 						"points": 3,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
 						"points": 5,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! Commandos Only - Additional Men",
@@ -6891,37 +7019,43 @@
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -7166,12 +7300,14 @@
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Observer","Massed Batteries"],
@@ -7234,17 +7370,20 @@
 					{
 						"name": "Hammer and Sickle (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Observer","Massed Batteries"],
@@ -7307,12 +7446,14 @@
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Observer","Flying Tank"],
@@ -7375,17 +7516,20 @@
 					{
 						"name": "Hammer and Sickle (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Hammer and Sickle (NKVD)",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Observer","Flying Tank"],
@@ -7554,13 +7698,15 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -7568,13 +7714,15 @@
 						"points": 20,
 						"max": 3,
 						"increment": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon"],
@@ -7627,25 +7775,29 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -7659,13 +7811,15 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
@@ -7676,7 +7830,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon"],
@@ -7719,7 +7874,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -7769,12 +7925,14 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -7824,24 +7982,28 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -7870,7 +8032,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
@@ -7900,12 +8063,14 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
@@ -7935,24 +8100,28 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
@@ -7981,7 +8150,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
@@ -8011,12 +8181,14 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
@@ -8046,24 +8218,28 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
@@ -8100,7 +8276,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8133,7 +8310,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -8144,12 +8322,14 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8182,7 +8362,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -8193,24 +8374,28 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8273,7 +8458,8 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -8309,7 +8495,8 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -8370,7 +8557,8 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -8403,7 +8591,8 @@
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -8440,7 +8629,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -8473,7 +8663,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -8506,25 +8697,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -8554,7 +8749,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -8584,7 +8780,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -8614,25 +8811,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -8665,7 +8866,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8698,7 +8900,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8731,25 +8934,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8779,7 +8986,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8809,7 +9017,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -8839,25 +9048,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -9039,7 +9252,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -9049,7 +9263,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -9084,7 +9299,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -9094,14 +9310,15 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L"],
 				"equipment": ["Flamethrower - Team Weapon"]
 			},
 			{
-				"name": "Flamethrower Team - Regular",
+				"name": "Flammenwerfer Team - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -9126,26 +9343,25 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Flamethrower - Team Weapon",
 						"points": 0,
-						"max": 1,
-						"maxKey": "Flamethrower"
+						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Einstossflammenwerfer",
 						"points": 0,
-						"max": 1,
-						"maxKey": "Flamethrower"
+						"requireChooseOneKey": "priWeapon"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
 				"equipment": []
 			},
 			{
-				"name": "Flamethrower Team - Veteran",
+				"name": "Flammenwerfer Team - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -9170,13 +9386,15 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
@@ -9187,19 +9405,18 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Flamethrower - Team Weapon",
 						"points": 0,
-						"max": 1,
-						"maxKey": "Flamethrower"
+						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Einstossflammenwerfer",
 						"points": 0,
-						"max": 1,
-						"maxKey": "Flamethrower"
+						"requireChooseOneKey": "priWeapon"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9236,7 +9453,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9274,13 +9492,15 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
@@ -9291,7 +9511,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9329,13 +9550,15 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
@@ -9346,13 +9569,15 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers) - Reduced Manning",
@@ -9395,7 +9620,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9433,13 +9659,15 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
@@ -9450,7 +9678,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9488,13 +9717,15 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
@@ -9505,13 +9736,15 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers) - Reduced Manning",
@@ -9559,7 +9792,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9602,18 +9836,21 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9656,30 +9893,35 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9827,7 +10069,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9860,7 +10103,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -9871,12 +10115,14 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -9909,7 +10155,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -9920,24 +10167,28 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10002,7 +10253,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -10013,7 +10265,8 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10046,7 +10299,8 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "Skis",
@@ -10057,7 +10311,8 @@
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10101,7 +10356,8 @@
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -10153,12 +10409,14 @@
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -10210,22 +10468,26 @@
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Rangers)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -10557,7 +10819,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M","No Smoke Rounds"],
@@ -10587,7 +10850,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M","No Smoke Rounds"],
@@ -10617,25 +10881,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M","No Smoke Rounds"],
@@ -10665,7 +10933,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M","No Smoke Rounds"],
@@ -10695,7 +10964,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M","No Smoke Rounds"],
@@ -10725,25 +10995,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M","No Smoke Rounds"],
@@ -10778,7 +11052,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10813,7 +11088,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10848,25 +11124,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10901,7 +11181,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -10936,7 +11217,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -10971,25 +11253,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -11019,7 +11305,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Pintle Mount",
@@ -11053,7 +11340,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Pintle Mount",
@@ -11087,25 +11375,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Pintle Mount",
@@ -18104,13 +18396,15 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L","Engineers"],
@@ -18199,13 +18493,15 @@
 						"name": "Det Fria Kriget",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Sweden"]
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"perModel": true,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L","Engineers"],
@@ -18240,7 +18536,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "NCO SMG",
@@ -18338,7 +18635,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "NCO SMG",
@@ -18379,7 +18677,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Additional Men",
@@ -18462,7 +18761,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Additional Men",
@@ -18544,13 +18844,15 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
@@ -18561,7 +18863,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Additional Men",
@@ -18644,7 +18947,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Additional Men",
@@ -18727,7 +19031,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Additional Men",
@@ -18809,13 +19114,15 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
@@ -18826,7 +19133,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Additional Men",
@@ -19008,10 +19316,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -19043,10 +19352,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -19078,10 +19388,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					},
@@ -19089,7 +19400,8 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -19119,10 +19431,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -19154,10 +19467,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -19189,10 +19503,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					},
@@ -19200,7 +19515,8 @@
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -19230,10 +19546,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -19265,10 +19582,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -19300,10 +19618,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					},
@@ -19311,19 +19630,22 @@
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -19353,7 +19675,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -19383,7 +19706,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -19413,25 +19737,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -19484,19 +19812,22 @@
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -19526,7 +19857,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19556,7 +19888,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19586,25 +19919,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19634,7 +19971,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Gun Shield",
@@ -19668,7 +20006,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Gun Shield",
@@ -19702,25 +20041,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Gun Shield",
@@ -19754,7 +20097,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19784,7 +20128,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19814,25 +20159,29 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19885,19 +20234,22 @@
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -19931,7 +20283,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19965,7 +20318,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -19999,13 +20353,15 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					}
 				],
 				"keywords": ["Period: E|M|L","Gun Shield"],
@@ -20035,7 +20391,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Gun Shield",
@@ -20069,7 +20426,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Gun Shield",
@@ -20103,13 +20461,15 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Gun Shield",
@@ -20296,7 +20656,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Howling Cow Rocket Launcher",
@@ -20332,7 +20693,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Howling Cow Rocket Launcher",
@@ -20368,7 +20730,8 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Howling Cow Rocket Launcher",
@@ -20404,10 +20767,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -20439,10 +20803,11 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -20474,16 +20839,18 @@
 						"name": "Defend the Fatherland! (Waffen-SS)",
 						"points": 2,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -20628,7 +20995,8 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -20657,11 +21025,13 @@
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -20690,11 +21060,13 @@
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -21097,7 +21469,8 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -21126,11 +21499,13 @@
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -21159,11 +21534,13 @@
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -21260,7 +21637,8 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Flak"],
@@ -21288,7 +21666,8 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Flak"],
@@ -21316,12 +21695,14 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: M|L","Flak"],
@@ -21349,7 +21730,8 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L","Flak"],
@@ -21377,7 +21759,8 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L","Flak"],
@@ -21405,11 +21788,13 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
-						"points": 0
+						"points": 0,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L","Flak"],
@@ -21507,12 +21892,14 @@
 					{
 						"name": "By Air, Land, Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: L"],
@@ -21541,17 +21928,20 @@
 					{
 						"name": "By Air, Land, Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: L"],
@@ -21580,7 +21970,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -21609,7 +22000,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -21638,12 +22030,14 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -21672,7 +22066,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: L"],
@@ -21701,7 +22096,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: L"],
@@ -21730,12 +22126,14 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: L"],
@@ -21764,7 +22162,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Gun Shield",
@@ -21797,12 +22196,14 @@
 					{
 						"name": "By Air, Land, Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Gun Shield",
@@ -21835,17 +22236,20 @@
 					{
 						"name": "By Air, Land, Sea (Airborne)",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Gun Shield",
@@ -21878,7 +22282,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Gun Shield",
@@ -21916,7 +22321,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Gun Shield",
@@ -21954,12 +22360,14 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Gun Shield",
@@ -21997,7 +22405,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Add Spotter",
@@ -22031,7 +22440,8 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Add Spotter",
@@ -22065,12 +22475,14 @@
 					{
 						"name": "By Air, Land, Sea (Marines)",
 						"points": 0,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "By Air, Land, Sea (Marines) w/ Stubborn",
 						"points": 1,
-						"perModel": true
+						"perModel": true,
+						"chooseOneKey": "natRuUSA"
 					},
 					{
 						"name": "Add Spotter",
@@ -22106,7 +22518,7 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -22139,7 +22551,7 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -22172,7 +22584,7 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -22205,7 +22617,7 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -22238,7 +22650,7 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -22271,7 +22683,7 @@
 						"points": 5
 					},
 					{
-						"name": "Spotter",
+						"name": "Add Spotter",
 						"points": 10,
 						"addsModels": 1
 					}
@@ -39632,18 +40044,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -39669,18 +40077,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -39706,18 +40110,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -39744,18 +40144,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -39782,18 +40178,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -39820,18 +40212,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: M|L"],
@@ -39998,18 +40386,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -40035,18 +40419,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -40072,18 +40452,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -40110,18 +40486,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -40148,18 +40520,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -40186,18 +40554,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -40653,18 +41017,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L","Flying Tank - Experimental"],
@@ -40690,18 +41050,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L","Flying Tank - Experimental"],
@@ -40727,18 +41083,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: E|M|L","Flying Tank - Experimental"],
@@ -41697,18 +42049,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: L"],
@@ -41734,18 +42082,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: L"],
@@ -41771,18 +42115,14 @@
 				],
 				"options": [
 					{
-						"name": "Bombs",
+						"name": "2 Bombs",
 						"points": 0,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					},
 					{
 						"name": "Rockets",
 						"points": 25,
-						"increment": true,
-						"max": 1,
-						"maxKey": "Ordinance"
+						"chooseOneKey": "Ord"
 					}
 				],
 				"keywords": ["Period: L"],
