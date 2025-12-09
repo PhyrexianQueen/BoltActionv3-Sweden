@@ -12568,19 +12568,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -12630,19 +12636,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -12697,7 +12709,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -12747,7 +12761,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -12802,19 +12818,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -12864,19 +12886,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -12931,7 +12959,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -12981,7 +13011,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13011,10 +13043,369 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 45,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
 					},
 					{
+						"key": "Mortar Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry","Selection - Armored Infantry", "Team Weapon"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Armored Infantry Mortar Squad - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 64,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Mortar Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry","Selection - Armored Infantry", "Team Weapon"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Armored Infantry Mortar Squad - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 83,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Mortar Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry","Selection - Armored Infantry", "Team Weapon"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Armored Infantry Machine Gun Squad - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 48,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "MG Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry","Selection - Armored Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Armored Infantry Machine Gun Squad - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 66,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "MG Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry","Selection - Armored Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Armored Infantry Machine Gun Squad - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 84,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "MG Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "LMGs",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry","Selection - Armored Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Armored Infantry Mortar Squad - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 45,
@@ -13044,7 +13435,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13070,9 +13463,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 64,
@@ -13102,7 +13492,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13128,9 +13520,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 83,
@@ -13160,7 +13549,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13186,9 +13577,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 48,
@@ -13218,13 +13606,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMGs",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -13250,9 +13642,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 66,
@@ -13282,13 +13671,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMGs",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -13314,9 +13707,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 84,
@@ -13346,13 +13736,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMGs",
 						"points": 15,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -13402,13 +13796,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13458,13 +13856,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13514,13 +13916,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13570,19 +13976,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -13632,19 +14044,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -13694,13 +14112,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 4
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -13745,13 +14167,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 4
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -13796,13 +14222,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Cavalry",
@@ -13852,13 +14282,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Cavalry",
@@ -13908,13 +14342,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13925,13 +14363,17 @@
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMGs",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -13976,13 +14418,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -13993,13 +14439,17 @@
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMGs",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -14044,13 +14494,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14100,13 +14554,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14156,13 +14614,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14212,13 +14674,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14268,13 +14734,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14324,13 +14794,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14380,13 +14854,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14436,13 +14914,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14492,13 +14974,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14548,13 +15034,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14604,13 +15094,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14660,13 +15154,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14716,25 +15214,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14784,25 +15290,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14852,25 +15366,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14920,25 +15442,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -14988,25 +15518,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -15056,25 +15594,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -15124,25 +15670,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -15192,25 +15746,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -15260,25 +15822,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -15328,25 +15898,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -15396,25 +15974,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -15464,25 +16050,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -15533,13 +16127,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 5
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -15592,25 +16190,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Demolition Charges",
@@ -15674,25 +16280,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Demolition Charges",
@@ -15742,13 +16356,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -15787,13 +16405,17 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -15839,25 +16461,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Demolition Charges",
@@ -15919,25 +16549,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Demolition Charges",
@@ -15998,25 +16636,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -16066,25 +16712,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Shotguns",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 4,
 						"increment": true,
-						"max": 3
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
 					},
 					{
 						"name": "AT Grenades",
@@ -16134,13 +16788,17 @@
 						"name": "SMGs",
 						"points": 3,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 3,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -16185,7 +16843,9 @@
 						"name": "Pitols",
 						"points": -1,
 						"increment": true,
-						"max": 10
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 10
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -16230,7 +16890,9 @@
 						"name": "Pitols",
 						"points": -1,
 						"increment": true,
-						"max": 10
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 10
 					},
 					{
 						"name": "Rifle Grenade Adaptor",
@@ -16275,7 +16937,9 @@
 						"name": "Pitols",
 						"points": -1,
 						"increment": true,
-						"max": 10
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 10
 					},
 					{
 						"name": "Motorbikes",
@@ -16325,7 +16989,9 @@
 						"name": "Pitols",
 						"points": -1,
 						"increment": true,
-						"max": 10
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 10
 					},
 					{
 						"name": "Motorbikes",
@@ -16375,13 +17041,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16431,13 +17101,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16487,13 +17161,17 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16543,21 +17221,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16604,21 +17286,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16670,21 +17356,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16736,21 +17426,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16797,21 +17491,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16863,21 +17561,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16929,21 +17631,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -16990,21 +17696,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17056,21 +17766,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17122,21 +17836,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17188,21 +17906,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17255,14 +17977,24 @@
 						"points": 4,
 						"increment": true,
 						"max": "parentModels",
-						"maxKey": "gun"
+						"maxKey": "gun",
+						"localLimit": 9
+					},
+					{
+						"name": "NCO SMG1",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17273,8 +18005,7 @@
 						"name": "Pansarskott m/45",
 						"points": 2,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": 2
 					},
 					{
 						"name": "Skis",
@@ -17324,22 +18055,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17350,8 +18084,9 @@
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Demolition Charges",
@@ -17415,22 +18150,25 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"max": 2,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17441,8 +18179,9 @@
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1,
-						"maxKey": "gun"
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Demolition Charges",
@@ -17507,7 +18246,9 @@
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					}
 				],
 				"keywords": ["Period: E|M|L","Engineering Selection","Remote Operated Mine","Tank Hunters"],
@@ -17651,25 +18392,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17726,25 +18475,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17817,25 +18574,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17892,25 +18657,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -17967,25 +18740,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
@@ -18058,25 +18839,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 2
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Panzerfaust",
@@ -18132,25 +18921,33 @@
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
-						"max": 6
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 6
 					},
 					{
 						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "LMG",
 						"points": 15,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Flamethrower",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Panzerfaust",
@@ -18162,13 +18959,17 @@
 						"name": "Sturmpistole",
 						"points": 5,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "Grb-39 Grenade Launcher",
 						"points": 30,
 						"increment": true,
-						"max": 1
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
 					},
 					{
 						"name": "AT Grenades",
