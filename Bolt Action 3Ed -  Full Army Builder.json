@@ -34375,12 +34375,13 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable"],
+				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable","Extra Frontal Armor"],
 				"equipment": ["Casement Light Howitzer","Forward Facing Hull Mounted MMG","Left Facing Hull Mounted MMG","Right Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
 			},
 			{
 				"name": "Saint-Chamond - Regular",
 				"factions": [],
+				"community": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -34403,12 +34404,13 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable"],
+				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable","Extra Frontal Armor"],
 				"equipment": ["Casement Light Howitzer","Forward Facing Hull Mounted MMG","Left Facing Hull Mounted MMG","Right Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
 			},
 			{
 				"name": "Saint-Chamond - Veteran",
 				"factions": [],
+				"community": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -34431,7 +34433,7 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable"],
+				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable","Extra Frontal Armor"],
 				"equipment": ["Casement Light Howitzer","Forward Facing Hull Mounted MMG","Left Facing Hull Mounted MMG","Right Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
 			},
 			{
