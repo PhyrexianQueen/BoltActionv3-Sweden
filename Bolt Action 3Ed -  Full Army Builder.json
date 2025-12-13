@@ -789,7 +789,8 @@
 			{
 				"name": "Airborne Carriage",
 				"definition": "When the Unit is taken as Airborne, this weapon counts as Light for Towing Purposes; Bolt Action, 3rd Edition: Pg. ---"
-			},{
+			},
+			{
 				"name": "Empty Pylons",
 				"definition": "When you have no ordinance, gain Interceptor Keyword. May Jettison Ordinance, lose Ordinance for the remainder of the game."
 			},
@@ -5627,7 +5628,7 @@
 				],
 				"points": 23,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Medic",
@@ -5761,7 +5762,7 @@
 				],
 				"points": 30,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Medic",
@@ -17068,6 +17069,20 @@
 						"perParent": true
 					}
 				],
+				"quantityLimitedBy":[
+					{
+						"unit":[
+							"US Marine Raider Squad - Veteran",
+							"US Marine Squad (Early) - Inexperienced",
+							"US Marine Squad (Early) - Regular",
+							"US Marine Squad (Early) - Veteran",
+							"US Marine Squad (Late) - Inexperienced",
+							"US Marine Squad (Late) - Regular",
+							"US Marine Squad (Late) - Veteran"
+						],
+						"ratio": 1
+					}
+				],
 				"options": [
 					{
 						"name": "Additional Men",
@@ -18552,6 +18567,57 @@
 				"equipment": []
 			},
 			{
+				"name": "Turmstellung - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Eng Main",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Eng Squads",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: L","Engineering Selection","Damage Value:7+","Fortification Gun"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Turmstellung - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: L","Engineering Selection","Damage Value:7+","Fortification Gun"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
 				"name": "Pantherturm - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -18562,7 +18628,7 @@
 				],
 				"points": 240,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 4,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -18590,7 +18656,7 @@
 				],
 				"points": 240,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 4,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -18608,32 +18674,32 @@
 				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
-				"name": "Turmstellung - Inexperienced",
+				"name": "Panzerturm P40 - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					}
 				],
-				"points": 32,
+				"points": 184,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 4,
 				"limits": [
 					{
-						"key": "Eng Main",
-						"limit": 4,
-						"perParent": true
-					},
-					{
-						"key": "Eng Squads",
-						"limit": 2,
+						"key": "Tanks",
+						"limit": 5,
 						"perParent": true
 					}
 				],
-				"options": [],
-				"keywords": ["Period: L","Engineering Selection","Damage Value:7+","Fortification Gun"],
-				"equipment": ["Turret Mounted MMG"]
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value:10+","Fortification Gun"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
 				"name": "Goliath Demolition Team - Veteran",
@@ -27009,6 +27075,7364 @@
 				],
 				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw","Recce"],
 				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzerbefehlswagen (SD.KFZ 265) Command Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M","Damage Value: 7+","Hitler's Buzz Saw","Command Vehicle"],
+				"equipment": ["Forward Facing MMG"]
+			},
+			{
+				"name": "Panzerbefehlswagen (SD.KFZ 265) Command Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M","Damage Value: 7+","Hitler's Buzz Saw","Command Vehicle"],
+				"equipment": ["Forward Facing MMG"]
+			},
+			{
+				"name": "Panzerbefehlswagen (SD.KFZ 265) Command Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M","Damage Value: 7+","Hitler's Buzz Saw","Command Vehicle"],
+				"equipment": ["Forward Facing MMG"]
+			},
+			{
+				"name": "Panzer I Ausf. A/B Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 56,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","x2"]
+			},
+			{
+				"name": "Panzer I Ausf. A/B Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted MMG","x2"]
+			},
+			{
+				"name": "Flakpanzer I Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+","Hitler's Buzz Saw","Open Topped","Flak"],
+				"equipment": ["Turret Mounted Light Autocannon"]
+			},
+			{
+				"name": "Panzer I Ausf C Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Experimental Gun (EW 141)","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzer I Ausf C Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Experimental Gun (EW 141)","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzer I Ausf F Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 96,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Hitler's Buzz Saw","Slow"],
+				"equipment": ["Turret Mounted MMG","x2"]
+			},
+			{
+				"name": "Panzer I Ausf F Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Hitler's Buzz Saw","Slow"],
+				"equipment": ["Turret Mounted MMG","x2"]
+			},
+			{
+				"name": "Panzer I Sig 33 Self Propelled Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 140,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Heavy Howitzer"]
+			},
+			{
+				"name": "Panzer I Sig 33 Self Propelled Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 175,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Heavy Howitzer"]
+			},
+			{
+				"name": "Panzer I Sig 33 Self Propelled Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 210,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Heavy Howitzer"]
+			},
+			{
+				"name": "Panzer II Ausf A/B/C/F Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzer II Ausf A/B/C/F Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzer II Ausf A/B/C/F Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzer II Ausf L 'Luchs' Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Hitler's Buzz Saw","Recce","Fast"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzer II Ausf L 'Luchs' Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Hitler's Buzz Saw","Recce","Fast"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			
+			{
+				"name": "Flammpanzer II 'Flamingo' Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+","Hitler's Buzz Saw","Multiple Flamethrowers"],
+				"equipment": ["Hull Mounted F|L Flamethrower (Vehicle)","Hull Mounted F|R Flamethrower (Vehicle)","Turret Mounted MMG"]
+			},
+			{
+				"name": "Flammpanzer II 'Flamingo' Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+","Hitler's Buzz Saw","Multiple Flamethrowers"],
+				"equipment": ["Hull Mounted F|L Flamethrower (Vehicle)","Hull Mounted F|R Flamethrower (Vehicle)","Turret Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf C/D Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Additional Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf C/D Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Additional Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf E/F Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Additional Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf E/F Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Additional Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf G Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Additional Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf G Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Additional Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf G Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 186,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Additional Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf H/J Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Hitler's Buzz Saw","Reinforced Rear Armor"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf H/J Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Hitler's Buzz Saw","Reinforced Rear Armor"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf H/J Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Hitler's Buzz Saw","Reinforced Rear Armor"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf L/M Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 195,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf L/M Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 234,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf N Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 175,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf N Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 210,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf N Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 175,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer III Ausf N Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 210,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Flammpanzer III Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 140,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Flamethrower (Vehicle)","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Flammpanzer III Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 175,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Flamethrower (Vehicle)","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf A Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf A Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf B/C/D/E/F Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 140,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf B/C/D/E/F Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 175,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf B/C/D/E/F Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 210,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf G/H/J Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf G/H/J Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 225,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer IV Ausf G/H/J Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 270,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					},
+					{
+						"name": "Panzer Ace",
+						"points": 0,
+						"limit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer V 'Panther' Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 238,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer V 'Panther' Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 298,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer V 'Panther' Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 358,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Panzer Ace",
+						"points": 0,
+						"limit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer VI 'Tiger I' Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 330,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer VI 'Tiger I' Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 396,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Panzer Ace",
+						"points": 0,
+						"limit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer VI 'Tiger II' Super Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 440,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 11+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer VI 'Tiger II' Super Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 528,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Panzer Ace",
+						"points": 0,
+						"limit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 11+","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer VIII 'Maus' Super Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 400,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Hitler's Buzz Saw","Götterdämmrung","Mobile Fortress","Slow"],
+				"equipment": ["Turret Mounted 128mm Kwk 44","Turret Mounted Coaxial Light Howitzer","Pintle Mounted MMG"]
+			},
+			{
+				"name": "Panzer VIII 'Maus' Super Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 500,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Hitler's Buzz Saw","Götterdämmrung","Mobile Fortress","Slow"],
+				"equipment": ["Turret Mounted 128mm Kwk 44","Turret Mounted Coaxial Light Howitzer","Pintle Mounted MMG"]
+			},
+			{
+				"name": "Panzerjäger 35R Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Forward Facing Medium AT Gun"]
+			},
+			{
+				"name": "Panzerjäger 35R Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Forward Facing Medium AT Gun"]
+			},
+			{
+				"name": "Panzerjäger 35R Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Forward Facing Medium AT Gun"]
+			},
+			{
+				"name": "Panzerspähwagen P204(F) Armored Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Recce","Wheeled"],
+				"equipment": ["Forward Facing Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzerspähwagen P204(F) Armored Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Recce","Wheeled"],
+				"equipment": ["Forward Facing Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzerspähwagen P204(F) Armored Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Recce","Wheeled"],
+				"equipment": ["Forward Facing Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Panzerwerfer 42 Multi Rocket Launcher - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half Track","Stationary Firing Platform"],
+				"equipment": ["Turret Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Panzerwerfer 42 Multi Rocket Launcher - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half Track","Stationary Firing Platform"],
+				"equipment": ["Turret Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Panzerwerfer 42 Multi Rocket Launcher - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half Track","Stationary Firing Platform"],
+				"equipment": ["Turret Mounted Multiple Rocket Launcher"]
+			},
+			
+			{
+				"name": "Renault UE w/ Wuhrfrahmen 40 Multi Rocket Launcher - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Renault UE w/ Wuhrfrahmen 40 Multi Rocket Launcher - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Renault UE w/ Wuhrfrahmen 40 Multi Rocket Launcher - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "RSO w/ Pak 40 Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Slow"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "RSO w/ Pak 40 Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Slow"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "RSO w/ Pak 40 Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Slow"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "S303(F) / S307(F) Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "S303(F) / S307(F) Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "S303(F) / S307(F) Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "S303(F) / S307(F) Multiple Rocket Launcher - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "S303(F) / S307(F) Multiple Rocket Launcher - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "S303(F) / S307(F) Multiple Rocket Launcher - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Schwimmwagen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Amphibious","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Schwimmwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Amphibious","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Schwimmwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Amphibious","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 10 'Gepanzerte' Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Armoured Cab",
+						"points": 20
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Platform Mounted Light AT Gun",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Platform Mounted Medium AT Gun",
+						"points": 25,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 10 'Gepanzerte' Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Armoured Cab",
+						"points": 20
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Platform Mounted Light AT Gun",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Platform Mounted Medium AT Gun",
+						"points": 25,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 10 'Gepanzerte' Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Armoured Cab",
+						"points": 20
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Platform Mounted Light AT Gun",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Platform Mounted Medium AT Gun",
+						"points": 25,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 10/4 & 10/5 w/ 2cm Flak Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 36,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Half-Track","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 10/4 & 10/5 w/ 2cm Flak Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Half-Track","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 10/4 & 10/5 w/ 2cm Flak Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 54,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Half-Track","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 124 'Wespe' Self Propelled Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","One, Not Both!","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Hull Mounted Medium Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Sd.Kfz 124 'Wespe' Self Propelled Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","One, Not Both!","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Hull Mounted Medium Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Sd.Kfz 124 'Wespe' Self Propelled Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","One, Not Both!","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Hull Mounted Medium Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Sd.Kfz 165 'Hummel' Self Propelled Howitzer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","One, Not Both!","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Sd.Kfz 165 'Hummel' Self Propelled Howitzer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","One, Not Both!","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Sd.Kfz 165 'Hummel' Self Propelled Howitzer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","One, Not Both!","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ MMG - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Flak","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ MMG - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Flak","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ MMG - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Flak","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ AT Rifle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Wheeled"],
+				"equipment": ["Turret Mounted Anti-Tank Rifle"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ AT Rifle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped"],
+				"equipment": ["Turret Mounted Anti-Tank Rifle"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ AT Rifle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 78,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Wheeled"],
+				"equipment": ["Turret Mounted Anti-Tank Rifle"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ AT Light AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 87,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Wheeled"],
+				"equipment": ["Turret Mounted Panzerbüchse"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ AT Light AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Wheeled"],
+				"equipment": ["Turret Mounted Panzerbüchse"]
+			},
+			{
+				"name": "Sd.Kfz 221 Armored Car w/ AT Light AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 113,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Open Topped","Wheeled"],
+				"equipment": ["Turret Mounted Panzerbüchse"]
+			},
+			{
+				"name": "Sd.Kfz 222 Armored Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 222 Armored Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 222 Armored Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 223 Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Command Vehicle","Wheeled"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 223 Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Command Vehicle","Wheeled"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 223 Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","Open Topped","Hitler's Buzz Saw","Command Vehicle","Wheeled"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 231 Heavy Armored Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 76,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 231 Heavy Armored Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 95,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 231 Heavy Armored Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 114,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 232 Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 86,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled","Command Vehicle"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 232 Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled","Command Vehicle"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 232 Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled","Command Vehicle"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 232 Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 76,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 232 Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 95,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 232 Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Dual Directional Steering","Hitler's Buzz Saw","Wheeled"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 233 Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 76,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 233 Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 95,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 233 Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 233 Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Open Topped"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 233 Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Open Topped"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 233 Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Open Topped"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/1 Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/1 Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/1 Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/2 'Puma' Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/2 'Puma' Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/2 'Puma' Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 186,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/3 Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Turret Mounted Light Howitzer","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/3 Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 110,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Turret Mounted Light Howitzer","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/3 Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 132,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Turret Mounted Light Howitzer","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/4 Heavy Armored Command Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 128,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/4 Heavy Armored Command Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 234/4 Heavy Armored Command Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 192,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Recce","Dual Directional Steering","Wheeled","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/4 Prototype Half Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Front Facing Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "Sd.Kfz 250/4 Prototype Half Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Front Facing Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "Sd.Kfz 250/4 Prototype Half Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped"],
+				"equipment": ["Front Facing Pintle Mounted MMG","x2"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 & 250/11 Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 76,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Panzerbüchse 41",
+						"points": 0,
+						"requireChooseKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 250/10 & 250/11 Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 95,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Panzerbüchse 41",
+						"points": 0,
+						"requireChooseKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 250/10 & 250/11 Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 114,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Panzerbüchse 41",
+						"points": 0,
+						"requireChooseKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 250/3 & 250/5 Armored Command Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 48,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/3 & 250/5 Armored Command Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/3 & 250/5 Armored Command Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/3 Armored Command Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 53,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle","Transport","5","Tow"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/3 Armored Command Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 65,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle","Transport","5","Tow"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/3 Armored Command Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 77,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Hitler's Buzz Saw","Open Topped","Command Vehicle","Transport","5","Tow"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/7 & 251/2 Mortar Carrier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 64,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Medium Mortar"]
+			},
+			{
+				"name": "Sd.Kfz 250/7 & 251/2 Mortar Carrier - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Medium Mortar"]
+			},
+			{
+				"name": "Sd.Kfz 250/7 & 251/2 Mortar Carrier - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 96,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Add Spotter",
+						"addsModels": 1,
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Medium Mortar"]
+			},
+			{
+				"name": "Sd.Kfz 250/8 'Stummel' Self Propelled Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Coaxial German MMG",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 250/8 'Stummel' Self Propelled Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Coaxial German MMG",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 250/8 'Stummel' Self Propelled Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 102,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Coaxial German MMG",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 250/9 Armored Recon Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Coaxial German MMG",
+						"points": 5
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Recce"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/9 Armored Recon Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Recce"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/9 Armored Recon Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Recce"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251 Stuka Zu Fuss - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Recce","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251 Stuka Zu Fuss - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Recce","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251 Stuka Zu Fuss - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Recce","Stationary Firing Platform"],
+				"equipment": ["Hull Mounted Multiple Rocket Launcher","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/16 Flammpanzerwagen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Multiple Flamethrowers"],
+				"equipment": ["Hull Mounted F|R Flamethrower (Vehicle)","Hull Mounted F|L Flamethrower (Vehicle)","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/16 Flammpanzerwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Multiple Flamethrowers"],
+				"equipment": ["Hull Mounted F|R Flamethrower (Vehicle)","Hull Mounted F|L Flamethrower (Vehicle)","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/16 Flammpanzerwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Multiple Flamethrowers"],
+				"equipment": ["Hull Mounted F|R Flamethrower (Vehicle)","Hull Mounted F|L Flamethrower (Vehicle)","Front Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/17 Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 251/17 Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 251/17 Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 251/21 'Drilling' Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Turret Mounted Light Autocannon","x3"]
+			},
+			{
+				"name": "Sd.Kfz 251/21 'Drilling' Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Turret Mounted Light Autocannon","x3"]
+			},
+			{
+				"name": "Sd.Kfz 251/21 'Drilling' Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 162,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Turret Mounted Light Autocannon","x3"]
+			},
+			{
+				"name": "Sd.Kfz 251/22 Pakwagen Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 251/22 Pakwagen Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 251/22 Pakwagen Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 162,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 251/23 Armored Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped","Hitler's Buzz Saw","Recce"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/23 Armored Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped","Hitler's Buzz Saw","Recce"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/23 Armored Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Half-Track","Open Topped","Hitler's Buzz Saw","Recce"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/6 Command Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped","Hitler's Buzz Saw","Command Vehicle","Communications Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/6 Command Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped","Hitler's Buzz Saw","Command Vehicle","Communications Vehicle"],
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 251/8 Karnkenpanzerwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 58,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped","Medical Vehicle","Ambulance"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 251/8 Karnkenpanzerwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped","Medical Vehicle","Ambulance"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 251/8 Karnkenpanzerwagen Medical Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 58,
+				"models": 1,
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped","Medical Vehicle","Ambulance"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 251/8 Karnkenpanzerwagen Medical Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Half-Track","Open Topped","Medical Vehicle","Ambulance"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 251/9 'Stummel' Self Propelled Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Coaxial German MMG",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Transport","8"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 251/9 'Stummel' Self Propelled Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 93,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Coaxial German MMG",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Transport","8"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 251/9 'Stummel' Self Propelled Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 112,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Coaxial German MMG",
+						"points": 5
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Transport","8"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Sd.Kfz 253 Command Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 48,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Half-Track","Transport","5","Tow","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 253 Command Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Half-Track","Transport","5","Tow","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 253 Command Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Half-Track","Transport","5","Tow","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 254 Mittlere Gepanzer Beobachtungskraftwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Pintle Mounted F|R German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Dual Mode suspension","Recce","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 254 Mittlere Gepanzer Beobachtungskraftwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 79,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Pintle Mounted F|R German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Dual Mode suspension","Recce","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 263 Panzerfunkwagen Command Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Command Vehicle","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 263 Panzerfunkwagen Command Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Command Vehicle","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 263 Panzerfunkwagen Command Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Command Vehicle","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 6/3 'Diana' Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 7+","Half-Track"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 6/3 'Diana' Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 7+","Half-Track"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 6/3 'Diana' Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 7+","Half-Track"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 7/1 Anti-Air Vehicle w/ Armored Cab - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 7/1 Anti-Air Vehicle w/ Armored Cab - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 7/1 Anti-Air Vehicle w/ Armored Cab - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 7/2 Anti-Air Vehicle w/ Armored Cab - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 140,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Sd.Kfz 7/2 Anti-Air Vehicle w/ Armored Cab - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Sd.Kfz 7/2 Anti-Air Vehicle w/ Armored Cab - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 170,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Sd.Kfz 7/1 Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 7/1 Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 7/1 Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Sd.Kfz 7/2 Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Sd.Kfz 7/2 Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Sd.Kfz 7/2 Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 146,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Half-Track","Open Topped","Stationary Firing Platform"],
+				"equipment": ["Platform Mounted Light Autocannon","x4"]
+			},
+			{
+				"name": "Sd.Kfz 8 Tank Destroyer w/ Armored Cab - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 148,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 8 Tank Destroyer w/ Armored Cab - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 185,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 8 Tank Destroyer w/ Armored Cab - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 222,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Half-Track","Open Topped"],
+				"equipment": ["Platform Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "SF 39H Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 144,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Open Topped","Hitler's Buzz Saw","Armored All Round"],
+				"equipment": ["Hull Mounted Heavy AT Gun","Pintle Mounted MMG"]
+			},
+			{
+				"name": "SF 39H Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Open Topped","Hitler's Buzz Saw","Armored All Round"],
+				"equipment": ["Hull Mounted Heavy AT Gun","Pintle Mounted MMG"]
+			},
+			{
+				"name": "SF 39H Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 216,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Open Topped","Hitler's Buzz Saw","Armored All Round"],
+				"equipment": ["Hull Mounted Heavy AT Gun","Pintle Mounted MMG"]
+			},
+			{
+				"name": "sIG 33 Panzerkampfwagen II 'Bison' Self Propelled Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 8+","Open Topped","Hitler's Buzz Saw","One, Not Both!"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "sIG 33 Panzerkampfwagen II 'Bison' Self Propelled Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 8+","Open Topped","Hitler's Buzz Saw","One, Not Both!"],
+				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Steyr Adgz M35 Heavy Armored Car /w MMG - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Wheeled","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Turret Mounted MMG","Forward Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Steyr Adgz M35 Heavy Armored Car /w MMG - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Wheeled","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Turret Mounted MMG","Forward Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Steyr Adgz M35 Heavy Armored Car /w MMG - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 102,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Wheeled","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Turret Mounted MMG","Forward Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Steyr Adgz M35 Heavy Armored Car /w Autocannon - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Wheeled","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Turret Mounted Light Autocannon","Forward Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Steyr Adgz M35 Heavy Armored Car /w Autocannon - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Wheeled","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Turret Mounted Light Autocannon","Forward Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Steyr Adgz M35 Heavy Armored Car /w Autocannon - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 122,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Wheeled","Hitler's Buzz Saw","Recce","Dual Direction Steering"],
+				"equipment": ["Turret Mounted Light Autocannon","Forward Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "StuG III Ausf A/B/C/D/E Assault Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+"],
+				"equipment": ["Casement Mounted Light Howitzer"]
+			},
+			{
+				"name": "StuG III Ausf A/B/C/D/E Assault Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+"],
+				"equipment": ["Casement Mounted Light Howitzer"]
+			},
+			{
+				"name": "StuG III Ausf A/B/C/D/E Assault Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 186,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+"],
+				"equipment": ["Casement Mounted Light Howitzer"]
+			},
+			{
+				"name": "StuG III Ausf F/G/H & StuG IV Assault Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 172,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted Coaxial MMG",
+						"points": 5
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Light Howitzer"]
+			},
+			{
+				"name": "StuG III Ausf F/G/H & StuG IV Assault Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 215,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted Coaxial MMG",
+						"points": 5
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Light Howitzer"]
+			},
+			{
+				"name": "StuG III Ausf F/G/H & StuG IV Assault Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 258,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Panzer Ace",
+						"points": 0,
+						"limit": 1
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted Coaxial MMG",
+						"points": 5
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Light Howitzer"]
+			},
+			{
+				"name": "StuH 42 Assault Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 164,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Light Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "StuH 42 Assault Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 205,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Light Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "StuH 42 Assault Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 246,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Add Schürzen Armor Skirts",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Light Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "StuG 33B Assault Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 256,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 10+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Heavy Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "StuG 33B Assault Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 320,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 10+","Hitler's Buzz Saw"],
+				"equipment": ["Casement Mounted Heavy Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "Sturmtiger - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 324,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Hitler's Buzz Saw","Slow Load","Rocket Mortar"],
+				"equipment": ["Casement Mounted Rocket Mortar","Hull Mounted MMG"]
+			},
+			{
+				"name": "Sturmtiger - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 405,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Hitler's Buzz Saw","Slow Load","Rocket Mortar"],
+				"equipment": ["Casement Mounted Rocket Mortar","Hull Mounted MMG"]
+			},
+			{
+				"name": "Tripple SG6 Trippelwagen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Hitler's Buzz Saw","Amphibious"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Tripple SG6 Trippelwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Hitler's Buzz Saw","Amphibious"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Tripple SG6 Trippelwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Hitler's Buzz Saw","Amphibious"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "U304(F) Armored Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "U304(F) Armored Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "U304(F) Armored Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "U304(F) Armored Mortar Carrier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Medium Mortar"]
+			},
+			{
+				"name": "U304(F) Armored Mortar Carrier - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Medium Mortar"]
+			},
+			{
+				"name": "U304(F) Armored Mortar Carrier - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Medium Mortar"]
+			},
+			{
+				"name": "U304(F) Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 76,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "U304(F) Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 95,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "U304(F) Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 114,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Wirbelwind Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 188,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","x4","Hull Mounted MMG"]
+			},
+			{
+				"name": "Wirbelwind Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 235,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","x4","Hull Mounted MMG"]
+			},
+			{
+				"name": "Wirbelwind Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 282,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Open Topped","Hitler's Buzz Saw"],
+				"equipment": ["Turret Mounted Light Autocannon","x4","Hull Mounted MMG"]
+			},
+			{
+				"name": "Saint-Chamond - Inexperienced",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 64,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable"],
+				"equipment": ["Casement Light Howitzer","Forward Facing Hull Mounted MMG","Left Facing Hull Mounted MMG","Right Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Saint-Chamond - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 80,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable"],
+				"equipment": ["Casement Light Howitzer","Forward Facing Hull Mounted MMG","Left Facing Hull Mounted MMG","Right Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Saint-Chamond - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					}
+				],
+				"points": 96,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Slow","1-Man Turret","Unreliable"],
+				"equipment": ["Casement Light Howitzer","Forward Facing Hull Mounted MMG","Left Facing Hull Mounted MMG","Right Facing Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
 			},
 			{
 				"name": "Tankette m/Carden-Loyd Mk V - Inexperienced",
@@ -41410,6 +48834,14 @@
 				],
 				"points": 38,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Ambulance","Medic","Medical Vehicle","Wheeled"],
 				"equipment": []
@@ -41425,6 +48857,14 @@
 				],
 				"points": 46,
 				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
 				"options": [],
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Ambulance","Medic","Medical Vehicle","Wheeled"],
 				"equipment": []
