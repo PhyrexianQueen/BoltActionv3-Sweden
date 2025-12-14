@@ -22390,6 +22390,2773 @@
 				"equipment": []
 			},
 			{
+				"name": "Kriegsmarine - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 2
+					}
+				],
+				"keywords": ["Period: L"],
+				"equipment": []
+			},
+			{
+				"name": "Kriegsmarine - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 2
+					}
+				],
+				"keywords": ["Period: L"],
+				"equipment": []
+			},
+			{
+				"name": "Luftwaffe Field Divisions - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 2
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Green"],
+				"equipment": []
+			},
+			{
+				"name": "Luftwaffe Field Divisions - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 2
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Green"],
+				"equipment": []
+			},
+			{
+				"name": "Ostruppen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Ostruppen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Panzergrenadiers - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 55,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Panzergrenadiers - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 55,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Panzergrenadiers - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Panzergrenadiers - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Replacement Army Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 2
+					}
+				],
+				"keywords": ["Period: L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Replacement Army Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 2
+					}
+				],
+				"keywords": ["Period: L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "ROA (Russian Liberation Army) Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 1
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "ROA (Russian Liberation Army) Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 1
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Sicherungs (Security) Battalion Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Green"],
+				"equipment": []
+			},
+			{
+				"name": "Sicherungs (Security) Battalion Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Green"],
+				"equipment": []
+			},
+			{
+				"name": "Spähtruppen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 40,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted",
+						"perModel": true
+					},
+					{
+						"name": "Bicycle",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": []
+			},
+			{
+				"name": "Spähtruppen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 40,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted",
+						"perModel": true
+					},
+					{
+						"name": "Bicycle",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": []
+			},
+			{
+				"name": "Spähtruppen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Gear",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted",
+						"perModel": true
+					},
+					{
+						"name": "Bicycle",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": []
+			},
+			{
+				"name": "Spähtruppen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 52,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Gear",
+						"points": 2,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted",
+						"perModel": true
+					},
+					{
+						"name": "Bicycle",
+						"points": 0,
+						"increment": true,
+						"max": 1,
+						"maxKey": "restricted"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": []
+			},
+			{
+				"name": "Strafbattalion Penal Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Strafbattalion Penal Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Strafbattalion Penal Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Strafbattalion Penal Unit - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 40,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Strafbattalion Penal Unit - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 40,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Shirkers"],
+				"equipment": []
+			},
+			{
+				"name": "Volksgrenadier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 40,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 4
+					}
+				],
+				"keywords": ["Period: L","For the Fartherland"],
+				"equipment": []
+			},
+			{
+				"name": "Volksgrenadier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 4
+					}
+				],
+				"keywords": ["Period: L","For the Fartherland"],
+				"equipment": []
+			},
+			{
+				"name": "Volkssturm - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 4
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: L","Green"],
+				"equipment": []
+			},
+			{
+				"name": "Volkssturm - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"localLimit": 4
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: L","Green"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Cavalry - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Add Horses",
+						"points": 3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Cavalry - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Add Horses",
+						"points": 3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Cavalry - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Add Horses",
+						"points": 3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Cavalry - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Add Horses",
+						"points": 3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Early) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Early) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics","Mixed Quality"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics","Mixed Quality"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 60,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"equipment": []
+			},
+			{
 				"name": "Heavy Artillery - Inexperienced",
 				"factions": [],
 				"order": 1,
