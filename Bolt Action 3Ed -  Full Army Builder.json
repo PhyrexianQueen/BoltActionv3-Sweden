@@ -25157,6 +25157,4525 @@
 				"equipment": []
 			},
 			{
+				"name": "5th Columnist Group - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 30,
+				"models": 5,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					},
+					{
+						"name": "AT Grenades / Molotov Cocktails",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Independent Operative"],
+				"equipment": []
+			},
+			{
+				"name": "5th Columnist Group - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 30,
+				"models": 5,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					},
+					{
+						"name": "AT Grenades / Molotov Cocktails",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Independent Operative"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 33,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]		
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 41,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 49,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 43,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Recce"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 51,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Recce"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 59,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Recce"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 43,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 51,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Artillerie Schlepper VA 601(B) - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 49,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Command Vehicle"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 17,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 21,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 17,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 21,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 17,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 21,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Field Cars / Light Trucks - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Horse Wagon - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 12,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 3+","Transport","6","Tow","Slow (Towing)"],
+				"equipment": []
+			},
+			{
+				"name": "Horse Wagon - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 15,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 3+","Transport","6","Tow","Slow (Towing)"],
+				"equipment": []
+			},
+			{
+				"name": "Horse Wagon - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 12,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 3+","Transport","6","Tow","Slow (Towing)"],
+				"equipment": []
+			},
+			{
+				"name": "Horse Wagon - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 15,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 3+","Transport","6","Tow","Slow (Towing)"],
+				"equipment": []
+			},
+			{
+				"name": "Horse Wagon - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 12,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 3+","Transport","6","Tow","Slow (Towing)"],
+				"equipment": []
+			},
+			{
+				"name": "Horse Wagon - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 15,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 3+","Transport","6","Tow","Slow (Towing)"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kettenkrad - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Tracked Bike"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Kübelwagen - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Landwasser Schlepper - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","20","Tow","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Landwasser Schlepper - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","20","Tow","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Landwasser Schlepper - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","20","Tow","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Landwasser Schlepper - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","20","Tow","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Landwasser Schlepper - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","20","Tow","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Landwasser Schlepper - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","20","Tow","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Maultier Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Raupenschlepper OST - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","12","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Schwimmwagen - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","3","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","5","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/1 'Hanomag' Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "command"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped"],
+				"equipment": ["Forward Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 82,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 103,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 82,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 103,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 82,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 103,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 250/10 Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"options": [
+					{
+						"name": "Rear Facing Pintle Mounted German MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","12","Tow","Half-Track","Open Topped","Command Vehicle"],
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 17,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 21,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 17,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 21,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 17,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 21,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Tow","Half-Track"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Sd.Kfz 4 Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Tow","Half-Track"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}				
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}				
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}				
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Trippel SG6 Trippelwagen - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Upgraded Transport Capacity SG6",
+						"points": 12
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Transport","3","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Truck - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 24,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 29,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 34,
+				"models": 1,
+				"options": [
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 24,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 29,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 34,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 24,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 29,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Büssing-NAG Heavy Truck - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 34,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","14","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "U304(F) Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Left Facing Pintle Mounted German MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted German MMG",
+						"points": 15
+					}					
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Left Facing Pintle Mounted German MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Left Facing Pintle Mounted German MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted German MMG",
+						"points": 15
+					}				
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
+				"name": "U304(F) Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 74,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half-Track","Tow"],
+				"equipment": ["Front Facing Pintle Mounted German MMG"]
+			},
+			{
 				"name": "Heavy Artillery - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -51535,7 +56054,6 @@
 					}
 				],
 				"points": 68,
-				"models": 1,
 				"models": 1,
 				"options": [],
 				"keywords": ["Damage Value: 7+","Transport","7","Wheeled"],
