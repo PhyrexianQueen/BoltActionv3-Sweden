@@ -60,6 +60,12 @@
 				"dataSource": "keywords"
 			},
 			{
+				"propertyName": "additionalRules",
+				"label": "Additional Rules",
+				"type": "static",
+				"bullet": true
+			},
+			{
 				"propertyName": "equipment",
 				"label": "Equipment",
 				"type": "static",
@@ -3254,6 +3260,102 @@
 				],
 				"keywords": ["Period: L","Hold'em by the Nose and Kick'em in the Ass!","I Won't Subsidise Cowardice!","Ol' Blood'n'Guts!","We're Gonna Go Through Them Like crap Through Goose!","General Patton","I-SUB"],
 				"equipment": ["Ivory Handle Pistol Pair"]
+			},
+			{
+				"name": "Fallschirmjäger Officer - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 3,
+				"sortPriority": 3,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Pistols",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Rank - German 2nd Lt",
+						"points": 0,
+						"requireChooseOneKey": "rank"
+					},
+					{
+						"name": "Rank - German 1st Lt",
+						"points": 25,
+						"requireChooseOneKey": "rank"
+					},
+					{
+						"name": "Rank - German Captain",
+						"points": 60,
+						"requireChooseOneKey": "rank"
+					},
+					{
+						"name": "Rank - German Major",
+						"points": 100,
+						"requireChooseOneKey": "rank"
+					}
+				],
+				"keywords": ["Period: M|L","Stubborn","NCO Apprenticeship","I-SUB"],
+				"equipment": []
 			},
 			{
 				"name": "Red Army Company Commander - Inexperienced",
@@ -8078,6 +8180,23 @@
 						"perParent": true
 					}
 				],
+				"quantityLimitedBy": [
+					{
+						"unit": [
+							"Armored Infantry Machine Gun Squad - Inexperienced",
+							"Armored Infantry Machine Gun Squad - Regular",
+							"Armored Infantry Machine Gun Squad - Veteran",
+							"Armored Infantry Mortar Squad - Inexperienced",
+							"Armored Infantry Mortar Squad - Regular",
+							"Armored Infantry Mortar Squad - Veteran",
+							"Armored Infantry Rifle Squad - Inexperienced",
+							"Armored Infantry Rifle Squad - Regular",
+							"Armored Infantry Rifle Squad - Veteran"
+						],
+						"ratio": 1,
+						"sharedWithKey": "Bazooka"
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -8106,6 +8225,23 @@
 						"key": "Armored AT Team",
 						"limit": 5,
 						"perParent": true
+					}
+				],
+				"quantityLimitedBy": [
+					{
+						"unit": [
+							"Armored Infantry Machine Gun Squad - Inexperienced",
+							"Armored Infantry Machine Gun Squad - Regular",
+							"Armored Infantry Machine Gun Squad - Veteran",
+							"Armored Infantry Mortar Squad - Inexperienced",
+							"Armored Infantry Mortar Squad - Regular",
+							"Armored Infantry Mortar Squad - Veteran",
+							"Armored Infantry Rifle Squad - Inexperienced",
+							"Armored Infantry Rifle Squad - Regular",
+							"Armored Infantry Rifle Squad - Veteran"
+						],
+						"ratio": 1,
+						"sharedWithKey": "Bazooka"
 					}
 				],
 				"options": [
@@ -8143,6 +8279,23 @@
 						"key": "Armored AT Team",
 						"limit": 5,
 						"perParent": true
+					}
+				],
+				"quantityLimitedBy": [
+					{
+						"unit": [
+							"Armored Infantry Machine Gun Squad - Inexperienced",
+							"Armored Infantry Machine Gun Squad - Regular",
+							"Armored Infantry Machine Gun Squad - Veteran",
+							"Armored Infantry Mortar Squad - Inexperienced",
+							"Armored Infantry Mortar Squad - Regular",
+							"Armored Infantry Mortar Squad - Veteran",
+							"Armored Infantry Rifle Squad - Inexperienced",
+							"Armored Infantry Rifle Squad - Regular",
+							"Armored Infantry Rifle Squad - Veteran"
+						],
+						"ratio": 1,
+						"sharedWithKey": "Bazooka"
 					}
 				],
 				"options": [
@@ -8196,6 +8349,23 @@
 						"perParent": true
 					}
 				],
+				"quantityLimitedBy": [
+					{
+						"unit": [
+							"Armored Infantry Machine Gun Squad - Inexperienced",
+							"Armored Infantry Machine Gun Squad - Regular",
+							"Armored Infantry Machine Gun Squad - Veteran",
+							"Armored Infantry Mortar Squad - Inexperienced",
+							"Armored Infantry Mortar Squad - Regular",
+							"Armored Infantry Mortar Squad - Veteran",
+							"Armored Infantry Rifle Squad - Inexperienced",
+							"Armored Infantry Rifle Squad - Regular",
+							"Armored Infantry Rifle Squad - Veteran"
+						],
+						"ratio": 1,
+						"sharedWithKey": "Bazooka"
+					}
+				],
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -8224,6 +8394,23 @@
 						"key": "Armored AT Team",
 						"limit": 4,
 						"perParent": true
+					}
+				],
+				"quantityLimitedBy": [
+					{
+						"unit": [
+							"Armored Infantry Machine Gun Squad - Inexperienced",
+							"Armored Infantry Machine Gun Squad - Regular",
+							"Armored Infantry Machine Gun Squad - Veteran",
+							"Armored Infantry Mortar Squad - Inexperienced",
+							"Armored Infantry Mortar Squad - Regular",
+							"Armored Infantry Mortar Squad - Veteran",
+							"Armored Infantry Rifle Squad - Inexperienced",
+							"Armored Infantry Rifle Squad - Regular",
+							"Armored Infantry Rifle Squad - Veteran"
+						],
+						"ratio": 1,
+						"sharedWithKey": "Bazooka"
 					}
 				],
 				"options": [
@@ -8261,6 +8448,23 @@
 						"key": "Armored AT Team",
 						"limit": 4,
 						"perParent": true
+					}
+				],
+				"quantityLimitedBy": [
+					{
+						"unit": [
+							"Armored Infantry Machine Gun Squad - Inexperienced",
+							"Armored Infantry Machine Gun Squad - Regular",
+							"Armored Infantry Machine Gun Squad - Veteran",
+							"Armored Infantry Mortar Squad - Inexperienced",
+							"Armored Infantry Mortar Squad - Regular",
+							"Armored Infantry Mortar Squad - Veteran",
+							"Armored Infantry Rifle Squad - Inexperienced",
+							"Armored Infantry Rifle Squad - Regular",
+							"Armored Infantry Rifle Squad - Veteran"
+						],
+						"ratio": 1,
+						"sharedWithKey": "Bazooka"
 					}
 				],
 				"options": [
@@ -9274,6 +9478,802 @@
 				"equipment": ["Anti-Tank Rifle"]
 			},
 			{
+				"name": "Blacker Bombard Anti-Tank Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"equipment": ["Blacker Bombard"]
+			},
+			{
+				"name": "Blacker Bombard Anti-Tank Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"equipment": ["Blacker Bombard"]
+			},
+			{
+				"name": "Blacker Bombard Anti-Tank Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 52,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"equipment": ["Blacker Bombard"]
+			},
+			{
+				"name": "Blacker Bombard Anti-Tank Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"equipment": ["Blacker Bombard"]
+			},
+			{
+				"name": "Blacker Bombard Anti-Tank Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"equipment": ["Blacker Bombard"]
+			},
+			{
+				"name": "Blacker Bombard Anti-Tank Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 52,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"equipment": ["Blacker Bombard"]
+			},
+			{
+				"name": "PIAT Anti-Tank Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"equipment": ["PIAT"]
+			},
+			{
+				"name": "PIAT Anti-Tank Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"equipment": ["PIAT"]
+			},
+			{
+				"name": "PIAT Anti-Tank Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 52,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"equipment": ["PIAT"]
+			},
+			{
+				"name": "PIAT Anti-Tank Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"equipment": ["PIAT"]
+			},
+			{
+				"name": "PIAT Anti-Tank Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"equipment": ["PIAT"]
+			},
+			{
+				"name": "PIAT Anti-Tank Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 52,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"equipment": ["PIAT"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 25,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 33,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 25,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Boys Anti-Tank Rifle Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 33,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M","Team Weapon"],
+				"equipment": ["Anti-Tank Rifle"]
+			},
+			{
+				"name": "Flamethrower Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Flamethrower",
+						"limit": 3,
+						"increment": true,
+						"max": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Flamethrower - Team Weapon"]
+			},
+			{
+				"name": "Flamethrower Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 65,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Flamethrower",
+						"limit": 3,
+						"increment": true,
+						"max": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Flamethrower - Team Weapon"]
+			},
+			{
 				"name": "Flamethrower Team - Regular",
 				"factions": [],
 				"order": 1,
@@ -9408,7 +10408,7 @@
 					}
 				],
 				"keywords": ["Period: E|M|L"],
-				"equipment": []
+				"equipment": ["Flamethrower - Team Weapon"]
 			},
 			{
 				"name": "Flammenwerfer Team - Veteran",
@@ -9470,7 +10470,7 @@
 					}
 				],
 				"keywords": ["Period: E|M|L"],
-				"equipment": []
+				"equipment": ["Flamethrower - Team Weapon"]
 			},
 			{
 				"name": "Light Mortar Team - Inexperienced",
@@ -10087,6 +11087,718 @@
 				],
 				"keywords": ["Period: M|L"],
 				"equipment": ["Heavy Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 21,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 3,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 30,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 3,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 3,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 21,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 3,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 30,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 3,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 3,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Medium Mortar Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 32,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Medium Mortar"]
+			},
+			{
+				"name": "Medium Mortar Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 45,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Medium Mortar"]
+			},
+			{
+				"name": "Medium Mortar Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 59,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["Medium Mortar"]
+			},
+						{
+				"name": "Heavy Mortar Team - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 42,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"equipment": ["Heavy Mortar"]
+			},
+			{
+				"name": "Heavy Mortar Team - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"equipment": ["Heavy Mortar"]
+			},
+			{
+				"name": "Heavy Mortar Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 78,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"equipment": ["Heavy Mortar"]
+			},
+			{
+				"name": "Medium Machine Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["MMG"]
+			},
+			{
+				"name": "Medium Machine Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["MMG"]
+			},
+			{
+				"name": "Medium Machine Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"equipment": ["MMG"]
 			},
 			{
 				"name": "Medium Machine Gun - Inexperienced",
@@ -11839,6 +13551,263 @@
 					}
 				],
 				"keywords": ["Engineers"],
+				"equipment": []
+			},
+			{
+				"name": "Engineers Section - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers"],
+				"equipment": []
+			},
+			{
+				"name": "Engineers Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 55,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers"],
+				"equipment": []
+			},
+			{
+				"name": "Engineers Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 5,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! Commandos Only - SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers"],
 				"equipment": []
 			},
 			{
@@ -19436,6 +21405,210 @@
 				"equipment": []
 			},
 			{
+				"name": "Fallschirmpioneers - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Eng Main",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Eng Squads",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Pistol",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Flamethrower",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Bangalore Torpedoes",
+						"points": 10,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Stubborn","Engineers"],
+				"equipment": []
+			},
+			{
+				"name": "Fallschirmpioneers (Ortona) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 84,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Eng Main",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Eng Squads",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Pistol",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Flamethrower",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzfaust 30",
+						"points": 3,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Bangalore Torpedoes",
+						"points": 10,
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Stubborn","Engineers"],
+				"equipment": []
+			},
+			{
 				"name": "Alarm Unit - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -25223,6 +27396,514 @@
 				"equipment": []
 			},
 			{
+				"name": "Festung Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Shirkers",
+						"points": -3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Festung Unit - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Shirkers",
+						"points": -3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Festung Unit - Regular",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Shirkers",
+						"points": -3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Festung Unit - Regular",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Shirkers",
+						"points": -3,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Feldersatz - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Green","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Feldersatz - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 35,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Green","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Early) - Regular",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Unprepared - HGD","Motorised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Early) - Regular",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 45,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Unprepared - HGD","Motorised Infantry"],
+				"equipment": []
+			},
+			{
 				"name": "Artillerie Schlepper VA 601(B) - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -25247,6 +27928,248 @@
 				"models": 1,
 				"options": [],
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","6","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Late) - Regular",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Motorised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Late) - Regular",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Motorised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Late) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Motorised Infantry"],
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Late) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 75,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Motorised Infantry"],
 				"equipment": []
 			},
 			{
@@ -31357,6 +34280,998 @@
 				"equipment": ["Rocket Launcher"]
 			},
 			{
+				"name": "20mm Oerlikon/Polsten Autocannon - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 25,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Light Autocannon",
+						"points": 30,
+						"increment": true,
+						"max": 4
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "20mm Oerlikon/Polsten Autocannon - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Light Autocannon",
+						"points": 30,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "20mm Oerlikon/Polsten Autocannon - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 46,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Light Autocannon",
+						"points": 30,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "3.7in QF Dual Purpose AA/AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Improvised Role","Flak"],
+				"equipment": ["Platform Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "3.7in QF Dual Purpose AA/AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 100,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Improvised Role","Flak"],
+				"equipment": ["Platform Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "3.7in QF Dual Purpose AA/AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 130,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Improvised Role","Flak"],
+				"equipment": ["Platform Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "2pdr QF Light AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "2pdr QF Light AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 55,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "2pdr QF Light AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 72,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "6pdr QF Medium AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 49,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon","Fixed","Gun Shield","Airborne QF 6pdr"],
+				"equipment": ["Medium AT Gun"]
+			},
+			{
+				"name": "6pdr QF Medium AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M|L","Team Weapon","Fixed","Gun Shield","Airborne QF 6pdr"],
+				"equipment": ["Medium AT Gun"]
+			},
+			{
+				"name": "6pdr QF Medium AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 91,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M|L","Team Weapon","Fixed","Gun Shield","Airborne QF 6pdr"],
+				"equipment": ["Medium AT Gun"]
+			},
+			{
+				"name": "17pdr QF Super Heavy AT Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Team Weapon","Fixed","Light HE"],
+				"equipment": ["Super Heavy AT Gun"]
+			},
+			{
+				"name": "17pdr QF Super Heavy AT Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 100,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M|L","Team Weapon","Fixed","Light HE"],
+				"equipment": ["Super Heavy AT Gun"]
+			},
+			{
+				"name": "17pdr QF Super Heavy AT Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 130,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: M|L","Team Weapon","Fixed","Light HE"],
+				"equipment": ["Super Heavy AT Gun"]
+			},
+			{
+				"name": "Light Artillery - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 46,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield","25pdr AT Shell"],
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "Light Artillery - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 65,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield","25pdr AT Shell"],
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "Light Artillery - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 85,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield","25pdr AT Shell"],
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "Light Artillery (Airborne) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 29,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "Light Artillery (Airborne) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 48,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "Light Artillery (Airborne) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 68,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "Medium Artillery - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 63,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Medium Howitzer"]
+			},
+			{
+				"name": "Medium Artillery - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 90,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Medium Howitzer"]
+			},
+			{
+				"name": "Medium Artillery - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 117,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Medium Howitzer"]
+			},
+			{
+				"name": "Heavy Artillery - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 98,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Heavy Howitzer"]
+			},
+			{
+				"name": "Heavy Artillery - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 140,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Heavy Howitzer"]
+			},
+			{
+				"name": "Heavy Artillery - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 182,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
+				"equipment": ["Heavy Howitzer"]
+			},
+			{
+				"name": "Land Mattress - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 42,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: L","Team Weapon","Fixed"],
+				"equipment": ["Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Land Mattress - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: L","Team Weapon","Fixed"],
+				"equipment": ["Multiple Rocket Launcher"]
+			},
+			{
+				"name": "Land Mattress - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 78,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["Great Britain"]
+					}
+				],
+				"keywords": ["Period: L","Team Weapon","Fixed"],
+				"equipment": ["Multiple Rocket Launcher"]
+			},
+			{
 				"name": "37mm Anti-Tank Gun M3 - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -31454,6 +35369,105 @@
 				],
 				"keywords": ["Period: E|M|L"],
 				"equipment": ["Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "40mm Bofors Gun - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "40mm Bofors Gun - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "40mm Bofors Gun - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 65,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					}
+				],
+				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
+				"equipment": ["Platform Mounted Heavy Autocannon"]
 			},
 			{
 				"name": "Light Anti-Tank Gun - Inexperienced",
@@ -44140,6 +48154,204 @@
 				],
 				"keywords": ["Period: M","Damage Value: 10+","Hitler's Buzz Saw"],
 				"equipment": ["Casement Mounted Heavy Howitzer","Hull Mounted MMG"]
+			},
+			{
+				"name": "StuG M41 850 & M42 851 (I) Assault Gun - Inexperienced",
+				"factions": [],
+				"campaign": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 136,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Vulnerable"],
+				"equipment": ["Casement Medium AT Gun"]
+			},
+			{
+				"name": "StuG M41 850 & M42 851 (I) Assault Gun - Regular",
+				"factions": [],
+				"campaign": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 170,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Vulnerable"],
+				"equipment": ["Casement Medium AT Gun"]
+			},
+			{
+				"name": "StuG M41 850 & M42 851 (I) Assault Gun - Veteran",
+				"factions": [],
+				"campaign": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 204,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Vulnerable"],
+				"equipment": ["Casement Medium AT Gun"]
+			},
+			{
+				"name": "StuG M43 (I) Assault Gun - Inexperienced",
+				"factions": [],
+				"campaign": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 240,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Casement Super Heavy AT Gun"]
+			},
+			{
+				"name": "StuG M43 (I) Assault Gun - Regular",
+				"factions": [],
+				"campaign": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 300,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Casement Super Heavy AT Gun"]
+			},
+			{
+				"name": "StuG M43 (I) Assault Gun - Veteran",
+				"factions": [],
+				"campaign": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 360,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted German MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Casement Super Heavy AT Gun"]
 			},
 			{
 				"name": "Sturmtiger - Inexperienced",
@@ -58917,6 +63129,282 @@
 				"options": [],
 				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 7+","Transport","5","Open Topped","Amphibious","Turn On The Spot"],
 				"equipment": []
+			},
+			{
+				"name": "2pdr Portee Gun Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 56,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Wheeled"],
+				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "2pdr Portee Gun Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Wheeled"],
+				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "2pdr Portee Gun Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 6+","Wheeled"],
+				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "3in Mortar Carrier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Turn On The Spot"],
+				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "3in Mortar Carrier - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Turn On The Spot"],
+				"equipment": ["Platform Mounted Medium Mortar"]
+			},
+			{
+				"name": "3in Mortar Carrier - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Open Topped","Turn On The Spot"],
+				"equipment": ["Platform Mounted Medium Mortar"]
+			},
+			{
+				"name": "57mm SP Autocar - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Half-Track"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "57mm SP Autocar - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Half-Track"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "57mm SP Autocar - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Half-Track"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
 			},
 			{
 				"name": "Terrangbil m/42 KP - Regular",
