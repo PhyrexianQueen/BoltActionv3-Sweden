@@ -51401,6 +51401,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -51418,6 +51421,7 @@
 					{
 						"name": "Pintle Mounted MMG",
 						"points": 15,
+						"availableIn": ["United States of America"],
 						"increment": true,
 						"max": 1,
 						"maxKey": "Pintle"
@@ -51425,6 +51429,7 @@
 					{
 						"name": "Pintle Mounted HMG",
 						"points": 25,
+						"availableIn": ["United States of America"],
 						"increment": true,
 						"max": 1,
 						"maxKey": "Pintle"
@@ -51443,6 +51448,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -51460,6 +51468,7 @@
 					{
 						"name": "Pintle Mounted MMG",
 						"points": 15,
+						"availableIn": ["United States of America"],
 						"increment": true,
 						"max": 1,
 						"maxKey": "Pintle"
@@ -51467,6 +51476,7 @@
 					{
 						"name": "Pintle Mounted HMG",
 						"points": 25,
+						"availableIn": ["United States of America"],
 						"increment": true,
 						"max": 1,
 						"maxKey": "Pintle"
@@ -51485,6 +51495,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -51502,6 +51515,7 @@
 					{
 						"name": "Pintle Mounted MMG",
 						"points": 15,
+						"availableIn": ["United States of America"],
 						"increment": true,
 						"max": 1,
 						"maxKey": "Pintle"
@@ -51509,6 +51523,7 @@
 					{
 						"name": "Pintle Mounted HMG",
 						"points": 25,
+						"availableIn": ["United States of America"],
 						"increment": true,
 						"max": 1,
 						"maxKey": "Pintle"
@@ -63141,7 +63156,7 @@
 				],
 				"points": 56,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -63173,7 +63188,7 @@
 				],
 				"points": 70,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -63205,7 +63220,7 @@
 				],
 				"points": 84,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -63225,6 +63240,132 @@
 				],
 				"keywords": ["Period: E|M","Damage Value: 6+","Wheeled"],
 				"equipment": ["Platform Mounted Light AT Gun"]
+			},
+			{
+				"name": "6pdr Portee - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Forward Facing Hull Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Hull Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "6pdr Portee - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Forward Facing Hull Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Hull Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "6pdr Portee - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 102,
+				"models": 1,
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Forward Facing Hull Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Hull Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 6+","Wheeled"],
+				"equipment": []
 			},
 			{
 				"name": "3in Mortar Carrier - Inexperienced",
@@ -63321,7 +63462,7 @@
 				],
 				"points": 84,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 2,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -63353,7 +63494,7 @@
 				],
 				"points": 105,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 2,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -63385,7 +63526,7 @@
 				],
 				"points": 126,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 2,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -63405,6 +63546,4374 @@
 				],
 				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Half-Track"],
 				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "75mm SP Autocar - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 96,
+				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Half-Track","Improved HE"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "75mm SP Autocar - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Half-Track","Improved HE"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "75mm SP Autocar - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 144,
+				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Half-Track","Improved HE"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "A10 'Cruiser' Mk.II / Mk.IIA Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A10 'Cruiser' Mk.II / Mk.IIA Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A10 'Cruiser' Mk.II CS Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 110,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A10 'Cruiser' Mk.II CS Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A13 'Cruiser' Mk.III / Mk.III CS Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A13 'Cruiser' Mk.III / Mk.III CS Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A13 'Cruiser' Mk.IV / Mk.IVA Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A13 'Cruiser' Mk.IV / Mk.IVA Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A09 'Cruiser' Mk.I / Mk.I CS Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+"],
+				"equipment": ["Turret Mounted Coaxial MMG","Turret Mounted F/L Facing MMG","Turret Mounted F/R Facing MMG"]
+			},
+			{
+				"name": "A09 'Cruiser' Mk.I / Mk.I CS Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+"],
+				"equipment": ["Turret Mounted Coaxial MMG","Turret Mounted F/L Facing MMG","Turret Mounted F/R Facing MMG"]
+			},
+			{
+				"name": "AEC Mk.I Heavy Armoured Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Light AT Gun"]
+			},
+			{
+				"name": "AEC Mk.I Heavy Armoured Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Light AT Gun"]
+			},
+			{
+				"name": "AEC Mk.I Heavy Armoured Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 162,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Light AT Gun"]
+			},
+			{
+				"name": "AEC Mk.II Heavy Armoured Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 128,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "AEC Mk.II Heavy Armoured Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "AEC Mk.II Heavy Armoured Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 182,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "AEC Mk.III Heavy Armoured Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 143,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "AEC Mk.III Heavy Armoured Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 170,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "AEC Mk.III Heavy Armoured Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 197,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Recce","Wheeled","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Archer SP 17pdr Tank Destroyer - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 158,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE","Open Topped"],
+				"equipment": ["Rear Facing Hull Mounted Super Heavy AT Gun","Crew Carried LMG"]
+			},
+			{
+				"name": "Archer SP 17pdr Tank Destroyer - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 198,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE","Open Topped"],
+				"equipment": ["Rear Facing Hull Mounted Super Heavy AT Gun","Crew Carried LMG"]
+			},
+			{
+				"name": "Archer SP 17pdr Tank Destroyer - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 238,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE","Open Topped"],
+				"equipment": ["Rear Facing Hull Mounted Super Heavy AT Gun","Crew Carried LMG"]
+			},
+			{
+				"name": "Armadillo Mk.I / Mk.III Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Heavy Autocannon",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Stationary Firing Platform","Open Topped","Wheeled"],
+				"equipment": ["Pintle Mounted LMG"]
+			},
+			{
+				"name": "Armadillo Mk.I / Mk.III Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Heavy Autocannon",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Stationary Firing Platform","Open Topped","Wheeled"],
+				"equipment": ["Pintle Mounted LMG"]
+			},
+			{
+				"name": "Bishop SP 25pdr SPG - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 128,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 9+","Slow","25pdr AT Shell"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Bishop SP 25pdr SPG - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 160,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 9+","Slow","25pdr AT Shell"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "Morris Commercial C9/B Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Stationary Firing Platform","Wheeled"],
+				"equipment": ["Hull Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Morris Commercial C9/B Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 55,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Stationary Firing Platform","Wheeled"],
+				"equipment": ["Hull Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Morris Commercial C9/B Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Stationary Firing Platform","Wheeled"],
+				"equipment": ["Hull Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Jeep, British Airborne - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 42,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Forward Facing Pintle Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted Twin LMG",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Vickers K Gun","Recce","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Recce",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep, SAS (Europe) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Twin LMG",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted HMG",
+						"points": 10,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted Twin LMG",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Add Frontal Armor Plating",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Wheeled","Recce","Vickers K Gun"],
+				"equipment": ["Forward Facing LMG"]
+			},
+			{
+				"name": "Jeep, SAS (North Africa) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted Twin LMG, Non-Vickers",
+						"points": 0,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted HMG",
+						"points": 10,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted LMG, Non-Vickers",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted Twin LMG",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing LMG, Non-Vickers K",
+						"points": 0,
+						"requireChooseOneKey": "terWeapon"
+					},
+					{
+						"name": "Forward Facing LMG",
+						"points": 10,
+						"requireChooseOneKey": "terWeapon"
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 6+","Wheeled","Recce","Vickers K Gun","Deflate Those Tyres"],
+				"equipment": []
+			},
+			{
+				"name": "A22 'Churchill' Mk.III / Mk.IV AVRE Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 310,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Petard Mortar","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.III / Mk.IV AVRE Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 372,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Petard Mortar","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A30 'Challenger' Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 172,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A30 'Challenger' Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 215,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A30 'Challenger' Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 258,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A34 'Comet' Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 258,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A34 'Comet' Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 310,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Light HE","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A13 'Convenanter' Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.I / Mk.I CS Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.I / Mk.I CS Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.I / Mk.I CS Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 162,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.II / Mk.II CS Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 100,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.II / Mk.II CS Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 125,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.II / Mk.II CS Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 150,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.III Light Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 116,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.III Light Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 145,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.III Light Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 174,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A27L 'Centaur' CS Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 172,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium Howtizer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27L 'Centaur' CS Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 215,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium Howtizer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27L 'Centaur' CS Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 258,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium Howtizer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27M 'Cromwell' Mk.IV / Mk.IV CS Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 176,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Medium Howitzer",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Fast","Improved HE - Medium AT Gun"],
+				"equipment": ["Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27M 'Cromwell' Mk.IV / Mk.IV CS Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 220,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Medium Howitzer",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Fast","Improved HE - Medium AT Gun"],
+				"equipment": ["Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27M 'Cromwell' Mk.IV / Mk.IV CS Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 264,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Medium AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Medium Howitzer",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Fast","Improved HE - Medium AT Gun"],
+				"equipment": ["Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27M 'Cromwell' Mk.I Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 161,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Fast"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27M 'Cromwell' Mk.I Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 205,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Fast"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A27M 'Cromwell' Mk.I Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 249,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Fast"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.I Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Open Topped"],
+				"equipment": ["Turret Mounted Heavy Autcannon"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.I Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 105,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Open Topped"],
+				"equipment": ["Turret Mounted Heavy Autcannon"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.I Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 126,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Open Topped"],
+				"equipment": ["Turret Mounted Heavy Autcannon"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.II Anti-Air Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 114,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Autcannon","x2"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.II Anti-Air Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 135,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Autcannon","x2"]
+			},
+			{
+				"name": "A15 'Crusader' Mk.II Anti-Air Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 156,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Autcannon","x2"]
+			},
+			{
+				"name": "Daimler Mk.I Armoured Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 92,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Littlejohn Adapter",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Daimler Mk.I Armoured Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 115,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Littlejohn Adapter",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Daimler Mk.I Armoured Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 138,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Littlejohn Adapter",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Daimler 'Dingo' Scout Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 46,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+","Wheeled","Recce","Open Topped"],
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "Daimler 'Dingo' Scout Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+","Wheeled","Recce","Open Topped"],
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "Daimler 'Dingo' Scout Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 84,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+","Wheeled","Recce","Open Topped"],
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "AEC 'Deacon' Mk.I Gun Carrier - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 7+","Wheeled","Open Topped"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "AEC 'Deacon' Mk.I Gun Carrier - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 110,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 7+","Wheeled","Open Topped"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "AEC 'Deacon' Mk.I Gun Carrier - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 132,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 7+","Wheeled","Open Topped"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ Command Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle C (Early)",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "C"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ Command Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle C (Early)",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "C"
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ LMG - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle (Early)",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+				{
+						"name": "Additional Motorcycle and Sidecar (Early)",
+						"points": 28,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1,
+						"addsOrders": 1
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ LMG - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle (Early)",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Motorcycle and Sidecar (Early)",
+						"points": 35,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1,
+						"addsOrders": 1
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ AT Rifle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle Weapon1 (Early)",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted AT Rifle"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ AT Rifle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle Weapon1 (Early)",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted AT Rifle"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ Light Mortar - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle Weapon2 (Early)",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted Light Mortar"]
+			},
+			{
+				"name": "Motorcycle and Sidecar (Early) w/ Light Mortar - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 35,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Motorcycle Weapon2 (Early)",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 6+","Wheeled","Recce","Extra Selection - British Motorcycles","Turn On The Spot"],
+				"equipment": ["Hull Mounted Light Mortar"]
+			},
+			{
+				"name": "Humber Mk.II / Mk.IV Armoured Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 76,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Autocannon",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Humber Mk.II / Mk.IV Armoured Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 95,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Autocannon",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Humber Mk.II / Mk.IV Armoured Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 114,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Autocannon",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Canadian Fox Armoured Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted HMG","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Canadian Fox Armoured Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted HMG","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Canadian Fox Armoured Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 104,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Turret Mounted HMG","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Humber 'Humbrette' Light Recon. Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 48,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce","Open Topped"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "Humber 'Humbrette' Light Recon. Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce","Open Topped"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "Humber 'Humbrette' Light Recon. Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Wheeled","Recce","Open Topped"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "Humber Scout Car - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 72,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+","Wheeled","Recce"],
+				"equipment": ["Pintle Mounted LMG"]
+			},
+			{
+				"name": "Humber Scout Car - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+","Wheeled","Recce"],
+				"equipment": ["Pintle Mounted LMG"]
+			},
+			{
+				"name": "Humber Scout Car - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 108,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+","Wheeled","Recce"],
+				"equipment": ["Pintle Mounted LMG"]
+			},
+			{
+				"name": "A12 'Matilda' Mk.I Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 96,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted HMG"]
+			},
+			{
+				"name": "A12 'Matilda' Mk.I Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 120,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted HMG"]
+			},
+			{
+				"name": "A12 'Matilda' Mk.II / Mk.IIC Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 9+","Slow"],
+				"equipment": []
+			},
+			{
+				"name": "A12 'Matilda' Mk.II / Mk.IIC Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 9+","Slow"],
+				"equipment": []
+			},
+			{
+				"name": "A12 'Matilda' Mk.II / Mk.IIC Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 186,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 9+","Slow"],
+				"equipment": []
+			},
+			{
+				"name": "Valentine Mk.I-VIIA Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 124,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Valentine Mk.I-VIIA Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 155,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Valentine Mk.I-VIIA Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 186,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Valentine Mk.VIII-X Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 136,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Valentine Mk.VIII-X Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 170,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Valentine Mk.VIII-X Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 204,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted Coaxial MMG",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Valentine Mk.XI Medium Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 152,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Valentine Mk.XI Medium Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 190,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Valentine Mk.XI Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 228,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "A22 'Churchill Crocodile' Mk.IV Super Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 425,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow","Improved HE","Jettison Fuel Trailer"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "A22 'Churchill Crocodile' Mk.IV Super Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 510,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow","Improved HE","Jettison Fuel Trailer"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.III / Mk.IV Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 200,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.III / Mk.IV Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 250,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.III / Mk.IV Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 300,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.I Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 220,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.I Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 270,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.I Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 320,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.II Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.II Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 230,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.II Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 280,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.II CS Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 220,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.II CS Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 270,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.II CS Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 320,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.V Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 180,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.V Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 230,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.V Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 280,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.V Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 215,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.V Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 265,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.V Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 315,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.VII Super Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 300,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.VII Super Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 375,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.VII Super Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 450,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.VIII Super Heavy Tank - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 265,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.VIII Super Heavy Tank - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 340,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "A22 'Churchill' Mk.VIII Super Heavy Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 415,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 11+","Slow"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Terrangbil m/42 KP - Regular",
