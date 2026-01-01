@@ -21161,11 +21161,17 @@
 					},
 					{
 						"name": "LMG",
-						"points": 4,
+						"points": 15,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
-						"localLimit": 1
+						"localLimit": 2
+					},
+					{
+						"name": "Upgrade LMG to Vickers K",
+						"points": 5,
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -21232,11 +21238,17 @@
 					},
 					{
 						"name": "LMG",
-						"points": 4,
+						"points": 15,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
-						"localLimit": 1
+						"localLimit": 2
+					},
+					{
+						"name": "Upgrade LMG to Vickers K",
+						"points": 5,
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -22009,6 +22021,12 @@
 						"localLimit": 2
 					},
 					{
+						"name": "Upgrade LMG to Vickers K",
+						"points": 5,
+						"increment": true,
+						"max": 2
+					},
+					{
 						"name": "AT Grenades",
 						"points": 2,
 						"perModel": true
@@ -22070,6 +22088,12 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 2
+					},
+					{
+						"name": "Upgrade LMG to Vickers K",
+						"points": 5,
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "AT Grenades",
@@ -55749,24 +55773,39 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 54,
 				"models": 1,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Tanks",
-						"limit": 5,
-						"perParent": true
-					}
-				],
 				"options": [
-					{
-						"name": "Command Vehicle",
-						"points": 10
-					},
 					{
 						"name": "Pintle Mounted MMG, B|L",
 						"points": 15
@@ -55776,8 +55815,8 @@
 						"points": 15
 					}
 				],
-				"keywords": ["Period: E|M|L","Damage Value:7+","Open Topped","Recce"],
-				"equipment": ["Forward Facing Pintle Mounted HMG"]
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
 			},
 			{
 				"name": "M3 White Scout Car - Regular",
@@ -55785,24 +55824,39 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 68,
 				"models": 1,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Tanks",
-						"limit": 5,
-						"perParent": true
-					}
-				],
 				"options": [
-					{
-						"name": "Command Vehicle",
-						"points": 10
-					},
 					{
 						"name": "Pintle Mounted MMG, B|L",
 						"points": 15
@@ -55812,8 +55866,8 @@
 						"points": 15
 					}
 				],
-				"keywords": ["Period: E|M|L","Damage Value:7+","Open Topped","Recce"],
-				"equipment": ["Forward Facing Pintle Mounted HMG"]
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
 			},
 			{
 				"name": "M3 White Scout Car - Veteran",
@@ -55821,23 +55875,70 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 82,
 				"models": 1,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Tanks",
-						"limit": 5,
-						"perParent": true
-					}
-				],
 				"options": [
 					{
-						"name": "Command Vehicle",
-						"points": 10
+						"name": "Pintle Mounted MMG, B|L",
+						"points": 15
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "M3 White Scout Car - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 54,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
 					},
 					{
 						"name": "Pintle Mounted MMG, B|L",
@@ -55848,8 +55949,189 @@
 						"points": 15
 					}
 				],
-				"keywords": ["Period: E|M|L","Damage Value:7+","Open Topped","Recce"],
-				"equipment": ["Forward Facing Pintle Mounted HMG"]
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "M3 White Scout Car - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|L",
+						"points": 15
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "M3 White Scout Car - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 82,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|L",
+						"points": 15
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "M3 White Scout Car - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 54,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|L",
+						"points": 15
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "M3 White Scout Car - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|L",
+						"points": 15
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "M3 White Scout Car - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 82,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted MMG, B|L",
+						"points": 15
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","8","Open Topped","Wheeled"],
+				"equipment": []
 			},
 			{
 				"name": "M4 Mortar Carrier - Inexperienced",
@@ -59370,18 +59652,30 @@
 				"equipment": []
 			},
 			{
-				"name": "Jeep - Inexperienced",
+				"name": "Jeep - Transport - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
@@ -59398,25 +59692,38 @@
 				"options": [
 					{
 						"name": "Amphibious",
-						"points": 0
+						"points": 0,
+						"availableIn": ["United States of America"]
 					}
 				],
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
 				"equipment": []
 			},
 			{
-				"name": "Jeep - Regular",
+				"name": "Jeep - Transport - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
@@ -59433,25 +59740,38 @@
 				"options": [
 					{
 						"name": "Amphibious",
-						"points": 0
+						"points": 0,
+						"availableIn": ["United States of America"]
 					}
 				],
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
 				"equipment": []
 			},
 			{
-				"name": "Jeep - Veteran",
+				"name": "Jeep - Transport - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
@@ -59468,10 +59788,206 @@
 				"options": [
 					{
 						"name": "Amphibious",
-						"points": 0
+						"points": 0,
+						"availableIn": ["United States of America"]
 					}
 				],
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Amphibious",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled","Transport","3","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"name": "Amphibious",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled","Transport","3","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Amphibious",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled","Transport","3","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Amphibious",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled","Transport","3","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Amphibious",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled","Transport","3","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Amphibious",
+						"points": 0,
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled","Transport","3","Tow"],
 				"equipment": []
 			},
 			{
@@ -62279,87 +62795,6 @@
 					}
 				],
 				"keywords": ["Command Vehicle","Period: M|L","Damage Value: 6+","Transport","12","Tow","Wheeled","Amphibious"],
-				"equipment": []
-			},
-			{
-				"name": "Jeep - Inexperienced",
-				"factions": [],
-				"limits": [
-					{
-						"key": "Command Vehicle",
-						"limit": 1,
-						"perParent": true
-					}
-				],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 24,
-				"models": 1,
-				"options": [
-					{
-						"name": "Amphibious",
-						"points": 0
-					}
-				],
-				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
-				"equipment": []
-			},
-			{
-				"name": "Jeep - Regular",
-				"factions": [],
-				"limits": [
-					{
-						"key": "Command Vehicle",
-						"limit": 1,
-						"perParent": true
-					}
-				],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 28,
-				"models": 1,
-				"options": [
-					{
-						"name": "Amphibious",
-						"points": 0
-					}
-				],
-				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
-				"equipment": []
-			},
-			{
-				"name": "Jeep - Veteran",
-				"factions": [],
-				"limits": [
-					{
-						"key": "Command Vehicle",
-						"limit": 1,
-						"perParent": true
-					}
-				],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 32,
-				"models": 1,
-				"options": [
-					{
-						"name": "Amphibious",
-						"points": 0
-					}
-				],
-				"keywords": ["Command Vehicle","Period: E|M|L","Damage Value: 6+","Transport","3","Tow","Wheeled"],
 				"equipment": []
 			},
 			{
@@ -74411,6 +74846,4314 @@
 				"models": 1,
 				"options": [],
 				"keywords": ["Period: E|M|L","Damage Value: 3+","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 23,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 23,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 23,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "15CWT Trucks - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","8","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 27,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "3t Trucks - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 32,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","12","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 49,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 49,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 44,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Bedford QLT - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 49,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","29","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 20,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 30,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 20,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 30,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 20,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 25,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "30CWT Trucks - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 30,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","10","Wheeled","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"options": [
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier w/ Bren LMG - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","5","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Dorchester 'Guy Lizard' Command Truck - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","10","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 23,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 23,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 23,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Assault (GB) - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 28,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Additional Forward Facing Hull Mounted LMGs",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Additional Forward Facing Pintle Mounted LMGs",
+						"points": 10,
+						"increment": true,
+						"max": 2,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "2 Light Mortars",
+						"points": 40
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","36 Men or a Jeep and 16 Men","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Front Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 58,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 73,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 58,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 73,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 58,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 73,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "Landing Craft, Mechanized (GB) - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 88,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","100 Men or 2 SSVs or a 9+ or Less Armored Vehicle","Slow","Waterborne","Landing Craft"],
+				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 94,
+				"models": 1,
+				"options": [
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 113,
+				"models": 1,
+				"options": [
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 94,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 113,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+				{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 75,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 94,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "LVT 4 'Buffalo' Landing Vehicle - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 113,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "2 Pintle Mounted MMGs",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "2 Pintle Mounted HMGs",
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Hull Mounted MMG",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted Light Autocannon",
+						"points": 35
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","24","Amphibious","Open Topped"],
+				"equipment": []
+			},
+			{
+				"name": "M5 Half-Track - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 77,
+				"models": 1,
+				"options": [
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 92,
+				"models": 1,
+				"options": [
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 77,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 92,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 62,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 77,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M5 Half-Track - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 92,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Left Facing Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Right Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","12","Half Track","Open Topped","Tow"],
+				"equipment": ["Pintle Mounted HMG"]
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 53,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 79,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 53,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 79,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 53,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 66,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M7 'Priest' Kangaroo - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 79,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 106,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 127,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 106,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 127,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 85,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 106,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M4 'Sherman' / 'Ram' Kangaroo - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 127,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Transport","11","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 47,
+				"models": 1,
+				"options": [
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 47,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "M3 / M5 'Stuart' Kangaroo - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 47,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					},
+					{
+						"name": "Front Facing Hull Mounted LMG",
+						"points": 5
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 30
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","4","Open Topped","Tow"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 47,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+					
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+					
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 47,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+					
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 31,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+					
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 39,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+					
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Terrapin Amphibious Truck - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 47,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+					
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Transport","12","Open Topped","Tow","Wheeled","Amphibious"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Recce - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+					
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Recce - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+					
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Recce - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Recce",
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+					
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Command - Inexperienced",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 14,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+					
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Command - Regular",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 18,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+					
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
+				"equipment": []
+			},
+			{
+				"name": "Utility Cars - Command - Veteran",
+				"factions": [],
+				"limits": [
+					{
+						"key": "Command Vehicle",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 22,
+				"models": 1,
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10,
+						"requireChooseOneKey": "Command Vehicle"
+					}
+					
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","3","Wheeled"],
 				"equipment": []
 			},
 			{
