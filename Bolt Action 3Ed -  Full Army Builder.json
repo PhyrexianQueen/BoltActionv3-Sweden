@@ -3366,6 +3366,63 @@
 				"equipment": []
 			},
 			{
+				"name": "Popski's Private Army (PPA) Officer - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 3,
+				"sortPriority": 3,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 18,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					},
+					{
+						"name": "Rank - Great Britain 2nd Lt",
+						"points": 0,
+						"requireChooseOneKey": "rank"
+					},
+					{
+						"name": "Rank - Great Britain 1st Lt",
+						"points": 25,
+						"requireChooseOneKey": "rank"
+					},
+					{
+						"name": "Rank - Great Britain Captain",
+						"points": 60,
+						"requireChooseOneKey": "rank"
+					},
+					{
+						"name": "Rank - Great Britain Major",
+						"points": 100,
+						"requireChooseOneKey": "rank"
+					}
+				],
+				"keywords": ["Period: M|L","No National Characteristic: PPA","RTU","Behind Enemy Lines","I-SUB"],
+				"equipment": ["SMGs"]
+			},
+			{
 				"name": "Red Army Company Commander - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -11809,6 +11866,29 @@
 				"equipment": ["MMG"]
 			},
 			{
+				"name": "1st Airborne 'Red Devil' Paratrooper Captured MG42 - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 73,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","I-SUB","Stubborn","Hitler's Buzzsaw"],
+				"equipment": ["MMG"]
+			},
+			{
 				"name": "Medium Machine Gun - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -13816,6 +13896,196 @@
 					}
 				],
 				"keywords": ["Period: E|M|L","Engineers"],
+				"equipment": []
+			},
+			{
+				"name": "Royal Engineers Section - Regular",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 50,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Flamethrower",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					},
+					{
+						"name": "Bangalore Torpedoes",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers","Mine Clearing Experts","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Royal Engineers Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 65,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Flamethrower",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					},
+					{
+						"name": "Bangalore Torpedoes",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers","Mine Clearing Experts","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "1st Airborne 'Red Devil' Paratrooper Engineers - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Red Devil Team",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "Pistols",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					},
+					{
+						"name": "Bangalore Torpedoes",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Engineers","Stubborn","I-SUB"],
 				"equipment": []
 			},
 			{
@@ -22107,6 +22377,701 @@
 				],
 				"keywords": ["Period: M|L","Behind Enemy Lines","Tough Fighters","Who Dares Wins!"],
 				"equipment": ["Pistols"]
+			},
+			{
+				"name": "COPP Commando Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "COPP Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 17,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Upgrade 2 SMGs with Suppressed STEN Mk.II SMGs",
+						"points": 2
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Infiltrator","Cautious Movement","No National Characteristic: COPP","Stealth Reconnaissance","Masters of Concealment"],
+				"equipment": ["Pistol"]
+			},
+			{
+				"name": "COPP Commando Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 40,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "COPP Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Man",
+						"points": 17,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Upgrade 2 SMGs with Suppressed STEN Mk.II SMGs",
+						"points": 2
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Infiltrator","Cautious Movement","No National Characteristic: COPP","Stealth Reconnaissance","Masters of Concealment"],
+				"equipment": ["Pistol"]
+			},
+			{
+				"name": "Recce Corps Assault Troop Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","High Level Aptitude and Training","Mechanized - Recce Corps Assault","More NCOs","Recon Troops","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Recce Corps Assault Troop Section - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","High Level Aptitude and Training","Mechanized - Recce Corps Assault","More NCOs","Recon Troops","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Recce Corps Assault Troop Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 65,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","High Level Aptitude and Training","Mechanized - Recce Corps Assault","More NCOs","Recon Troops","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Recce Corps Assault Troop Section - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 65,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","High Level Aptitude and Training","Mechanized - Recce Corps Assault","More NCOs","Recon Troops","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "1st Airborne 'Red Devil' Paratroopers - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "Pistols",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Upgrade LMG to MG42 w/ Hitler's Buzzsaw",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Bangalore Torpedos",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Stubborn","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "1st Airborne 'Red Devil' Paratroopers - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 70,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "Pistols",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Upgrade LMG to MG42 w/ Hitler's Buzzsaw",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Bangalore Torpedos",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Stubborn","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Special Raiding Squadron Subsection - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 95,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Upgrade LMG to Vickers K",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Behind Enemy Lines","Fitness is Key","Who Dares Wins!","No National Characteristic: Special Raiders"],
+				"equipment": ["Pistols"]
+			},
+			{
+				"name": "Special Raiding Squadron Subsection - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 95,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 2,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Upgrade LMG to Vickers K",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Behind Enemy Lines","Fitness is Key","Who Dares Wins!","No National Characteristic: Special Raiders"],
+				"equipment": ["Pistols"]
+			},
+			{
+				"name": "Popski's Private Army (PPA) Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 54,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Squad - PPA",
+						"points": 54,
+						"increment": true,
+						"max": 1,
+						"addsModels": 3
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Behind Enemy Lines","RTU","No National Characteristic: PPA"],
+				"equipment": ["SMGs"]
+			},
+			{
+				"name": "Popski's Private Army (PPA) Team - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 95,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Squad - PPA",
+						"points": 54,
+						"increment": true,
+						"max": 1,
+						"addsModels": 3
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20
+					}
+				],
+				"keywords": ["Period: E|M|L","I-SUB","Behind Enemy Lines","RTU","No National Characteristic: PPA"],
+				"equipment": ["SMGs"]
 			},
 			{
 				"name": "Engineer Squad - Regular",
@@ -66964,6 +67929,89 @@
 				],
 				"keywords": ["Period: M","Damage Value: 6+","Wheeled","Recce","Vickers K Gun","Deflate Those Tyres"],
 				"equipment": []
+			},
+			{
+				"name": "Jeep, PPA - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 60,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted HMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Pintle Mounted Twin Vickers K",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"points": -10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG",
+						"points": 25,
+						"ChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"points": 15,
+						"ChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Recce","Wheeled","I-SUB"],
+				"equipment": []
+			},
+			{
+				"name": "Jeep, PPA w/ Flamethrower - Veteran",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
+					}
+				],
+				"points": 68,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Recce","Wheeled","Flamethrower Small Vehicle","Easily Catches Fire","I-SUB"],
+				"equipment": ["Front Facing Hull Mounted Flamethrower (Infantry)"]
 			},
 			{
 				"name": "A22 'Churchill' Mk.III / Mk.IV AVRE Heavy Tank - Regular",
