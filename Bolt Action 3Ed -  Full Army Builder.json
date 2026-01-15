@@ -85343,6 +85343,75 @@
 				"equipment": ["Wing Mounted Light Autocannon","x4"]
 			},
 			{
+				"name": "Avro Lancaster Heavy Bomber - Inexperienced",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 244,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Heavy Strategic Bomber","SABS"],
+				"equipment": ["Nose Twin Turret Mounted MMGs", "Topside Twin Turret Mounted MMGs","Rear Facing Quad MMGs"]
+			},
+			{
+				"name": "Avro Lancaster Heavy Bomber - Regular",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 305,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Heavy Strategic Bomber","SABS"],
+				"equipment": ["Nose Twin Turret Mounted MMGs", "Topside Twin Turret Mounted MMGs","Rear Facing Quad MMGs"]
+			},
+			{
+				"name": "Avro Lancaster Heavy Bomber - Veteran",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 366,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Heavy Strategic Bomber","SABS"],
+				"equipment": ["Nose Twin Turret Mounted MMGs", "Topside Twin Turret Mounted MMGs","Rear Facing Quad MMGs"]
+			},
+			{
 				"name": "P-51 'Mustang' Fighter - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -85788,6 +85857,75 @@
 				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted MMGs","x2","Bombs","Rear Mounted MMGs","x2"]
 			},
 			{
+				"name": "Bloch MB.162 Heavy Bomber - Inexperienced",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 208,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Light Autocannon","x2","Rear Facing MMG","x2"]
+			},
+			{
+				"name": "Bloch MB.162 Heavy Bomber - Regular",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 260,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Light Autocannon","x2","Rear Facing MMG","x2"]
+			},
+			{
+				"name": "Bloch MB.162 Heavy Bomber - Veteran",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "France" }]			
+					}
+				],
+				"points": 312,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Light Autocannon","x2","Rear Facing MMG","x2"]
+			},
+			{
 				"name": "Yakovlev Yak-9 Fighter - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -86019,6 +86157,75 @@
 				"equipment": ["Wing Mounted Light Autocannon", "x2","Wing Mounted MMGs","x2","Rear Mounted MMGs"]
 			},
 			{
+				"name": "Petlyakov Pe-8 Heavy Bomber - Inexperienced",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 248,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Nose Twin Turret Mounted MMGs", "Rear Facing Light Autocannon", "Topside Rear Facing Turret Mounted Light Autocannon","Wing Mounted HMG","x2"]
+			},
+			{
+				"name": "Petlyakov Pe-8 Heavy Bomber - Regular",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 310,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Nose Twin Turret Mounted MMGs", "Rear Facing Light Autocannon", "Topside Rear Facing Turret Mounted Light Autocannon","Wing Mounted HMG","x2"]
+			},
+			{
+				"name": "Petlyakov Pe-8 Heavy Bomber - Veteran",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 372,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Nose Twin Turret Mounted MMGs", "Rear Facing Light Autocannon", "Topside Rear Facing Turret Mounted Light Autocannon","Wing Mounted HMG","x2"]
+			},
+			{
 				"name": "Messerschmitt Bf-109 Fighter - Inexperienced",
 				"factions": [],
 				"order": 1,
@@ -86224,6 +86431,75 @@
 				"options": [],
 				"keywords": ["Period: E|M|L"],
 				"equipment": ["Wing Mounted MMGs","x2","Bombs","Rear Mounted MMGs"]
+			},
+			{
+				"name": "Heinkel He 177 'Greif' Heavy Bomber - Inexperienced",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 256,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Front Mounted MMG","Front Mounted Light Autocannon","Topside Twin Turret Mounted HMGs","Topside Turret Moutned MMG","Rear Mounted Light Autocannon"]
+			},
+			{
+				"name": "Heinkel He 177 'Greif' Heavy Bomber - Regular",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 320,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Twin Turret Mounted HMGs","x2","Rear Facing HMG","x2","Port Mounted MMG","STBD Mounted MMG"]
+			},
+			{
+				"name": "Heinkel He 177 'Greif' Heavy Bomber - Veteran",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 384,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Twin Turret Mounted HMGs","x2","Rear Facing HMG","x2","Port Mounted MMG","STBD Mounted MMG"]
 			},
 			{
 				"name": "Mitsubishi A6M ‘Zero' Fighter - Inexperienced",
@@ -86433,7 +86709,7 @@
 						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
 					}
 				],
-				"points": 228,
+				"points": 184,
 				"models": 1,
 				"limits": [
 					{
@@ -86443,7 +86719,7 @@
 					}
 				],
 				"options": [],
-				"keywords": ["Period: L","Strategic Bomber"],
+				"keywords": ["Period: L","Medium Strategic Bomber"],
 				"equipment": ["Rear Mounted Light Autocannon", "Front Facing MMG","Port Mounted MMG","STBD Mounted MMG"]
 			},
 			{
@@ -86456,7 +86732,7 @@
 						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
 					}
 				],
-				"points": 285,
+				"points": 230,
 				"models": 1,
 				"limits": [
 					{
@@ -86466,7 +86742,7 @@
 					}
 				],
 				"options": [],
-				"keywords": ["Period: L","Strategic Bomber"],
+				"keywords": ["Period: L","Medium Strategic Bomber"],
 				"equipment": ["Rear Mounted Light Autocannon", "Front Facing MMG","Port Mounted MMG","STBD Mounted MMG"]
 			},
 			{
@@ -86479,7 +86755,7 @@
 						"all": [{ "in": "Air Support"	}, { "in": "Japan" }]			
 					}
 				],
-				"points": 342,
+				"points": 276,
 				"models": 1,
 				"limits": [
 					{
@@ -86489,8 +86765,77 @@
 					}
 				],
 				"options": [],
-				"keywords": ["Period: L","Strategic Bomber"],
+				"keywords": ["Period: L","Medium Strategic Bomber"],
 				"equipment": ["Rear Mounted Light Autocannon", "Front Facing MMG","Port Mounted MMG","STBD Mounted MMG"]
+			},
+			{
+				"name": "Piaggio P.108 Heavy Bomber - Inexperienced",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 224,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Twin Turret Mounted HMGs","x2","Rear Facing HMG","x2","Port Mounted MMG","STBD Mounted MMG"]
+			},
+			{
+				"name": "Piaggio P.108 Heavy Bomber - Regular",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 280,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Twin Turret Mounted HMGs","x2","Rear Facing HMG","x2","Port Mounted MMG","STBD Mounted MMG"]
+			},
+			{
+				"name": "Piaggio P.108 Heavy Bomber - Veteran",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+					}
+				],
+				"points": 336,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Heavy Strategic Bomber"],
+				"equipment": ["Rear Facing Twin Turret Mounted HMGs","x2","Rear Facing HMG","x2","Port Mounted MMG","STBD Mounted MMG"]
 			},
 			{
 				"name": "Macchi C.202 ‘Folgore’ Fighter - Inexperienced",
@@ -87448,6 +87793,75 @@
 				],
 				"keywords": ["Period: E|M|L","Slow (Aircraft)"],
 				"equipment": ["Nose Turret Mounted MMGs","x2","Rear Mounted MMGs","Port Mounted HMGs","STBD Mounted HMGs"]
+			},
+			{
+				"name": "Boeing B-17G 'Flying Fortress' Heavy Bomber - Inexperienced",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 332,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Heavy Strategic Bomber","Norden Bomb Sight"],
+				"equipment": ["Nose Mounted Twin Turret HMGs", "Front Facing HMG","x2","Port Mounted HMG","STBD Mounted HMG","Topside Twin Turret Mounted HMGs","Underbelly Twin Turret Mounted HMGs","Topside Rear Facing HMG","Rear Facing Twin HMGs"]
+			},
+			{
+				"name": "Boeing B-17G 'Flying Fortress' Heavy Bomber - Regular",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 415,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Heavy Strategic Bomber","Norden Bomb Sight"],
+				"equipment": ["Nose Mounted Twin Turret HMGs", "Front Facing HMG","x2","Port Mounted HMG","STBD Mounted HMG","Topside Twin Turret Mounted HMGs","Underbelly Twin Turret Mounted HMGs","Topside Rear Facing HMG","Rear Facing Twin HMGs"]
+			},
+			{
+				"name": "Boeing B-17G 'Flying Fortress' Heavy Bomber - Veteran",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 498,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: M|L","Heavy Strategic Bomber","Norden Bomb Sight"],
+				"equipment": ["Nose Mounted Twin Turret HMGs", "Front Facing HMG","x2","Port Mounted HMG","STBD Mounted HMG","Topside Twin Turret Mounted HMGs","Underbelly Twin Turret Mounted HMGs","Topside Rear Facing HMG","Rear Facing Twin HMGs"]
 			},
 			{
 				"name": "Barbed Wire",
