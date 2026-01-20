@@ -2025,13 +2025,14 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
+						"name": "Waffen-SS Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Waffen-SS InEx)"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -2344,13 +2345,14 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
+						"name": "Waffen-SS Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Waffen-SS)"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -2749,13 +2751,14 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
+						"name": "Waffen-SS Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Waffen-SS)"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
@@ -2765,11 +2768,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -2779,10 +2781,11 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Fallschirmjäger Only - Additional Men",
+						"name": "Additional Fallschirmjäger",
 						"points": 13,
 						"addsModels": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Fallschirmjäger)"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -2917,25 +2920,18 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Anti-Tank",
-						"points": 3,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Anti-Tank Grenades for Airborne",
 						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
-						"points": 4,
+						"name": "Welbikes",
+						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -2952,33 +2948,27 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Commandos) w/ Anti-Tank",
-						"points": 5,
+						"name": "Anti-Tank Grenades for Commandos",
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
-						"points": 7,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! Commandos Only - Additional Men",
+						"name": " Additional Commandos",
 						"points": 13,
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -3003,12 +2993,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -3301,6 +3285,125 @@
 				"keywords": ["Period: L","Hold'em by the Nose and Kick'em in the Ass!","I Won't Subsidise Cowardice!","Ol' Blood'n'Guts!","We're Gonna Go Through Them Like crap Through Goose!","General Patton"],
 				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 Officer",
 				"equipment": ["Ivory Handle Pistol Pair"]
+			},
+			{
+				"name": "Private Kelly - Hollywood",
+				"factions": [],
+				"order": 1,
+				"special": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 150,
+				"models": 3,
+				"sortPriority": 1,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Master Sergeant Jake 'Big Joe' Diamond - Hollywood",
+						"points": 200,
+						"increment": true,
+						"max": 1,
+						"addsModels": 3,
+						"limit": 1
+					},
+					{
+						"name": "Private Babra - Hollywood",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"limit": 1,
+						"unlockedByLocal": "Master Sergeant Jake 'Big Joe' Diamond - Hollywood"
+					}
+				],
+				"keywords": ["Period: E|M|L","Sergio's Champion","Hollywood","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
+				"specialText": "Kelly's Heroes Leaflet;\n 1 (Ex)Officer, 2 Soldiers",
+				"equipment": ["SMGs"]
+			},
+			{
+				"name": "Master Sergeant Jake 'Big Joe' Diamond - Hollywood",
+				"factions": [],
+				"order": 1,
+				"special": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 200,
+				"models": 3,
+				"sortPriority": 1,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Private Babra - Hollywood",
+						"points": 20,
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"limit": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Hollywood NCO","Hollywood One-Handed Tommy Gun Maestro","Hollywood","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
+				"specialText": "Kelly's Heroes Leaflet;\n 1 NCO, 2 Soldiers",
+				"equipment": ["SMGs"]
+			},
+			{
+				"name": "Staff Sergeant Crapgame - Hollywood",
+				"factions": [],
+				"order": 1,
+				"special": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 100,
+				"models": 2,
+				"sortPriority": 1,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [],
+				"keywords": ["Period: E|M|L","Logistical Hustler","Mortar Suppoert","Hollywood","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
+				"specialText": "Kelly's Heroes Leaflet;\n 1 MG Operator, 1 Weapon Assistant",
+				"equipment": ["SMGs"]
 			},
 			{
 				"name": "Fallschirmjäger Officer - Veteran",
@@ -3725,7 +3828,7 @@
 				],
 				"options": [
 					{
-						"name": "For King and Country (Guards)",
+						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
@@ -3795,42 +3898,42 @@
 				],
 				"options": [
 					{
-						"name": "For King and Country (Airborne)",
+						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country (Airborne) w/ Welbikes",
+						"name": "Welbikes",
+						"points": 1,
+						"availableIn": ["Great Britain"],
+						"perModel": true,
+						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"availableIn": ["Great Britain"],
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"availableIn": ["Great Britain"],
+						"perModel": true,
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos), w/ SAS",
 						"points": 2,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country (Chindits)",
-						"points": 3,
-						"availableIn": ["Great Britain"],
-						"perModel": true,
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country (Commandos)",
-						"points": 3,
-						"availableIn": ["Great Britain"],
-						"perModel": true,
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country (Commandos), w/ SAS",
-						"points": 5,
-						"availableIn": ["Great Britain"],
-						"perModel": true,
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country (Guards)",
+						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
@@ -3845,12 +3948,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"availableIn": ["United States of America"],
 						"perModel": true,
@@ -4164,9 +4261,9 @@
 							"Norway",
 							"Partisans",
 							"Poland",
-							"Polish Peoples Army (LWP)"
-						],
-						"availableIn": ["Romania"]
+							"Polish Peoples Army (LWP)",
+							"Romania"
+						]
 					},
 					{
 						"name": "SMGs",
@@ -4295,13 +4392,14 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Waffen-SS InEx Only - Additional Assault Rifle",
+						"name": "Waffen-SS Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Waffen-SS InEx)"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -4889,13 +4987,14 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Waffen-SS Only - Assault Rifle",
+						"name": "Waffen-SS Assault Rifle",
 						"points": 6,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Waffen-SS)"
 					},
 					{
 						"name": "Sword",
@@ -5495,13 +5594,14 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Waffen-SS Only - Additional Assault Rifle",
+						"name": "Waffen-SS Additional Assault Rifle",
 						"points": 6,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Waffen-SS)"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
@@ -5511,10 +5611,11 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"perModel": true,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -5524,10 +5625,11 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Fallschirmjäger Only - Additional Men",
+						"name": "Additional Fallschirmjäger",
 						"points": 13,
 						"addsModels": 1,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Fallschirmjäger)"
 					},
 					{
 						"name": "Sword",
@@ -5605,28 +5707,21 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Anti-Tank",
+						"name": "Anti-Tank Grenades for Airborne",
 						"points": 3,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
-						"points": 2,
+						"name": "Welbikes",
+						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Anti-Tank & Welbikes",
-						"points": 4,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country (Chindits)",
+						"name": "For King and Country! (Chindits)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
@@ -5640,33 +5735,27 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Commandos) w/ Anti-Tank",
-						"points": 5,
+						"name": "Anti-Tank Grenades for Commandos",
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! (Commandos) w/ Anti-Tank & SAS",
-						"points": 7,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! Commandos Only - Additional Men",
+						"name": "Additional Commandos",
 						"points": 13,
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -5711,7 +5800,6 @@
 						]
 					},
 					{
-					
 						"name": "Anti-Tank Grenades",
 						"points": 2,
 						"perModel": true,
@@ -5726,12 +5814,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -6082,9 +6164,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 0,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -6094,45 +6177,48 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "For King and Country (Airborne)",
+						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country Airborne Only - Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
-						"name": "For King and Country (Chindits)",
+						"name": "For King and Country! (Chindits)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country (Commandos)",
+						"name": "For King and Country! (Commandos)",
 						"points": 3,
 						"availableIn": ["Great Britain"],
 						"perModel": true,
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country Commandos Only - SAS",
-						"points": 5,
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 2,
 						"availableIn": ["Great Britain"],
-						"perModel": true
+						"perModel": true,
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country Commandos Only - SAS Additional Men",
+						"name": "Additional Commandos",
 						"points": 11,
 						"availableIn": ["Great Britain"],
 						"increment": true,
 						"max": 3,
-						"addsModels": 1
+						"addsModels": 1,
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -6172,13 +6258,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -6617,9 +6696,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 0,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -6636,11 +6716,11 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
-						"points": 2,
+						"name": "Welbikes",
+						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -6650,19 +6730,27 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! Commandos Only - Additional Men",
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "Additional Commandos",
 						"points": 14,
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -6687,13 +6775,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -7244,9 +7325,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 0,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -7263,11 +7345,11 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
-						"points": 2,
+						"name": "Welbikes",
+						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -7278,18 +7360,19 @@
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - Additional Men",
+						"name": "Additional Commandos",
 						"points": 14,
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"availableIn": ["Great Britain"]
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -7314,13 +7397,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -7347,7 +7423,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Forward Artillery Observer - Regular",
+				"name": "Forward Artillery Observer (LWP) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -7406,7 +7482,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Forward Artillery Observer - Veteran",
+				"name": "Forward Artillery Observer (LWP) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -7465,7 +7541,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Forward Air Observer - Regular",
+				"name": "Forward Air Observer (LWP) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -7524,7 +7600,66 @@
 				"equipment": []
 			},
 			{
-				"name": "Forward Artillery Observer - Regular",
+				"name": "Forward Air Observer (LWP) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					}
+				],
+				"points": 90,
+				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Observer","Stubborn"],
+				"specialText": "1 Forward Observer",
+				"equipment": []
+			},
+			{
+				"name": "Forward Artillery Observer (SU) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -7595,7 +7730,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Forward Artillery Observer - Veteran",
+				"name": "Forward Artillery Observer (SU) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -7672,7 +7807,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Forward Air Observer - Regular",
+				"name": "Forward Air Observer (SU) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -7743,7 +7878,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Forward Air Observer - Veteran",
+				"name": "Forward Air Observer (SU) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -7949,6 +8084,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -7972,7 +8110,13 @@
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
-						"localLimit": 2
+						"localLimit": 2,
+						"availableIn": [
+							"France",
+							"Germany",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -8009,6 +8153,13 @@
 						"perModel": true,
 						"availableIn": ["Germany"],
 						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon"],
@@ -8025,6 +8176,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
@@ -8050,7 +8204,13 @@
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
-						"localLimit": 2
+						"localLimit": 2,
+						"availableIn": [
+							"France",
+							"Germany",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -8067,13 +8227,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -8109,9 +8262,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 0,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -8119,6 +8273,58 @@
 						"perModel": true,
 						"availableIn": ["Germany"],
 						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "Commando SMGs",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					}
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon"],
@@ -8277,12 +8483,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -8449,12 +8649,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -8621,12 +8815,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -8780,12 +8968,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -9118,11 +9300,11 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal":"Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -9235,11 +9417,11 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal":"Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -9361,11 +9543,11 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal":"Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -9478,11 +9660,11 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal":"Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -9895,11 +10077,11 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -9917,20 +10099,20 @@
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - SMGs",
-						"points": 3,
+						"name": "Commandos SMGs",
+						"points": 5,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -10028,11 +10210,11 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -10050,20 +10232,20 @@
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - SMGs",
-						"points": 3,
+						"name": "Commandos SMGs",
+						"points": 5,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -10170,11 +10352,11 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -10192,20 +10374,20 @@
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - SMGs",
-						"points": 3,
+						"name": "Commando SMGs",
+						"points": 5,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -10303,11 +10485,11 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -10321,24 +10503,24 @@
 						"points": 3,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
+						"points": 2,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - SMGs",
-						"points": 3,
+						"name": "Commando SMGs",
+						"points": 5,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -10358,216 +10540,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 50,
-				"models": 2,
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "Flamethrower",
-						"limit": 3,
-						"increment": true,
-						"max": 1,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "For King and Country! (Guards)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
-				"equipment": ["Flamethrower - Team Weapon"]
-			},
-			{
-				"name": "Flamethrower Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 65,
-				"models": 2,
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "Flamethrower",
-						"limit": 3,
-						"increment": true,
-						"max": 1,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "For King and Country! (Airborne)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Chindits)",
-						"points": 3,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Commandos)",
-						"points": 3,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! Commandos Only - SMGs",
-						"points": 3,
-						"increment": true,
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 3,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Guards)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
-				"equipment": ["Flamethrower - Team Weapon"]
-			},
-			{
-				"name": "Flamethrower Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 50,
-				"models": 2,
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "Flamethrower",
-						"limit": 3,
-						"increment": true,
-						"max": 1,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
-				"equipment": ["Flamethrower - Team Weapon"]
-			},
-			{
-				"name": "Flamethrower Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 65,
-				"models": 2,
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "Flamethrower",
-						"limit": 3,
-						"increment": true,
-						"max": 1,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
-				"equipment": ["Flamethrower - Team Weapon"]
-			},
-			{
-				"name": "Flammenwerfer Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 50,
@@ -10593,12 +10572,33 @@
 					{
 						"name": "Flamethrower - Team Weapon",
 						"points": 0,
+						"availableIn": ["Germany"],
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Einstossflammenwerfer",
 						"points": 0,
+						"availableIn": ["Germany"],
 						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10606,12 +10606,18 @@
 				"equipment": ["Flamethrower - Team Weapon"]
 			},
 			{
-				"name": "Flammenwerfer Team - Veteran",
+				"name": "Flamethrower Team - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 65,
@@ -10642,9 +10648,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 0,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -10656,31 +10663,197 @@
 					{
 						"name": "Flamethrower - Team Weapon",
 						"points": 0,
+						"availableIn": ["Germany"],
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Einstossflammenwerfer",
 						"points": 0,
+						"availableIn": ["Germany"],
 						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "Commando SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
 					}
 				],
 				"keywords": ["Period: E|M|L"],
 				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
 				"equipment": ["Flamethrower - Team Weapon"]
 			},
+			
 			{
-				"name": "Light Mortar Team - Inexperienced",
+				"name": "Flamethrower Team (US) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 24,
+				"points": 50,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Flamethrower",
+						"limit": 3,
+						"increment": true,
+						"max": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
+				"equipment": ["Flamethrower - Team Weapon"]
+			},
+			{
+				"name": "Flamethrower Team (US) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 65,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Flamethrower",
+						"limit": 3,
+						"increment": true,
+						"max": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
+				"equipment": ["Flamethrower - Team Weapon"]
+			},
+			{
+				"name": "Light Mortar Team (F|S) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 21,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (F|S) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 30,
 				"models": 3,
 				"sortPriority": 4,
 				"limits": [
@@ -10697,6 +10870,195 @@
 						"availableIn": ["Sweden"]
 					},
 					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (F|S) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (F|S) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 21,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (F|S) - Regular",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 30,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (F|S) - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 39,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (USA) - Inexperienced",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 24,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true,
+						"in": [
+							"Sweden",
+							"United States of America"
+						]
+					}
+				],
+				"options": [
+					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"availableIn": ["United States of America"],
@@ -10708,13 +11070,10 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Regular",
+				"name": "Light Mortar Team (USA) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -10731,18 +11090,6 @@
 				],
 				"options": [
 					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -10750,10 +11097,11 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"name": "Airborne Reduced Manning",
 						"points": -5,
 						"addsModels": -1,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": "By Air, Land, and Sea (Airborne)"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -10767,13 +11115,10 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Veteran",
+				"name": "Light Mortar Team (USA) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -10790,18 +11135,6 @@
 				],
 				"options": [
 					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -10809,10 +11142,11 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"name": "Airborne Reduced Manning",
 						"points": -7,
 						"addsModels": -1,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": "By Air, Land, and Sea (Airborne)"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -10828,10 +11162,11 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Rangers) - Reduced Manning",
+						"name": "Rangers Reduced Manning",
 						"points": -7,
 						"addsModels": -1,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": "By Air, Land, and Sea (Rangers)"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -10839,13 +11174,10 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Inexperienced",
+				"name": "Light Mortar Team (USA) - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -10862,11 +11194,6 @@
 				],
 				"options": [
 					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
 						"name": "By Air, Land, and Sea (Marines)",
 						"points": 0,
 						"availableIn": ["United States of America"],
@@ -10878,13 +11205,10 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Regular",
+				"name": "Light Mortar Team (USA) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -10901,18 +11225,6 @@
 				],
 				"options": [
 					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -10920,10 +11232,11 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"name": "Airborne Reduced Manning",
 						"points": -5,
 						"addsModels": -1,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": "By Air, Land, and Sea (Airborne)"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -10937,13 +11250,10 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Veteran",
+				"name": "Light Mortar Team (USA) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -10960,18 +11270,6 @@
 				],
 				"options": [
 					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -10979,10 +11277,11 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Airborne) - Reduced Manning",
+						"name": "Airborne Reduced Manning",
 						"points": -7,
 						"addsModels": -1,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": "By Air, Land, and Sea (Airborne)"
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
@@ -10998,10 +11297,11 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Rangers) - Reduced Manning",
+						"name": "Rangers Reduced Manning",
 						"points": -7,
 						"addsModels": -1,
-						"availableIn": ["United States of America"]
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": "By Air, Land, and Sea (Rangers)"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -11013,6 +11313,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
@@ -11034,7 +11340,22 @@
 					{
 						"name": "Add Spotter",
 						"points": 10,
-						"addsModels": 1
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Sweden",
+							"United States of America"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Skis",
@@ -11058,6 +11379,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -11078,7 +11405,29 @@
 					{
 						"name": "Add Spotter",
 						"points": 10,
-						"addsModels": 1
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Sweden",
+							"United States of America"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Skis",
@@ -11116,6 +11465,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -11136,7 +11491,99 @@
 					{
 						"name": "Add Spotter",
 						"points": 10,
-						"addsModels": 1
+						"increment": true,
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Sweden",
+							"United States of America"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer",
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "For King and Country! (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Welbikes",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Commandos) w/ SAS",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "Commando SMGs",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Skis",
@@ -11159,12 +11606,6 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["United States of America"],
@@ -11188,6 +11629,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -11207,8 +11654,23 @@
 				"options": [
 					{
 						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
 						"addsModels": 1,
-						"points": 10
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Sweden",
+							"United States of America"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
 					},
 					{
 						"name": "Skis",
@@ -11225,6 +11687,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
@@ -11245,8 +11713,30 @@
 				"options": [
 					{
 						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
 						"addsModels": 1,
-						"points": 10
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Sweden",
+							"United States of America"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Skis",
@@ -11263,6 +11753,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
@@ -11283,8 +11779,59 @@
 				"options": [
 					{
 						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"max": 1,
 						"addsModels": 1,
-						"points": 10
+						"availableIn": [
+							"Germany",
+							"Great Britain",
+							"Sweden",
+							"United States of America"
+						]
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer",
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "For King and Country! (Chindits)",
+						"points": 3,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "For King and Country! (Guards)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Great Britain"],
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "Skis",
@@ -11297,7 +11844,7 @@
 				"equipment": ["Heavy Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Inexperienced",
+				"name": "Light Mortar Team (GB) - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -11330,7 +11877,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Regular",
+				"name": "Light Mortar Team (GB) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -11370,7 +11917,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Veteran",
+				"name": "Light Mortar Team (GB) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -11405,11 +11952,12 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -11430,17 +11978,19 @@
 						"points": 5,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - SMGs",
+						"name": "Commando SMGs",
 						"points": 3,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -11455,7 +12005,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Inexperienced",
+				"name": "Light Mortar Team (GB) - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -11488,7 +12038,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Regular",
+				"name": "Light Mortar Team (GB) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -11528,7 +12078,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Veteran",
+				"name": "Light Mortar Team (GB) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -11563,11 +12113,12 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -11588,17 +12139,19 @@
 						"points": 5,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - SMGs",
+						"name": "Commando SMGs",
 						"points": 3,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -11613,429 +12166,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Medium Mortar Team - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 32,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Medium Mortar"]
-			},
-			{
-				"name": "Medium Mortar Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 45,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					},
-					{
-						"name": "For King and Country! (Guards)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Medium Mortar"]
-			},
-			{
-				"name": "Medium Mortar Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 59,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					},
-					{
-						"name": "For King and Country! (Airborne)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Chindits)",
-						"points": 3,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Commandos)",
-						"points": 3,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Commandos) w/ SAS",
-						"points": 5,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! Commandos Only - SMGs",
-						"points": 3,
-						"increment": true,
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 3,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Guards)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Medium Mortar"]
-			},
-						{
-				"name": "Heavy Mortar Team - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 42,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
-				"equipment": ["Heavy Mortar"]
-			},
-			{
-				"name": "Heavy Mortar Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 60,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					},
-					{
-						"name": "For King and Country! (Guards)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
-				"equipment": ["Heavy Mortar"]
-			},
-			{
-				"name": "Heavy Mortar Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 78,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					},
-					{
-						"name": "For King and Country! (Chindits)",
-						"points": 3,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					},
-					{
-						"name": "For King and Country! (Guards)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
-				"equipment": ["Heavy Mortar"]
-			},
-			{
-				"name": "Light Mortar Team - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
-					}
-				],
-				"points": 21,
-				"models": 3,
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "Mortar",
-						"limit": 1,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Light Mortar"]
-			},
-			{
-				"name": "Light Mortar Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
-					}
-				],
-				"points": 30,
-				"models": 3,
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "Mortar",
-						"limit": 1,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Light Mortar"]
-			},
-			{
-				"name": "Light Mortar Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
-					}
-				],
-				"points": 39,
-				"models": 3,
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "Mortar",
-						"limit": 1,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Light Mortar"]
-			},
-			{
-				"name": "Light Mortar Team - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
-					}
-				],
-				"points": 21,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Light Mortar"]
-			},
-			{
-				"name": "Light Mortar Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
-					}
-				],
-				"points": 30,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Light Mortar"]
-			},
-			{
-				"name": "Light Mortar Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
-					}
-				],
-				"points": 39,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Light Mortar"]
-			},
-			{
-				"name": "Medium Mortar Team - Inexperienced",
+				"name": "Medium Mortar Team (F) - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12065,7 +12196,7 @@
 				"equipment": ["Medium Mortar"]
 			},
 			{
-				"name": "Medium Mortar Team - Regular",
+				"name": "Medium Mortar Team (F) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12095,7 +12226,7 @@
 				"equipment": ["Medium Mortar"]
 			},
 			{
-				"name": "Medium Mortar Team - Veteran",
+				"name": "Medium Mortar Team (F) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12125,7 +12256,7 @@
 				"equipment": ["Medium Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Inexperienced",
+				"name": "Light Mortar Team (G) - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12157,7 +12288,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Regular",
+				"name": "Light Mortar Team (G) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12189,7 +12320,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Veteran",
+				"name": "Light Mortar Team (G) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12223,11 +12354,12 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"chooseOneKey": "natRuGer",
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -12242,7 +12374,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Inexperienced",
+				"name": "Light Mortar Team (G) - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12274,7 +12406,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Regular",
+				"name": "Light Mortar Team (G) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12306,7 +12438,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team - Veteran",
+				"name": "Light Mortar Team (G) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -12340,11 +12472,12 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"chooseOneKey": "natRuGer",
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -12357,270 +12490,6 @@
 				"keywords": ["Period: E|M","No Smoke Rounds"],
 				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
 				"equipment": ["Light Mortar"]
-			},
-			{
-				"name": "Medium Mortar Team - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 32,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"addsModels": 1
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS InEx)",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Medium Mortar"]
-			},
-			{
-				"name": "Medium Mortar Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 45,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"addsModels": 1
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Medium Mortar"]
-			},
-			{
-				"name": "Medium Mortar Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 59,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"addsModels": 1
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Gebirgsjäger)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Fallschirmjäger)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
-				"equipment": ["Medium Mortar"]
-			},
-			{
-				"name": "Heavy Mortar Team - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 42,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"addsModels": 1,
-						"points": 10
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS InEx)",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
-				"equipment": ["Heavy Mortar"]
-			},
-			{
-				"name": "Heavy Mortar Team - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 60,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"addsModels": 1,
-						"points": 10
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
-				"equipment": ["Heavy Mortar"]
-			},
-			{
-				"name": "Heavy Mortar Team - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 78,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Add Spotter",
-						"addsModels": 1,
-						"points": 10
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Gebirgsjäger)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Fallschirmjäger)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: M|L"],
-				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
-				"equipment": ["Heavy Mortar"]
 			},
 			{
 				"name": "Medium Machine Gun - Inexperienced",
@@ -12628,7 +12497,16 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 35,
@@ -12641,7 +12519,19 @@
 						"perParent": true
 					}
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
 				"keywords": ["Period: E|M|L"],
 				"specialText": "1 MG Operator\n 2 Weapon Assitants",
 				"equipment": ["MMG"]
@@ -12652,7 +12542,16 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 50,
@@ -12672,6 +12571,31 @@
 						"perModel": true,
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -12684,7 +12608,16 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 65,
@@ -12706,11 +12639,12 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
-						"name": "For King and Country! (Airborne) w/ Welbikes",
+						"name": "Welbikes",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
 						"name": "For King and Country! (Chindits)",
@@ -12731,17 +12665,19 @@
 						"points": 5,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
-						"name": "For King and Country! Commandos Only - SMGs",
+						"name": "Commando SMGs",
 						"points": 3,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"chooseOneKey": "natRuGB",
+						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -12749,6 +12685,39 @@
 						"perModel": true,
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -12776,165 +12745,6 @@
 				],
 				"options": [],
 				"keywords": ["Period: M|L","I-SUB","Stubborn","Hitler's Buzzsaw"],
-				"specialText": "1 MG Operator\n 2 Weapon Assitants",
-				"equipment": ["MMG"]
-			},
-			{
-				"name": "Medium Machine Gun - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 35,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 MG Operator\n 2 Weapon Assitants",
-				"equipment": ["MMG"]
-			},
-			{
-				"name": "Medium Machine Gun - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 50,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "By Air, Land, and Sea (Airborne)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 MG Operator\n 2 Weapon Assitants",
-				"equipment": ["MMG"]
-			},
-			{
-				"name": "Medium Machine Gun - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
-					}
-				],
-				"points": 65,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
-					},
-					{
-						"name": "Skis",
-						"points": 0,
-						"availableIn": ["Sweden"]
-					},
-					{
-						"name": "By Air, Land, and Sea (Airborne)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Rangers)",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["United States of America"],
-						"chooseOneKey": "natRuUSA"
-					}
-				],
-				"keywords": ["Period: E|M|L"],
 				"specialText": "1 MG Operator\n 2 Weapon Assitants",
 				"equipment": ["MMG"]
 			},
@@ -13222,13 +13032,7 @@
 					},
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"perModel": true,
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
-						"points": 0,
+						"points": 1,
 						"perModel": true,
 						"chooseOneKey": "natRuUSA"
 					},
@@ -13252,79 +13056,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Medium Machine Gun - Inexperienced",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
-					}
-				],
-				"points": 35,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 MG Operator\n 2 Weapon Assitants",
-				"equipment": ["MMG"]
-			},
-			{
-				"name": "Medium Machine Gun - Regular",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
-					}
-				],
-				"points": 50,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 MG Operator\n 2 Weapon Assitants",
-				"equipment": ["MMG"]
-			},
-			{
-				"name": "Medium Machine Gun - Veteran",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
-					}
-				],
-				"points": 65,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Main Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [],
-				"keywords": [],
-				"specialText": "1 MG Operator\n 2 Weapon Assitants",
-				"equipment": ["MMG"]
-			},
-			{
-				"name": "Medium Machine Gun - Inexperienced",
+				"name": "Medium Machine Gun (G) - Inexperienced",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -13360,7 +13092,7 @@
 				"equipment": ["MMG"]
 			},
 			{
-				"name": "Medium Machine Gun - Regular",
+				"name": "Medium Machine Gun (G) - Regular",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -13396,7 +13128,7 @@
 				"equipment": ["MMG"]
 			},
 			{
-				"name": "Medium Machine Gun - Veteran",
+				"name": "Medium Machine Gun (G) - Veteran",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -13430,11 +13162,12 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"chooseOneKey": "natRuGer",
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -24055,9 +23788,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 0,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -24328,9 +24062,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! Gebirgsjäger Only - Winter Equipment",
+						"name": "Gebirgsjäger Winter Equipment",
 						"points": 0,
-						"availableIn": ["Germany"]
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Waffen-SS)",
@@ -28923,10 +28658,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Gear",
-						"points": 2,
-						"perModel": true,
-						"chooseOneKey": "natRuGer"
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -29002,10 +28737,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Gear",
-						"points": 2,
-						"perModel": true,
-						"chooseOneKey": "natRuGer"
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -34679,11 +34414,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -34789,11 +34523,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger)",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
@@ -34866,11 +34599,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -34983,11 +34715,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -35108,11 +34839,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -35229,11 +34959,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -35299,11 +35028,10 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
-						"name": "Defend the Fatherland! (Gebirgsjäger) w/ Winter Equipment",
-						"points": 1,
-						"perModel": true,
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
 						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -37948,11 +37676,6 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
 						"points": 1,
 						"perModel": true,
 						"chooseOneKey": "natRuUSA"
@@ -38044,12 +37767,8 @@
 				"options": [
 					{
 						"name": "By Air, Land, and Sea (Marines)",
-						"points": 0,
-						"chooseOneKey": "natRuUSA"
-					},
-					{
-						"name": "By Air, Land, and Sea (Marines) w/ Stubborn",
-						"points": 0,
+						"points": 1,
+						"perModel": true,
 						"chooseOneKey": "natRuUSA"
 					}
 				],
@@ -56924,6 +56643,140 @@
 				],
 				"keywords": ["Period: L","Damage Value:9+","Slow","Improved HE","Jettison Fuel Trailer","Gyro-Stabilisers"],
 				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG","Hull Mounted Flamethrower (Vehicle)"]
+			},
+			{
+				"name": "M4 A3 E4 'Oddball's Shermans' Medium Tank - Veteran",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 292,
+				"models": 1,
+				"special": true,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Oddball",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Sergeant Oddball",
+						"points": 25
+					},
+					{
+						"name": "Private First Class Moriarty",
+						"points": 25
+					},
+					{
+						"name": "Moriarty Detroit Motors",
+						"points": 20,
+						"unlockedBy":"Private First Class Moriarty"
+					},
+					{
+						"name": "90mm Drainage Pipe",
+						"points": 10,
+						"unlockedBy":"Private First Class Moriarty"
+					},
+					{
+						"name": "Paint Ammunition",
+						"points": 10,
+						"unlockedBy":"Private First Class Moriarty"
+					},
+					{
+						"name": "Loudspeaker",
+						"points": 20,
+						"limit": true,
+						"unlockedBy":"Private First Class Moriarty"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Gyro-Stabilisers","Hollywood"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "M4 A3 E4 'Oddball's Shermans' Medium Tank - Hollywood",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 350,
+				"models": 1,
+				"special": true,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					},
+					{
+						"key": "Oddball",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Command Vehicle",
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 15
+					},
+					{
+						"name": "Sergeant Oddball",
+						"points": 25
+					},
+					{
+						"name": "Private First Class Moriarty",
+						"points": 25
+					},
+					{
+						"name": "Moriarty Detroit Motors",
+						"points": 20,
+						"unlockedBy":"Private First Class Moriarty"
+					},
+					{
+						"name": "90mm Drainage Pipe",
+						"points": 10,
+						"unlockedBy":"Private First Class Moriarty"
+					},
+					{
+						"name": "Paint Ammunition",
+						"points": 10,
+						"unlockedBy":"Private First Class Moriarty"
+					},
+					{
+						"name": "Loudspeaker",
+						"points": 20,
+						"limit": true,
+						"unlockedBy":"Private First Class Moriarty"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Gyro-Stabilisers","Hollywood"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "M4 'Sherman' 105mm Howitzer - Inexperienced",
